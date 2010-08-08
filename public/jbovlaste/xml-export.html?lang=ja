@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="日本語">
+
+<valsi word="a'o" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 希望 - 絶望</definition><notes>参照: {pacna}</notes></valsi>
+
+<valsi word="a'u" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 興味がある - 無関心 - 反感をもつ</definition><notes>参照: {cinri},  {selcni}.</notes></valsi>
+
+<valsi word="au" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 欲する - 無関心 - 気が進まない</definition><notes>参照: {djica}</notes></valsi>
+
+<valsi word="badna" type="gismu"><definition>$x_1$は$x_2$という種/品種のバナナである</definition><notes>参照: {grute}, {jupybadna}</notes></valsi>
+
+<valsi word="bonsfe" type="lujvo"><definition>$b_1=s_1$ は $b_2=s_2$（もの）・ $s_3$（側）・ $s_4$（境）・ $b_3$（波形）・ $b_4$（波長）・ $b_5$（周波数）のデコボコ面</definition><notes>Cf. {boxna}, {sefta}</notes></valsi>
+
+<valsi word="botpi" type="gismu"><rafsi>bot</rafsi><rafsi>bo'i</rafsi><definition>$x_1$は$x_2$を入れるための、$x_3$でできた、ふた$x_4$のついた瓶/ボトル/壷/ふたのできる容器である</definition><notes>参照: {baktu}, {lante}, {patxu}, {tansi}, {tanxe}, {vasru}, {gacri}.</notes></valsi>
+
+<valsi word="creka" type="gismu"><rafsi>cek</rafsi><definition>$x_1$は材質$x_2$でできたシャツ/ブラウス/上着である [袖やボタンの有無は関係ない]</definition><notes>参照: {taxfu}.</notes></valsi>
+
+<valsi word="cutci" type="gismu"><rafsi>cuc</rafsi><definition>$x_1$は足/ひづめ$x_2$を覆う/守るための、材料$x_3$でできた靴/ブーツ/サンダルである</definition><notes>または: ブーツ={tupcutci}. 参照: {smoka}, {taxfu}, {skiji}.</notes></valsi>
+
+<valsi word="danfu" type="gismu"><rafsi>daf</rafsi><definition>$x_1$は、質問/問題$x_2$に対する解答/返答である</definition><notes>参照: {ciksi}, {frati}, {preti}, {nabmi}, {spuda} (答える、動詞的な), {cpedu}</notes></valsi>
+
+<valsi word="dansu" type="gismu"><definition>$x_1$(単数/複数)は伴奏/音楽/リズム$x_2$に合わせて踊る</definition><notes>参照: {bende}, {zgike}, {zajba}.</notes></valsi>
+
+<valsi word="farlu" type="gismu"><rafsi>fal</rafsi><rafsi>fa'u</rafsi><definition>$x_1$が$x_2$へ向かって起点$x_3$から$x_4$の重力井戸の中を落ちる</definition><notes>動作主がいる場合は lujvo で: falcru か falri'a。
+参照: {lafti}, {cpare}
+, {klama}, {sfubu}.</notes></valsi>
+
+<valsi word="finpe" type="gismu"><rafsi>fip</rafsi><rafsi>fi'e</rafsi><definition>$x_1$は種類$x_2$の魚である</definition><notes>参照: {danlu}.</notes></valsi>
+
+<valsi word="fragari" type="fu'ivla"><definition>$x_1$ は $x_2$ （種類）のイチゴ</definition></valsi>
+
+<valsi word="glico" type="gismu"><rafsi>gic</rafsi><rafsi>gli</rafsi><definition>$x_1$は$x_2$の点で英語/英語圏の文化に属する</definition><notes>第一義はもっとも広い意味での'イングリッシュ'; イングランド/その人々/文化に属するという意味にもなる(通常は gligu'e (constraint)を要する, もしくは簡単に gligli- (redundancy)); イギリス英語, 英国の標準語({gliglibau}). (参照: {brito} : 英国そのものもしくは大英帝国を指す, {merko}, {sralo}, {kadno}, {skoto})</notes></valsi>
+
+<valsi word="gunse" type="gismu"><definition>$x_1$は$x_2$という種/品種の雁/鵞鳥である</definition><notes>参照: {cipni}.</notes></valsi>
+
+<valsi word="i'e" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 認める - 認めはしない - 認めない</definition><notes>参照: {zanru}.</notes></valsi>
+
+<valsi word="ie" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 同意する - 同意しない</definition><notes>参照: {tugni}.</notes></valsi>
+
+<valsi word="ii" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 恐怖 - 安心</definition><notes>参照: {terpa},  {snura}.</notes></valsi>
+
+<valsi word="iu" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 好き - 無関心 - 嫌い </definition><notes>参照: {prami}.</notes></valsi>
+
+<valsi word="kaurselju'o" type="lujvo"><definition>$d_2=k_1$ は $d_1=k_2$ にとって $d_3$（題目）について $d_4$（認識体系）の下で常識</definition><notes>Cf. {selju'o}, {kampu}.</notes></valsi>
+
+<valsi word="kinli" type="gismu"><rafsi>kil</rafsi><definition>$x_1$は$x_2$の箇所で鋭利である</definition><notes>参照: {balre}, {dakfu}, {jesni}.</notes></valsi>
+
+<valsi word="lalxu" type="gismu"><rafsi>la'u</rafsi><definition>$x_1$は土地$x_2$にある湖/沼/池である</definition><notes>参照: {daplu}, {djacu}, {rirxe}, {xamsi}, {zbani}.</notes></valsi>
+
+<valsi word="lazyzukykei" type="lujvo"><definition>$x_1$ はままごとをする</definition></valsi>
+
+<valsi word="lenjo" type="gismu"><rafsi>len</rafsi><rafsi>le'o</rafsi><definition>$x_1$は$x_2$の焦点を対象$x_3$に合わせる、手段/材料が$x_4$のレンズ/ガラス[焦点を合わせる機能をもった形/物]である</definition><notes>参照: {kacma}, {minra}.</notes></valsi>
+
+<valsi word="lerci" type="gismu"><rafsi>lec</rafsi><definition>$x_1$は$x_2$の点で遅い</definition><notes>参照: {clira}.</notes></valsi>
+
+<valsi word="maldja" type="lujvo"><definition>$c_1$ は $c_2$ にとってジャンクフード.</definition><notes>Cf. {cidja}.</notes></valsi>
+
+<valsi word="melbi" type="gismu"><rafsi>mel</rafsi><rafsi>mle</rafsi><definition>$x_1$は$x_2$にとって、$x_3$の面が$x_4$という審美的理由で美しい</definition><notes>参照: {pluka}, {xamgu}</notes></valsi>
+
+<valsi word="minji" type="gismu"><rafsi>mi'i</rafsi><definition>$x_1$は$x_2$のための/の機能を持った機械である; [自動化された機器で、直接的なコントロールはない]</definition><notes>又は 機構/メカニズム; 行為者/力によって発動/引きがねを引かれるが、あとは自動的に動作する機会; 自分自身に作用する場合は、自主独立体(= {zukte})である. 参照: {cabra}, {matra}, {tutci}, {zukte}, {pilno}, {skami}.</notes></valsi>
+
+<valsi word="mlatu" type="gismu"><rafsi>lat</rafsi><definition>$x_1$は品種$x_2$の猫である; (形容詞) $x_1$は猫のようだ</definition><notes>参照: {cinfo}, {tirxu}, {gerku}.</notes></valsi>
+
+<valsi word="mustlei" type="fu'ivla"><definition>$x_1$ は $x_2$ （種類）のイタチ</definition></valsi>
+
+<valsi word="mutce" type="gismu"><rafsi>tce</rafsi><definition>$x_1$は$x_2$の点でとても$x_3$[極端性の方向]である</definition><notes>もしくは、大変、かなり、大いに、尋常でなく、激しく、並外れて、きわめて． 参照: {milxe}, {traji}, {banli}, {carmi}, {nutli}, {traji}.</notes></valsi>
+
+<valsi word="muvdu" type="gismu"><rafsi>muv</rafsi><rafsi>mu'u</rafsi><definition>物体$x_1$が終着点/受け手$x_2$に向かって起点/点$x_3$から軌道/道筋$x_4$を通って動く</definition><notes>参照: {rinci}, {benji}, {klama}, {litru}, {cliva}, {fatri}; {dunda}, {benji}, {preja}, {bevri}, {vimcu}</notes></valsi>
+
+<valsi word="nazbi" type="gismu"><rafsi>naz</rafsi><rafsi>zbi</rafsi><definition>$x_1$は$x_2$の鼻で、鼻孔/鼻腔は$x_3$である</definition><notes>参照: {degji}, {panci}, {sumne}, {tance}.</notes></valsi>
+
+<valsi word="notci" type="gismu"><rafsi>not</rafsi><rafsi>noi</rafsi><definition>$x_1$は主題$x_2$に関する、著者$x_3$によって所期の受け手$x_4$に向けられたメッセージ/通知/メモである</definition><notes>主題が簡潔で、単一であるまたは同一視できるものであることに重点を置く ({xatra}と対照すると: notci では単一またはまとまった主題に重点が置かれ、受け手は明瞭に定められていない - 実際、所期の、である. {xatra}は一つに定まった主題は必要ない - 対応する場所には'内容'が入る); 注意/メモ/覚書(= {mojnoi}). 参照: {xatra}, {nuzba}, {mrilu}, {morji}.</notes></valsi>
+
+<valsi word="oi" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 不満 - 満足</definition><notes>参照: {pante}, {pluka}, {kufra}.</notes></valsi>
+
+<valsi word="patfu" type="gismu"><rafsi>paf</rafsi><rafsi>pa'u</rafsi><definition>$x_1$は$x_2$の父である; $x_1$は$x_2$をもうける/を生ませる/に対して父らしく振舞う; [必ずしも生物学上の父とは限らない]</definition><notes>参照: {mamta}, {rirni}, {rorci}, {tarbi}, {dzena}, {famti}, {panzi}, {bersa}, {sovda}.</notes></valsi>
+
+<valsi word="pesku'i" type="lujvo"><definition>$p_1=k_1$ は $p_2=k_2$ に思いやりがある.</definition><notes>Cf. {pensi}, {kurji}.</notes></valsi>
+
+<valsi word="pracmu" type="lujvo"><definition>$j_1$ は $j_2=c_2$ （商品／サービス）を生産するための資本．</definition><notes>cf. {cupra}, {zbasu}, {jdini}.</notes></valsi>
+
+<valsi word="prami" type="gismu"><rafsi>pam</rafsi><rafsi>pa'i</rafsi><definition>$x_1$は$x_2$（もの/状態）に対して愛情/愛着を感じる</definition><notes>参照: {cinmo}, {xebni}, {nelci}, {djica}, {sinma}, {pluka}, {kurji}, {pendo}, {speni}</notes></valsi>
+
+<valsi word="preti" type="gismu"><rafsi>ret</rafsi><rafsi>rei</rafsi><definition>$x_1$（引用文）は、主題$x_2$に関する、質問者$x_3$により聞き手$x_4$に向けられた質問である</definition><notes>参照: {nabmi}, {danfu}, {ciksi}, {frati}, {spuda}, {cpedu}</notes></valsi>
+
+<valsi word="purmo" type="gismu"><rafsi>pum</rafsi><rafsi>pu'o</rafsi><definition>$x_1$は材料$x_2$でできた粉である</definition><notes>参照: {pulce}, {zalvi}.</notes></valsi>
+
+<valsi word="rokci" type="gismu"><rafsi>rok</rafsi><rafsi>ro'i</rafsi><definition>$x_1$はタイプ/成分が$x_2$の、場所$x_3$でとれた岩石である/でできている/を含む</definition><notes>$x_2$: $x_2$を含むも可, 完全な記述でなくてもよい. 参照: {kunra}, {jemna}, {canre}.</notes></valsi>
+
+<valsi word="rolstire'e" type="lujvo"><definition>$s_1=t_1$ は $t_2$ （荷／客）・ $t_3$ （線路網／軌道）・ $t_4$ （原動力）の 各駅停車の 列車／鉄道／電車／汽車／地下鉄</definition><notes>Cf. {ro}, {sisti}, {trene}.</notes></valsi>
+
+<valsi word="rufsfe" type="lujvo"><definition>$r_1=s_1$ は $s_2$（もの）・ $s_3$（側）・ $s_4$（境）のザラザラ面</definition><notes>Cf. {rufsu}, {sefta}</notes></valsi>
+
+<valsi word="si'anai" type="cmavo cluster"><selmaho>UI*3</selmaho><definition>うってかわって</definition></valsi>
+
+<valsi word="sonci" type="gismu"><rafsi>son</rafsi><rafsi>soi</rafsi><definition>$x_1$は軍隊$x_2$に属する軍人/兵士/戦士である</definition><notes>参照: {bilni}, {damba}, {jenmi}, {xarci}, {pulji}.</notes></valsi>
+
+<valsi word="temci" type="gismu"><rafsi>tem</rafsi><rafsi>tei</rafsi><definition>$x_1$は時刻/出来事$x_2$から始まり時刻/出来事$x_3$で終わる時間/間隔/期間である</definition><notes>参照: {cacra}, {cedra}, {citsi}, {ranji}, {tcika}, {junla}, {renvi}.</notes></valsi>
+
+<valsi word="u'e" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 驚嘆する - 普通だ</definition><notes>参照: {manci}, {fadni}.</notes></valsi>
+
+<valsi word="u'i" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 面白い - つまらない</definition><notes>参照: {selzdi}, {selxajmi}, {xalbo}.</notes></valsi>
+
+<valsi word="u'u" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 後悔している - 反省の色なし - 無邪気</definition><notes>参照: {xenru}, {zungi}.</notes></valsi>
+
+<valsi word="ua" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 気づき - 困惑/探している</definition><notes>参照: {facki}, {cfipu}, {sisku}.</notes></valsi>
+
+<valsi word="ue" type="cmavo"><selmaho>UI1</selmaho><definition>態度: びっくり - 普通 - 想定の範囲内</definition><notes>参照: {spaji}.</notes></valsi>
+
+<valsi word="ui" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 幸せ - 不幸せ</definition><notes>参照: {gleki}.</notes></valsi>
+
+<valsi word="uu" type="cmavo"><selmaho>UI1</selmaho><definition>態度: 同情 - 冷酷</definition><notes>参照: {kecti}.</notes></valsi>
+
+<valsi word="voksa" type="gismu"><rafsi>vok</rafsi><rafsi>vo'a</rafsi><definition>$x_1$は$x_2$の声/話す時の音である</definition><notes>参照: {sance}, {tirna}, {bacru}, {fepri}, {krixa}, {cmoni}</notes></valsi>
+
+<valsi word="xedja" type="gismu"><rafsi>xej</rafsi><rafsi>xe'a</rafsi><definition>$x_1$は$x_2$の顎である</definition><notes>参照: {stedu}.</notes></valsi>
+
+<valsi word="xriso" type="gismu"><rafsi>xis</rafsi><rafsi>xi'o</rafsi><definition>$x_1$は$x_2$の点でキリスト教/キリスト教の文化/キリスト教国に属する</definition><notes>参照: {jegvo}, {lijda}.</notes></valsi>
+
+<valsi word="zinki" type="gismu"><rafsi>zin</rafsi><rafsi>zi'i</rafsi><definition>$x_1$は鉛である/を含んでいる/でできている; [比喩: 硬い金属]</definition><notes>参照: {jinme}.</notes></valsi></direction><direction from="日本語" to="lojban">
+
+<nlword word="バナナ" valsi="badna" />
+
+<nlword word="デコボコ" valsi="bonsfe" />
+
+<nlword word="凹凸" valsi="bonsfe" />
+
+<nlword word="ボトル" valsi="botpi" />
+
+<nlword word="瓶" valsi="botpi" />
+
+<nlword word="シャツ" valsi="creka" />
+
+<nlword word="靴" valsi="cutci" />
+
+<nlword word="サンダル" valsi="cutci" />
+
+<nlword word="答え" valsi="danfu" />
+
+<nlword word="魚" valsi="finpe" />
+
+<nlword word="イチゴ" valsi="fragari" place="1" />
+
+<nlword word="常識" valsi="kaurselju'o" />
+
+<nlword word="ままごと" sense="遊び" valsi="lazyzukykei" />
+
+<nlword word="ジャンクフード" valsi="maldja" />
+
+<nlword word="優雅な" valsi="melbi" />
+
+<nlword word="イタチ" valsi="mustlei" />
+
+<nlword word="思いやり" valsi="pesku'i" />
+
+<nlword word="資本" valsi="pracmu" place="1" />
+
+<nlword word="鈍行" sense="列車" valsi="rolstire'e" />
+
+<nlword word="各駅停車" sense="列車" valsi="rolstire'e" />
+
+<nlword word="ザラザラ" valsi="rufsfe" />
+
+<nlword word="うってかわって" valsi="si'anai" />
+
+<nlword word="面白い" valsi="u'i" />
+
+<nlword word="後悔" valsi="u'u" />
+
+<nlword word="驚く" valsi="ue" /></direction></dictionary>
+
+
+
+
+

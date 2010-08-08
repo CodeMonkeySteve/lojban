@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="Polski">
+
+<valsi word="Indias" type="cmene"><definition>Indie</definition><notes>Cf. {xingu'e}.</notes></valsi>
+
+<valsi word="KEnydys" type="cmene"><definition>Kanada.</definition></valsi>
+
+<valsi word="bacru" type="gismu"><rafsi>ba'u</rafsi><definition>$b_1$ wydaje/wyraża/wokalizuje dźwięk $b_2$.</definition><notes>Cf. {krixa}, {cusku}, {casnu}, {tavla}, {voksa}, {pinka}.</notes></valsi>
+
+<valsi word="badna" type="gismu"><definition>$b_1$ to banan/bananowate [owoc/roślina] z gatunku $b_2$.</definition><notes>Cf. {grute}.</notes></valsi>
+
+<valsi word="badri" type="gismu"><rafsi>dri</rafsi><definition>$b_1$ jest smutny/markotny/w depresji o $b_2$ (abstrakcja).</definition><notes>Cf. {klaku}, {gleki}, {betri}, {cinmo}, {junri}.</notes></valsi>
+
+<valsi word="barda" type="gismu"><rafsi>bra</rafsi><definition>$x_1$ jest wielkie/duże w cechach/wymiarach $x_2$ (ka) według normy $x_3$.</definition><notes>Cf. {banli}, {clani}, {ganra}, {condi}, {plana}, {cmalu}, {rotsu}, {banro}, {xanto}.</notes></valsi>
+
+<valsi word="beiDJIN" type="cmene"><definition>Pekin</definition></valsi>
+
+<valsi word="bersa" type="gismu"><rafsi>bes</rafsi><rafsi>be'a</rafsi><definition>$x_1$ to syn matki/ojca/rodziców $x_2$ [nie koniecznie biologicznych].</definition><notes>Cf. {verba}, {nanla}, {nakni}, {nanmu}, {patfu}, {mamta}, {bruna}, {rirni}, {rorci}, {panzi}, {tixnu}.</notes></valsi>
+
+<valsi word="bi" type="cmavo"><rafsi>biv</rafsi><definition>cyfra / numer: 8 (cyfry) [osiem].</definition></valsi>
+
+<valsi word="bie,uaRUC" type="cmene"><definition>Białoruś.</definition></valsi>
+
+<valsi word="bivmast" type="cmene"><definition>sierpień.</definition><notes>Cf. {cinfyma'i}, {bivmasti}.</notes></valsi>
+
+<valsi word="bruna" type="gismu"><rafsi>bun</rafsi><rafsi>bu'a</rafsi><definition>$x_1$ to brat $x_2$ poprzez więzi $x_3$; [nie konicznie biologiczny].</definition><notes>Cf. {mensi}, {tunba}, {tamne}, {famti}, {lanzu}.</notes></valsi>
+
+<valsi word="byLIN" type="cmene"><definition>Berlin.</definition></valsi>
+
+<valsi word="canxais" type="cmene"><definition>Szanghaj</definition></valsi>
+
+<valsi word="ci" type="cmavo"><rafsi>cib</rafsi><definition>cyfra / numer: 3 (cyfra) [trzy].</definition></valsi>
+
+<valsi word="cibdei" type="lujvo"><definition>$x_1$ to środa w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="cibmast" type="cmene"><definition>marzec.</definition><notes>Cf. {fipma'i}, {cibmasti}.</notes></valsi>
+
+<valsi word="citka" type="gismu"><rafsi>cti</rafsi><definition>$x_1$ je/konsumuje/spożywa $x_2$.</definition><notes>Cf. {cidja}, {pinxe}, {tunlo}, {xagji}, {xaksu}, {batci}, {gusta}, {kabri}.</notes></valsi>
+
+<valsi word="cmalu" type="gismu"><rafsi>cma</rafsi><definition>$x_1$ jest małe/drobne w cechach/wymiarach $x_2$ (ka) według normy $x_3$.</definition><notes>Cf. {caxno}, {cinla}, {jarki}, {tordu}, {barda}.</notes></valsi>
+
+<valsi word="cusku" type="gismu"><rafsi>cus</rafsi><rafsi>sku</rafsi><definition>$x_1$ wyraża/mówi $x_2$ (sedu'u/tekst/lu'e) do słuchacza $x_3$ przez medium $x_4$.</definition><notes>Cf. {bacru}, {tavla}, {casnu}, {spuda}.</notes></valsi>
+
+<valsi word="danlu" type="gismu"><rafsi>dal</rafsi><rafsi>da'u</rafsi><definition>$x_1$ to zwierzę/stworzenie gatunku $x_2$.</definition><notes>Cf. {banfi}, {cinki}, {cipni}, {finpe}, {jukni}, {respa}, {since}, {mabru}, {bakni}.</notes></valsi>
+
+<valsi word="daumast" type="cmene"><definition>październik.</definition><notes>Cf. {laxma'i}, {pavnonmasti}.</notes></valsi>
+
+<valsi word="dilis" type="cmene"><definition>Dilli.</definition></valsi>
+
+<valsi word="djunguos" type="cmene"><definition>Chiny</definition><notes>Cf. {jugygu'e}.</notes></valsi>
+
+<valsi word="do" type="cmavo"><rafsi>don</rafsi><rafsi>doi</rafsi><definition>pro-sumti: ty słuchacz; identyfikuje 2 osbę liczby pojedynczej</definition></valsi>
+
+<valsi word="dotygu'e" type="lujvo"><definition>$d_1=g_1$ to Niemcy.</definition><notes>Cf. {dotco}, {gugde}.</notes></valsi>
+
+<valsi word="fasygu'e" type="lujvo"><definition>$f_1=g_1$ to Francja.</definition><notes>Cf. {fraso}, {gugde}.</notes></valsi>
+
+<valsi word="feimast" type="cmene"><definition>listopad.</definition><notes>Cf. {rebjukma'i}, {pavypavmasti}.</notes></valsi>
+
+<valsi word="gaimast" type="cmene"><definition>grudzień.</definition><notes>Cf. {celma'i}, {pavrelmasti}.</notes></valsi>
+
+<valsi word="ganse" type="gismu"><rafsi>gas</rafsi><rafsi>ga'e</rafsi><definition>$x_1$ czuje/odczuwa cechy bodźca $x_2$ (ka) poprzez $x_3$ w warunkach $x_4$.</definition><notes>Cf. {pencu}, {sanji}, {viska}, {sumne}, {tirna}, {zgana}, {canci}, {simlu}.</notes></valsi>
+
+<valsi word="gerku" type="gismu"><rafsi>ger</rafsi><rafsi>ge'u</rafsi><definition>$x_{1}$ to pies [suka]/psowate z gatunku/rasy $x_{2}$.</definition><notes>Cf. {lorxu}, {labno}, {tcakali}, {ko'otli}.</notes></valsi>
+
+<valsi word="gligu'e" type="lujvo"><definition>$gl_1=gu_1$ to Anglia.</definition><notes>Cf. {glico}, {gugde}, {ritygu'e}.</notes></valsi>
+
+<valsi word="gugdrpolska" type="fu'ivla"><definition>$x_1$ to Polska</definition><notes>Cf. {polskas}.</notes></valsi>
+
+<valsi word="gugdrtalia" type="fu'ivla"><definition>$x_1$ to Włochy (kraj).</definition><notes>Cf. {italias}.</notes></valsi>
+
+<valsi word="ieRUcaly'im" type="cmene"><definition>Jeruzalima.</definition></valsi>
+
+<valsi word="italias" type="cmene"><definition>Włochy.</definition><notes>Cf. {gugdrtalia}.</notes></valsi>
+
+<valsi word="jimpe" type="gismu"><rafsi>jmi</rafsi><definition>$x_1$ rozumie/pojmuje fakt/prawdę $x_2$ na temat/o podmiocie $x_3$.</definition><notes>Cf. {djuno}, {jijnu}. </notes></valsi>
+
+<valsi word="jugygu'e" type="lujvo"><definition>$j_1=g_1$ to Chiny.</definition><notes>Cf. {jungo}, {gugde}, {djunguos}.</notes></valsi>
+
+<valsi word="kadnygu'e" type="lujvo"><definition>$x_1=g_1$ to Kanada.</definition><notes>Cf. {KEnydys}, {kenyDAS}.</notes></valsi>
+
+<valsi word="karce" type="gismu"><definition>$x_{1}$ to samochód/ciężarówka/ furgonetka [pojazd napędzany silnikiem] do transportu $x_{2}$, napędzany przez $x_{3}$.</definition><notes>Cf. {carce}, {xislu}, {marce}, {sabnu}, {sorprekarce}, {bevma'e}.</notes></valsi>
+
+<valsi word="kenyDAS" type="cmene"><definition>Kanada.</definition><notes>Cf. {kadnygu'e}, {gugdecu'a}.</notes></valsi>
+
+<valsi word="klama" type="gismu"><rafsi>kla</rafsi><definition>$x_1$ przychodzi/idzie do $x_2$ od $x_3$ przez $x_4$ korzystując z $x_5$.</definition><notes>Cf. {cadzu}, {bajra}, {marce}, {vofli}, {litru}, {muvdu}, {cpare}.</notes></valsi>
+
+<valsi word="lanzu" type="gismu"><rafsi>laz</rafsi><definition>$x_1$ (masa) to rodzina/klan z członkami składającymi się z $x_2$ związani z sobą według standardu $x_3$. .</definition><notes>Cf. {natmi}, {cmima}, {girzu}, {jutsi}, {klesi}.</notes></valsi>
+
+<valsi word="lietuvos" type="cmene"><definition>Litwa.</definition></valsi>
+
+<valsi word="mamta" type="gismu"><rafsi>mam</rafsi><definition>$x_1$ to matka $x_2$; $x_1$ rodzi/matkuje/zachowuje się jak matka wobec $x_2$; [nie koniecznie biologiczna].</definition><notes>Cf. {patfu}, {sovda}, {rirni}, {rorci}, {tarbi}, {famti}, {bersa}, {jbena}.</notes></valsi>
+
+<valsi word="maskFAS" type="cmene"><definition>Moskwa.</definition></valsi>
+
+<valsi word="melbi" type="gismu"><rafsi>mel</rafsi><rafsi>mle</rafsi><definition>$x_1$ jest piękne/śliczne/ładne dla $x_2$ w zakresie $x_3$ (ka) według standardu $x_4$.</definition><notes>Cf. {pluka}, {xamgu}.</notes></valsi>
+
+<valsi word="mensi" type="gismu"><rafsi>mes</rafsi><rafsi>me'i</rafsi><definition>$x_1$ to siostra $x_2$ poprzez więzi $x_3$; [nie koniecznie biologiczne].</definition><notes>Cf. {bruna}, {tunba}, {tamne}, {famti}, {lanzu}.</notes></valsi>
+
+<valsi word="mergu'e" type="lujvo"><definition>$m_1=g_1$ to Stany Zjednoczone Ameryki.</definition><notes>Cf. {merko}, {gugde}.</notes></valsi>
+
+<valsi word="mi" type="cmavo"><rafsi>mib</rafsi><definition>pro-sumti: ja/mówca/autor; identyfikuje mówcę.</definition></valsi>
+
+<valsi word="mlatu" type="gismu"><rafsi>lat</rafsi><definition>$x_{1}$ to kot/ kotowate z gatunku/rasy $x_{2}$.</definition><notes>Cf. {cinfo}, {tirxu}, {tirxrpardu}, {tirxronka}.</notes></valsi>
+
+<valsi word="mu" type="cmavo"><rafsi>mum</rafsi><definition>cyfra / numer: 5 (cyfry) [pięć].</definition></valsi>
+
+<valsi word="mumbais" type="cmene"><definition>Bombaj.</definition></valsi>
+
+<valsi word="mumdei" type="lujvo"><definition>$x_1$ to piątek w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="mumymast" type="cmene"><definition>maj.</definition><notes>Cf. {bakma'i}, {mumymasti}.</notes></valsi>
+
+<valsi word="nanla" type="gismu"><definition>$x_1$ to chłopiec [młody człowiek płci męskiej] wieku $x_2$ niedojrzały według standardu $x_3$. </definition><notes>Cf. {nixli}, {verba}, {nanmu}, {bersa}, {lanzu}.</notes></valsi>
+
+<valsi word="nanmu" type="gismu"><rafsi>nau</rafsi><definition>$x_1$ to mężczyzna/osobnik płci męskiej [nie koniecznie dorosły].</definition><notes>Cf. {ninmu}, {remna}, {prenu}, {makcu}, {nanla}, {bersa}.</notes></valsi>
+
+<valsi word="ninmu" type="gismu"><rafsi>nim</rafsi><rafsi>ni'u</rafsi><definition>$x_1$ to kobieta/osobnik płci żeńskiej [nie koniecznie dorosła].</definition><notes>Cf. {nanmu}, {remna}, {prenu}, {makcu}, {nixli}.</notes></valsi>
+
+<valsi word="nixli" type="gismu"><rafsi>nix</rafsi><rafsi>xli</rafsi><definition>$x_1$ to dziewczyna [młody człowiek płci żeńskiej] wieku $x_2$ niedojrzała według standardu $x_3$. </definition><notes>Cf. {nanla}, {verba}, {ninmu}.</notes></valsi>
+
+<valsi word="no" type="cmavo"><rafsi>non</rafsi><definition>cyfra / numer: 0 (cyfry) [zerowy].</definition></valsi>
+
+<valsi word="nondei" type="lujvo"><definition>$x_1$ to niedziela w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="nu,IORK" type="cmene"><definition>Nowy Jork.</definition></valsi>
+
+<valsi word="pa" type="cmavo"><rafsi>pav</rafsi><definition>cyfra / numer: 1 (cyfra) [jeden].</definition></valsi>
+
+<valsi word="patfu" type="gismu"><rafsi>paf</rafsi><rafsi>pa'u</rafsi><definition>$x_1$ to ojciec $x_2$; $x_1$ płodzi/ojcuje/zachowuje się jak ojciec wobec $x_2$; [nie koniecznie biologiczny].</definition><notes>Cf. {mamta}, {rirni}, {rorci}, {tarbi}, {dzena}, {famti}, {panzi}, {bersa}, {sovda}.</notes></valsi>
+
+<valsi word="pavdei" type="lujvo"><definition>$x_1$ to poniedziałek w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="pavmast" type="cmene"><definition>styczeń.</definition><notes>Cf. {kanbyma'i}, {pavmasti}.</notes></valsi>
+
+<valsi word="pensi" type="gismu"><rafsi>pes</rafsi><rafsi>pei</rafsi><definition>$x_1$ myśli/rozważa/rozmyśla na temat/o koncepcji $x_2$.</definition><notes>Cf. {jijnu}, se {nabmi}.</notes></valsi>
+
+<valsi word="polskas" type="cmene"><definition>Polska</definition><notes>Cf. {gugdrpolska}.</notes></valsi>
+
+<valsi word="pongu'e" type="lujvo"><definition>$p_1=g_1$ to Japonia.</definition><notes>Cf. {ponjo}, {gugde}.</notes></valsi>
+
+<valsi word="prenu" type="gismu"><rafsi>pre</rafsi><definition>$x_1$ to istota [nie koniecznie ludzka]; $x_1$ ma osobowość.</definition><notes>Cf. {nanmu}, {ninmu}, {remna}, {zukte}, {sevzi}.</notes></valsi>
+
+<valsi word="re" type="cmavo"><rafsi>rel</rafsi><definition>cyfra / numer: 2 (cyfra) [dwa].</definition></valsi>
+
+<valsi word="reldei" type="lujvo"><definition>$x_1$ to wtorek w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="relmast" type="cmene"><definition>luty.</definition><notes>Cf. {jaurbeima'i}, {relmasti}.</notes></valsi>
+
+<valsi word="remna" type="gismu"><rafsi>rem</rafsi><rafsi>re'a</rafsi><definition>$x_1$ to istota ludzka/człowiek; $x_1$ jest ludzkie/człowiecze.</definition><notes>Cf. {nanmu}, {ninmu}, {prenu}.</notes></valsi>
+
+<valsi word="ritygu'e" type="lujvo"><definition>$b_1=g_1$ to Wielka Brytania.</definition><notes>Cf. {brito}, {gugde}, {gligu'e}, {kotygu'e}.</notes></valsi>
+
+<valsi word="rukygu'e" type="lujvo"><definition>$r_1=g_1$ to Rosja.</definition><notes>Cf. {rusko}, {gugde}.</notes></valsi>
+
+<valsi word="sangu'e" type="lujvo"><definition>$s_1=g_1$ to Hiszpania.</definition><notes>Cf. {spano}, {gugde}.</notes></valsi>
+
+<valsi word="sipna" type="gismu"><rafsi>sip</rafsi><definition>$x_1$ spi.</definition><notes>Cf. {senva}, {tatpi}, {cikna}, {sanji}.</notes></valsi>
+
+<valsi word="slovensk" type="cmene"><definition>Słowacja.</definition></valsi>
+
+<valsi word="so" type="cmavo"><rafsi>soz</rafsi><definition>cyfra / numer: 9 (cyfry) [dziewięć].</definition></valsi>
+
+<valsi word="sozmast" type="cmene"><definition>wrzesień.</definition><notes>Cf. {xlima'i}, {sozmasti}.</notes></valsi>
+
+<valsi word="tcesk" type="cmene"><definition>Czechy.</definition></valsi>
+
+<valsi word="tirna" type="gismu"><rafsi>tin</rafsi><definition>$x_1$ słyszy $x_2$ pzy szumie tła $x_3$; $x_2$ jest słyszalny.</definition><notes>Cf. {kerlo}, {sance}, {smaji}, {savru}, {voksa}, {ganse}, {zgana}.</notes></valsi>
+
+<valsi word="tixnu" type="gismu"><rafsi>tix</rafsi><rafsi>ti'u</rafsi><definition>$x_1$ to córka matki/ojca/rodziców $x_2$ [nie koniecznie biologicznych].</definition><notes>Cf. {verba}, {bersa}, {nanla}, {nakni}, {nanmu}, {patfu}, {mamta}, {bruna}, {rirni}, {rorci}, {panzi}.</notes></valsi>
+
+<valsi word="tokios" type="cmene"><definition>Tokio.</definition></valsi>
+
+<valsi word="traji" type="gismu"><rafsi>rai</rafsi><definition>$x_1$ jest ekstremalne w cechach/wymiarach $x_2$ (ka; domyślnie ka zmadu) w skrajności $x_3$ (ka) w zbiorze $x_4$.</definition><notes>Cf. {rai}, {jimte}, {milxe}, {mutce}, {zmadu}, {mleca}. </notes></valsi>
+
+<valsi word="uacintyn" type="cmene"><definition>Waszyngton.</definition></valsi>
+
+<valsi word="varcavas" type="cmene"><definition>Warszawa</definition></valsi>
+
+<valsi word="viska" type="gismu"><rafsi>vis</rafsi><rafsi>vi'a</rafsi><definition>$x_1$ widzi/postrzega/ogląda $x_2$ w warunkach $x_3$.</definition><notes>Cf. {catlu}, {jvinu}, {kanla}, {minra}, {simlu}, {djuno}, {jimpe}, {zgana}, {ganse}.</notes></valsi>
+
+<valsi word="vo" type="cmavo"><rafsi>von</rafsi><definition>cyfra / numer: 4 (cyfra) [cztery].</definition></valsi>
+
+<valsi word="vondei" type="lujvo"><definition>$x_1$ to czwartek w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="vonmast" type="cmene"><definition>kwiecień.</definition><notes>Cf. {lanma'i}, {vonmasti}.</notes></valsi>
+
+<valsi word="vurgu'e" type="lujvo"><definition>$v_1=g_1$ to Ukraina.</definition><notes>Cf. {vukro}, {gugde}.</notes></valsi>
+
+<valsi word="xa" type="cmavo"><rafsi>xav</rafsi><definition>cyfra / numer: 6 (cyfry) [sześć].</definition></valsi>
+
+<valsi word="xamgu" type="gismu"><rafsi>xag</rafsi><rafsi>xau</rafsi><definition>$x_1$ jest dobre/korzystne dla $x_2$ według standardu $x_3$.</definition><notes>Cf. {melbi}, {xlali}, {vrude}, {zabna}.</notes></valsi>
+
+<valsi word="xavdei" type="lujvo"><definition>$x_1$ to sobota w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
+
+<valsi word="xavmast" type="cmene"><definition>czerwiec.</definition><notes>Cf. {matsi'uma'i}, {xavmasti}.</notes></valsi>
+
+<valsi word="xingu'e" type="lujvo"><definition>$x_1=g_1$ to Indie.</definition><notes>Cf. {xindo}, {gugde}, {Indias}.</notes></valsi>
+
+<valsi word="xlali" type="gismu"><rafsi>xla</rafsi><definition>$x_1$ jest złe/niekorzystne dla $x_2$ według standardu $x_3$.</definition><notes>Cf. {palci}, {mabla}, {xamgu}, {betri}.</notes></valsi>
+
+<valsi word="zbasu" type="gismu"><rafsi>zba</rafsi><definition>$x_1$ produkuje/składa/buduje $x_2$ z materiałów/części $x_3$.</definition><notes>Cf. {cupra}, {larcu}, {rutni}, {finti}, {gundi}.</notes></valsi>
+
+<valsi word="zdani" type="gismu"><rafsi>zda</rafsi><definition>$x_1$ to dom/gniazdo/miejsce stałego pobytu dla/zamieszkałe przez $x_2$.</definition><notes>Cf. {dinju}, {ginka}, {kumfa}, {selxa'u}.</notes></valsi>
+
+<valsi word="ze" type="cmavo"><rafsi>zel</rafsi><definition>cyfra / numer: 7 (cyfry) [siedem].</definition></valsi>
+
+<valsi word="zelmast" type="cmene"><definition>lipiec.</definition><notes>Cf. {mlajukma'i}, {zelmasti}.</notes></valsi></direction><direction from="Polski" to="lojban">
+
+<nlword word="wokalizować" valsi="bacru" />
+
+<nlword word="wydawać" sense="dźwięk" valsi="bacru" />
+
+<nlword word="wyrażać" sense="dźwięk" valsi="bacru" />
+
+<nlword word="bananowate" valsi="badna" />
+
+<nlword word="banan" valsi="badna" />
+
+<nlword word="smutny" valsi="badri" />
+
+<nlword word="markotny" valsi="badri" />
+
+<nlword word="duże" valsi="barda" />
+
+<nlword word="wielkie" valsi="barda" />
+
+<nlword word="Pekin" sense="stolica Chin" valsi="beiDJIN" />
+
+<nlword word="Bejdżing" valsi="beiDJIN" />
+
+<nlword word="syn" valsi="bersa" />
+
+<nlword word="8" sense="osiem" valsi="bi" />
+
+<nlword word="Białoruś" valsi="bie,uaRUC" />
+
+<nlword word="sierpień" valsi="bivmast" />
+
+<nlword word="brat" valsi="bruna" place="1" />
+
+<nlword word="Berlin" sense="w Niemczech" valsi="byLIN" />
+
+<nlword word="Szanghaj" valsi="canxais" />
+
+<nlword word="3" sense="trzy" valsi="ci" />
+
+<nlword word="środa" valsi="cibdei" place="1" />
+
+<nlword word="marzec" valsi="cibmast" />
+
+<nlword word="jeść" valsi="citka" />
+
+<nlword word="konsumować " valsi="citka" />
+
+<nlword word="spożywać" valsi="citka" />
+
+<nlword word="drobne" valsi="cmalu" />
+
+<nlword word="małe" valsi="cmalu" />
+
+<nlword word="wyrażać" sense="mówić" valsi="cusku" />
+
+<nlword word="mówić" valsi="cusku" />
+
+<nlword word="zwierzę" valsi="danlu" />
+
+<nlword word="stworzenie" sense="forma życia" valsi="danlu" />
+
+<nlword word="październik" valsi="daumast" />
+
+<nlword word="ty" sense="druga oaoba liczby pojedynczej" valsi="do" />
+
+<nlword word="Niemcy" sense="kraj" valsi="dotygu'e" place="1" />
+
+<nlword word="Francja" valsi="fasygu'e" place="1" />
+
+<nlword word="listopad" valsi="feimast" />
+
+<nlword word="grudzień" valsi="gaimast" />
+
+<nlword word="odczuwać" valsi="ganse" />
+
+<nlword word="czuć" valsi="ganse" />
+
+<nlword word="suka" sense="samica psa" valsi="gerku" />
+
+<nlword word="pies" sense="zwierzę domowe" valsi="gerku" place="1" />
+
+<nlword word="Anglia" valsi="gligu'e" place="1" />
+
+<nlword word="Polska" valsi="gugdrpolska" />
+
+<nlword word="Jeruzalima" valsi="ieRUcaly'im" />
+
+<nlword word="Włochy " sense="kraj" valsi="italias" />
+
+<nlword word="pojmować" valsi="jimpe" />
+
+<nlword word="rozumieć" valsi="jimpe" />
+
+<nlword word="Chiny" valsi="jugygu'e" place="1" />
+
+<nlword word="samochód" valsi="karce" place="1" />
+
+<nlword word="pojazd" valsi="karce" />
+
+<nlword word="Kanada" valsi="kenyDAS" />
+
+<nlword word="iść " valsi="klama" />
+
+<nlword word="przychodzić " valsi="klama" />
+
+<nlword word="klan" valsi="lanzu" />
+
+<nlword word="rodzina" valsi="lanzu" place="1" />
+
+<nlword word="Litwa" valsi="lietuvos" />
+
+<nlword word="matka" valsi="mamta" />
+
+<nlword word="Moskwa" valsi="maskFAS" />
+
+<nlword word="śliczne" valsi="melbi" />
+
+<nlword word="ładne" valsi="melbi" />
+
+<nlword word="piękne" valsi="melbi" />
+
+<nlword word="siostra" valsi="mensi" place="1" />
+
+<nlword word="Stany Zjednoczone." sense="Ameryki" valsi="mergu'e" />
+
+<nlword word="Stany Zjednoczone Ameryki" valsi="mergu'e" place="1" />
+
+<nlword word="kot domowy" sense="Felis silvestris catus" valsi="mlatu" />
+
+<nlword word="kot" sense="małe zwierzę domowe" valsi="mlatu" place="1" />
+
+<nlword word="5" sense="pięć" valsi="mu" />
+
+<nlword word="Bombaj" valsi="mumbais" />
+
+<nlword word="Mumbai" valsi="mumbais" />
+
+<nlword word="piątek" valsi="mumdei" place="1" />
+
+<nlword word="maj" valsi="mumymast" />
+
+<nlword word="chłopiec" valsi="nanla" place="1" />
+
+<nlword word="osobnik płci męskiej " valsi="nanmu" />
+
+<nlword word="mężczyzna" valsi="nanmu" />
+
+<nlword word="kobieta" valsi="ninmu" />
+
+<nlword word="osobnik płci żeńskiej " valsi="ninmu" />
+
+<nlword word="dziewczyna" valsi="nixli" place="1" />
+
+<nlword word="niedziela" valsi="nondei" place="1" />
+
+<nlword word="Nowy Jork" valsi="nu,IORK" />
+
+<nlword word="1" valsi="pa" />
+
+<nlword word="ojciec" valsi="patfu" />
+
+<nlword word="poniedziałek" valsi="pavdei" place="1" />
+
+<nlword word="styczeń" valsi="pavmast" />
+
+<nlword word="myśli" valsi="pensi" />
+
+<nlword word="myśleć" valsi="pensi" />
+
+<nlword word="rozważa" valsi="pensi" />
+
+<nlword word="rozmyśla" valsi="pensi" />
+
+<nlword word="rozważać" valsi="pensi" />
+
+<nlword word="rozmyślać" valsi="pensi" />
+
+<nlword word="Japonia" valsi="pongu'e" place="1" />
+
+<nlword word="istota" sense="forma życia" valsi="prenu" />
+
+<nlword word="2" sense="dwa" valsi="re" />
+
+<nlword word="wtorek" valsi="reldei" place="1" />
+
+<nlword word="luty" valsi="relmast" />
+
+<nlword word="istota ludzka" valsi="remna" />
+
+<nlword word="człowiek" valsi="remna" />
+
+<nlword word="Wielka Brytania" valsi="ritygu'e" place="1" />
+
+<nlword word="Rosja" valsi="rukygu'e" place="1" />
+
+<nlword word="Hiszpania" valsi="sangu'e" place="1" />
+
+<nlword word="spać " valsi="sipna" />
+
+<nlword word="Słowacja" valsi="slovensk" />
+
+<nlword word="9" sense="dziewięć" valsi="so" />
+
+<nlword word="wrzesień" valsi="sozmast" />
+
+<nlword word="Czechy" valsi="tcesk" />
+
+<nlword word="słyszeć" valsi="tirna" />
+
+<nlword word="córka" valsi="tixnu" />
+
+<nlword word="Tokio" valsi="tokios" />
+
+<nlword word="najmniej" valsi="traji" />
+
+<nlword word="najbardziej" valsi="traji" />
+
+<nlword word="Waszyngton" valsi="uacintyn" />
+
+<nlword word="Warszawa" valsi="varcavas" />
+
+<nlword word="postrzegać" valsi="viska" />
+
+<nlword word="widzieć" valsi="viska" />
+
+<nlword word="oglądać" valsi="viska" />
+
+<nlword word="4" sense="cztery" valsi="vo" />
+
+<nlword word="czwartek" valsi="vondei" place="1" />
+
+<nlword word="kwiecień" valsi="vonmast" />
+
+<nlword word="Ukraina" valsi="vurgu'e" place="1" />
+
+<nlword word="6" sense="sześć" valsi="xa" />
+
+<nlword word="korzystne" valsi="xamgu" />
+
+<nlword word="dobre" sense="korzystne" valsi="xamgu" />
+
+<nlword word="sobota" valsi="xavdei" place="1" />
+
+<nlword word="czerwiec" valsi="xavmast" />
+
+<nlword word="Indie" valsi="xingu'e" />
+
+<nlword word="składać" sense="montować" valsi="zbasu" />
+
+<nlword word="produkować" valsi="zbasu" />
+
+<nlword word="budować" valsi="zbasu" />
+
+<nlword word="7" sense="siedem" valsi="ze" />
+
+<nlword word="lipiec" valsi="zelmast" /></direction></dictionary>
+
+
+
+
+

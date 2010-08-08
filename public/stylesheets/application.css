@@ -1,0 +1,54 @@
+body {
+  font-family: verdana, sans-serif; }
+
+div {
+  padding: 0.5em;
+  margin: 0.5em 0; }
+
+.alert {
+  border: 1px solid #e7dc2b;
+  background: #fff888; }
+
+.error {
+  border: 1px solid red;
+  background: #ffaaaa; }
+
+.notice {
+  border: 1px solid lime;
+  background: #aaffaa; }
+
+.spacer {
+  margin: 0;
+  padding: 0;
+  height: 1px;
+  clear: both; }
+
+form#user_new {
+  float: left;
+  margin: 1em auto;
+  border: 1px solid #aaaaaa;
+  background: #eeeeee;
+  padding: 1em; }
+  form#user_new h2 {
+    margin-top: 0; }
+  form#user_new input#openid_identifier {
+    background: url(/images/openid_login_bg.png) no-repeat;
+    background-position: 0 50%;
+    background-color: white;
+    padding-left: 18px; }
+
+#header {
+  margin: 0 0 0.5em 0;
+  padding: 0.5em;
+  background: #eeeeee; }
+  #header div {
+    margin: 0;
+    padding: 0; }
+  #header #left {
+    float: left; }
+  #header #right {
+    float: right; }
+
+#content {
+  margin: 0.5em 0 0 0;
+  padding: 0; }

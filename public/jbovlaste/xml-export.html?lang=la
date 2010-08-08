@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="Latina">
+
+<valsi word="bangu" type="gismu"><rafsi>ban</rafsi><rafsi>bau</rafsi><definition>$x_1$ lingua populi $x_2$ est ut $x_2$ $x_3$ ({si'o} aut {du'u}, non locum adlatum) dicat</definition><notes>Confer {tance} et {cusku} et {ve tavla} et {valsi} et {gerna} et {jufra} et {natmi} et {slaka}</notes></valsi>
+
+<valsi word="namcu" type="gismu"><rafsi>nac</rafsi><rafsi>na'u</rafsi><definition>$x_{1}$ numerus est</definition><notes>Confer {lerfu} et {mekso} et {klani}</notes></valsi>
+
+<valsi word="prami" type="gismu"><rafsi>pam</rafsi><rafsi>pa'i</rafsi><definition>aliquis $x_1$ amat aliquid/aliquem $x_2$</definition></valsi></direction><direction from="Latina" to="lojban">
+
+<nlword word="lingua" valsi="bangu" place="1" />
+
+<nlword word="numerus" valsi="namcu" place="1" /></direction></dictionary>
+
+
+
+
+

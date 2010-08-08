@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="Русский">
+
+<valsi word="bacru" type="gismu"><rafsi>ba'u</rafsi><definition>$x_1$ произносит (вслух), издает звук $x_2$</definition><notes>Не обязательно требуется аудитория или общение ("говорит" - {cusku}). См. {krixa} (кричать), {cusku} (говорить), {casnu} (обсуждать), {tavla} (разговаривать, общаться), {voksa} (голос, речь), {pinka} (комментарий, замечание).</notes></valsi>
+
+<valsi word="badna" type="gismu"><definition>$x_1$ - банан (фрукт/растение) вида/сорта $x_2$</definition><notes>{grute} (плод, фрукт)</notes></valsi>
+
+<valsi word="badri" type="gismu"><rafsi>dri</rafsi><definition>$x_1$ грустен/печален/уныл/невесел/подавлен/удручен/угнетен/расстроен/огорчен $x_2$ (чем: абстракция); $x_1$ грустит/печалится/горюет/{скорбит} из-за $x_2$</definition><notes>{klaku} (плакать), {gleki} (радостный), {betri} (беда), {cinmo} (эмоциональный), {junri} (серьезный)</notes></valsi>
+
+<valsi word="bajra" type="gismu"><rafsi>baj</rafsi><definition>$x_1$ бежит по поверхности $x_2$ на конечностях $x_3$ способом/манерой $x_4$</definition><notes>См. {cadzu} (идти пешком), {klama} (перемещаться), {litru} (путешествовать), {stapa} (шагать), {plipe} (прыгать), {cpare} (карабкаться).</notes></valsi>
+
+<valsi word="bakfu" type="gismu"><rafsi>baf</rafsi><definition>$x_1$ — пакет/сверток/пачка/стопка/связка/пучок/гроздь предметов $x_2$, удерживаемых вместе при помощи $x_3$</definition><notes>{daski} (карман), {dakli} (мешок), {tanxe} (коробка)</notes></valsi>
+
+<valsi word="bakni" type="gismu"><rafsi>bak</rafsi><definition>$x_1$ — корова/бык/теленок вида/породы $x_2$</definition><notes>{danlu} (животное)</notes></valsi>
+
+<valsi word="bakri" type="gismu"><definition>$x_1$ — мел/{известняк/мрамор} из источника $x_2$ в форме $x_3$</definition><notes>{pinsi} (карандаш), {blabi} (белый), {jilka} (щелочь)</notes></valsi>
+
+<valsi word="baktu" type="gismu"><definition>$x_1$ — бадья/ведро/лохань/ванна/корыто (сосуд с плотными стенками, с широким раствором) с содержимым $x_2$, из материала $x_3$</definition><notes>Содержимое может только предполагаться, т.е. сосуд для $x_2$</notes></valsi>
+
+<valsi word="balji" type="gismu"><definition>$x_1$ — клубень растения $x_2$</definition><notes>Метафора: круглый, выпуклый
+См. также {punli} (выступ), {batke} (кнопка)</notes></valsi>
+
+<valsi word="balni" type="gismu"><definition>$x_1$ — балкон/уступ/карниз/козырек в здании/сооружении $x_2$</definition><notes>См. также {kajna} (полка)</notes></valsi>
+
+<valsi word="bangu" type="gismu"><rafsi>ban</rafsi><rafsi>bau</rafsi><definition>$x_1$ - язык/диалект, используемый $x_2$ (кем: группа людей, народ и пр.) для выражения $x_3$ (si'o / du'u)</definition><notes>язык в анатомическом смысле: см. {tance}; см. {cusku} (высказывать, сообщать), {ve} {tavla} (язык общения), {valsi} (слово), {gerna} (грамматика), {jufra} (фраза, предложение), {natmi} (народ, нация), {slaka} (слог).</notes></valsi>
+
+<valsi word="flubisli" type="lujvo"><definition>$b_1=f_1$ - айсберг, плавающий в $f_2$ (море, океан и т. д.)</definition></valsi>
+
+<valsi word="stuzi" type="gismu"><rafsi>tuz</rafsi><rafsi>stu</rafsi><definition>$x_1$ - неизменное местонахождение/место $x_2$</definition><notes>Употребляется для описания местонахождения стационарных объектов. См. также список cmavo {tu'i}, {jmive}, {diklo}, {zvati}, {tcini}, {xabju}, {jibni}, {judri}, {lamji}, {mokca}, {stali}</notes></valsi>
+
+<valsi word="tance" type="gismu"><rafsi>tac</rafsi><definition>$x_1$ - язык (часть тела) $x_2$ (чей))</definition><notes>язык в смысле "речь" см. {bangu}; см. {moklu} (рот), {denci} (зуб), {ctebi} (губа), {xedja} (челюсть).</notes></valsi>
+
+<valsi word="zvati" type="gismu"><rafsi>zva</rafsi><definition>$x_1$ (объект/событие) находится в,на/присутствует на $x_2$ (событе/место)</definition><notes>[текущее местонахождение мобильного объекта/события]; (ср. в частности {stuzi} - постоянное/неизменное местонахождение, {jbini}, {nenri}, se vasru, {cpana}, {diklo}, {jibni}, {cabna}, {lamji}, {tcini}, {xabju}, {jmive}, {jundi}, {vitke})</notes></valsi></direction><direction from="Русский" to="lojban">
+
+<nlword word="издавать звук" valsi="bacru" />
+
+<nlword word="произносить" valsi="bacru" />
+
+<nlword word="сорт" valsi="badna" place="2" />
+
+<nlword word="банан" valsi="badna" place="1" />
+
+<nlword word="грустный" valsi="badri" place="1" />
+
+<nlword word="огорчаться" valsi="badri" />
+
+<nlword word="грустить" valsi="badri" />
+
+<nlword word="печалиться" valsi="badri" />
+
+<nlword word="бежать" valsi="bajra" />
+
+<nlword word="манера бега" valsi="bajra" place="4" />
+
+<nlword word="бегун" valsi="bajra" place="1" />
+
+<nlword word="пачка" valsi="bakfu" />
+
+<nlword word="связка" valsi="bakfu" />
+
+<nlword word="пакет" valsi="bakfu" place="1" />
+
+<nlword word="порода" valsi="bakni" place="2" />
+
+<nlword word="корова" valsi="bakni" place="1" />
+
+<nlword word="бык" valsi="bakni" />
+
+<nlword word="мел" valsi="bakri" place="1" />
+
+<nlword word="известь" valsi="bakri" />
+
+<nlword word="корыто" valsi="baktu" />
+
+<nlword word="ванна" valsi="baktu" />
+
+<nlword word="ведро" valsi="baktu" place="1" />
+
+<nlword word="луковица" valsi="balji" place="1" />
+
+<nlword word="клубень" valsi="balji" />
+
+<nlword word="балкон" valsi="balni" place="1" />
+
+<nlword word="языковое сообщество" valsi="bangu" place="2" />
+
+<nlword word="язык" sense="речь" valsi="bangu" place="1" />
+
+<nlword word="содержание, выражаемое на языке" valsi="bangu" place="3" />
+
+<nlword word="диалект" valsi="bangu" />
+
+<nlword word="айсберг" valsi="flubisli" />
+
+<nlword word="язык" sense="часть тела" valsi="tance" place="1" /></direction></dictionary>
+
+
+
+
+

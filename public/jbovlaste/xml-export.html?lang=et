@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="Eesti">
+
+<valsi word="fatne" type="gismu"><rafsi>fat</rafsi><rafsi>fa'e</rafsi><definition>$x_1$ (jada) on tagurpidi järjestatud $x_2$ (jada). $x_1$ (objekt) on teistpidi $x_2$ (objekt).</definition><notes>Ka "vastupidi". Vt {fa'e}, {dukti}.</notes></valsi></direction><direction from="Eesti" to="lojban">
+
+<nlword word="tagurpidi" valsi="fatne" /></direction></dictionary>
+
+
+
+
+

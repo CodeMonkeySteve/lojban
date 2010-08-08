@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="Svenska">
+
+<valsi word="nintadni" type="lujvo"><definition>$c_2=t_1$ är en nybörjare i ämne $c_1=t_2$ enligt standard $c_4$</definition></valsi>
+
+<valsi word="sferies" type="cmene"><definition>Sverige</definition></valsi></direction><direction from="Svenska" to="lojban">
+
+<nlword word="nytt ämne" sense="mindre bekant ämne" valsi="nintadni" place="2" />
+
+<nlword word="nybörjare" valsi="nintadni" place="1" />
+
+<nlword word="novis" valsi="nintadni" />
+
+<nlword word="Sverige" valsi="sferies" /></direction></dictionary>
+
+
+
+
+

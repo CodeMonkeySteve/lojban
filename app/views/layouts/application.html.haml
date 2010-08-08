@@ -1,0 +1,26 @@
+!!! XML
+!!! Strict
+
+%html{ :xmlns => 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en', :lang => 'en' }
+  %head
+    %meta{ 'http-equiv' => 'Content-Type',     :content => 'text/html; charset=utf-8' }/
+    %meta{ 'http-equiv' => 'Content-Language', :content => 'en-us' }/
+    %link{ :rel => 'SHORTCUT ICON', :href => '/favicon.ico' }/
+
+    = stylesheet_link_tag :all, :media => 'all'
+
+    %title
+      Lojban Language Reference
+
+  %body
+    #header
+      #left
+        Lojban Language Reference
+      #right
+        - if user_signed_in?
+          Welcome, #{current_user.full_name}
+          [#{link_to 'Logout', destroy_user_session_url}]
+      .spacer
+    #content
+      = display_notices
+      = yield

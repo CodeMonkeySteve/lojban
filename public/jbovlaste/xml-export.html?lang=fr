@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="français">
+
+<valsi word="bacru" type="gismu"><rafsi>ba'u</rafsi><definition>$x_1$ prononce/dit/émet le son (avec sa bouche) $x_2$</definition><notes>N'implique pas un volonté de communiquer ni la présence d'une audience.
+«Dire» se dit plutôt {cusku}.
+Voir également {krixa}, {cusku}, {casnu}, {tavla}, {voksa}, {pinka}.</notes></valsi>
+
+<valsi word="badna" type="gismu"><definition>$x_1$ est une banane d'espèce $x_2$</definition></valsi>
+
+<valsi word="badri" type="gismu"><rafsi>dri</rafsi><definition>$x_1$ est triste/déprimé/découragé/abattu/a du chagrin à cause de $x_2$ (abstraction)</definition><notes>Voir aussi {klaku}, {gleki}, {betri}, {cinmo}, {junri}.</notes></valsi>
+
+<valsi word="barkla" type="lujvo"><definition>$k_1$ sort/va à l'extérieur de $k_3=b_2$ par chemin $k_4$, moyen de transport $k_5$</definition></valsi>
+
+<valsi word="derdembi" type="lujvo"><definition>$x_1$ est une cacahuète/arachide de variété $x_2$</definition><notes>beurre d'arachides = derdembi matne</notes></valsi>
+
+<valsi word="ernace" type="fu'ivla"><definition>$x_1$ est un hérisson d'espéce $x_2$</definition><notes>voir aussi {jesymabru}</notes></valsi>
+
+<valsi word="fragari" type="fu'ivla"><definition>$x_1$ est une fraise d'espèce/variété $x_2$</definition></valsi>
+
+<valsi word="gugdrxelvo" type="fu'ivla"><definition>$g_1$ est la Suisse</definition></valsi>
+
+<valsi word="karkaju" type="fu'ivla"><definition>$x_1$ est un carcajou de variété $x_2$</definition></valsi>
+
+<valsi word="kenyDAS" type="cmene"><definition>le Canada</definition><notes>Cf. {KEnydys}, {kadnygu'e}, {gugdecu'a}.</notes></valsi>
+
+<valsi word="korgretro" type="lujvo"><definition>$t_1$ contrôle $g_1=t_2$ qui passe $g_2=k_1$ vers $g_3=k_2$ de $g_4=k_2$</definition><notes>voir aussi {natmi}, {pagre}, {jaspu}</notes></valsi>
+
+<valsi word="kurbarile" type="fu'ivla"><definition>$x_1$ est un/du courbaril d'espèce/de varieté $x_2$</definition><notes>Grand arbre césalpinioïde du Brésil et de la Guyane qui donne une résine fragrante qui autrefois était fossilisée en ambre.</notes></valsi>
+
+<valsi word="mlongena" type="fu'ivla"><definition>$x_1$ est une aubergine de variété $x_2$</definition><notes>voir aussi {patlu}, {tamca}, {kapsiku}, {labnyjba}</notes></valsi>
+
+<valsi word="odbenu" type="fu'ivla"><definition>$x_1$ est un morse de race $x_2$</definition></valsi>
+
+<valsi word="pavyseljirna" type="lujvo"><definition>$x_1$ est une licorne</definition></valsi>
+
+<valsi word="pracmu" type="lujvo"><definition>$j_1$ est le capital (facteurs de production) générant de biens/services $j_2=c_2$.</definition><notes>cf. {cupra}, {zbasu}, {jdini}.</notes></valsi>
+
+<valsi word="vlipa" type="gismu"><rafsi>vli</rafsi><definition>$x_1$ a le pouvoir de faire en sorte que $x_2$ sous conditions $x_3$; $x_1$ est puissant aspect $x_2$ sous $x_3$</definition></valsi>
+
+<valsi word="xanto" type="gismu"><definition>$x_1$ est un éléphant d'espèce $x_2$</definition><notes>voir aussi {mabru}, {barda}</notes></valsi>
+
+<valsi word="xruba" type="gismu"><rafsi>xub</rafsi><definition>$x_1$ est une polygonacée/oseille/parelle/rhubarbe / un sarrasin de genre $x_2$</definition></valsi></direction><direction from="français" to="lojban">
+
+<nlword word="son" sense="son émis avec la bouche" valsi="bacru" place="2" />
+
+<nlword word="émetteur" sense="celui qui émet un son avec sa bouche" valsi="bacru" place="1" />
+
+<nlword word="prononcer" valsi="bacru" />
+
+<nlword word="émettre" sense="émettre un son avec la bouche" valsi="bacru" />
+
+<nlword word="banane" sense="banane fruit ou banane plantain (utilisée comme un légume)" valsi="badna" place="1" />
+
+<nlword word="espèce de banane" sense="espèce de la banane ; par exemple : Gros Michel (Canaries), Grande Naine (Cameroun, Antilles), Payo (Antilles, Amérique centrale), Cavendish (Côte-d'Ivoire)" valsi="badna" place="2" />
+
+<nlword word="déprimé" valsi="badri" />
+
+<nlword word="découragé" valsi="badri" />
+
+<nlword word="avoir du chagrin" valsi="badri" />
+
+<nlword word="sortir" valsi="barkla" />
+
+<nlword word="cacahuète" valsi="derdembi" place="1" />
+
+<nlword word="arachide" valsi="derdembi" />
+
+<nlword word="hérisson" valsi="ernace" />
+
+<nlword word="fraise" sense="fruit" valsi="fragari" place="1" />
+
+<nlword word="carcajou" valsi="karkaju" />
+
+<nlword word="Canada" valsi="kenyDAS" />
+
+<nlword word="douane" valsi="korgretro" />
+
+<nlword word="courbaril" valsi="kurbarile" />
+
+<nlword word="morse" sense="animal" valsi="odbenu" />
+
+<nlword word="licorne" valsi="pavyseljirna" />
+
+<nlword word="capital" sense="facteurs du production" valsi="pracmu" place="1" />
+
+<nlword word="polygonacée" valsi="xruba" /></direction></dictionary>
+
+
+
+
+

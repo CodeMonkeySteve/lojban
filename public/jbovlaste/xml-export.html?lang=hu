@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="Magyarul">
+
+<valsi word="italian" type="cmene"><definition>Olaszország</definition></valsi>
+
+<valsi word="logji" type="gismu"><rafsi>loj</rafsi><definition>$x_1$ [szabályrendszer] egy logika $x_2$ kikövetkeztetésére/levezetésére/bizonyítására/mellett való érvelésre</definition></valsi></direction><direction from="Magyarul" to="lojban">
+
+<nlword word="Olaszország" valsi="italian" />
+
+<nlword word="logikai szabályrendszer" valsi="logji" />
+
+<nlword word="logika" sense="szabályrendszer" valsi="logji" place="1" />
+
+<nlword word="állítás" valsi="logji" place="2" /></direction></dictionary>
+
+
+
+
+

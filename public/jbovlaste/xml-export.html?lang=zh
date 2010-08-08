@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+<direction from="lojban" to="中文">
+
+<valsi word="LIEtuvas" type="cmene"><definition>立陶宛</definition></valsi>
+
+<valsi word="OTa,uas" type="cmene"><definition>渥太华</definition></valsi>
+
+<valsi word="SINgapur" type="cmene"><definition>新加坡</definition><notes>简称“新”；又译“星加坡”，简称“星”。</notes></valsi>
+
+<valsi word="UAcintyn" type="cmene"><definition>华盛顿</definition></valsi>
+
+<valsi word="VLANDeren" type="cmene"><definition>佛兰德斯</definition><notes>中世纪欧洲一伯爵领地, 包括现比利时的东佛兰德省和西佛兰德省以及法国北部部分地区
+</notes></valsi>
+
+<valsi word="a'orne" type="fu'ivla"><definition>$x_1$是$x_2$品种的枫树/槭树</definition><notes>参见：同义词{ricrxacero}，{na'itsi}（翼果）</notes></valsi>
+
+<valsi word="agbakate" type="fu'ivla"><definition>$x_1$是$x_2$品种的鳄梨（果或果树）</definition></valsi>
+
+<valsi word="alfabeta" type="fu'ivla"><definition>$x_1$是用来拼写$x_2$语言的字母表</definition><notes>参见：{selyle'u}、{fu'arka}、{anbani}、{abgida}、{abjadu}、{snile'u}</notes></valsi>
+
+<valsi word="alzaitu" type="fu'ivla"><definition>$x_1$是$x_2$品种的橄榄（或橄榄树）</definition></valsi>
+
+<valsi word="angeli" type="fu'ivla"><definition>$x_1$是天使</definition></valsi>
+
+<valsi word="angila" type="fu'ivla"><definition>$x_1$是$x_2$品种的鳗鱼/鳝鱼</definition><notes>参见：同义词{sincykaifi'e}</notes></valsi>
+
+<valsi word="arktik" type="cmene"><definition>北冰洋</definition></valsi>
+
+<valsi word="asycy'i'is" type="cmene"><definition>ASCII码</definition><notes>美国信息交换标准码</notes></valsi>
+
+<valsi word="auskalerik" type="cmene"><definition>巴斯克</definition><notes>和西班牙紧密相关的一个自治地区</notes></valsi>
+
+<valsi word="babilon" type="cmene"><definition>巴比伦</definition></valsi>
+
+<valsi word="bacru" type="gismu"><rafsi>ba'u</rafsi><definition>$x_1$ 说出(发声) $x_2$</definition><notes>并不暗指存在交流或听众；参见 {krixa}, {cusku}, {casnu}, {tavla}, {voksa}, {pinka}</notes></valsi>
+
+<valsi word="badna" type="gismu"><definition>$x_1$ 是属于种类 $x_2$ 的香蕉</definition><notes>参见 {grute}</notes></valsi>
+
+<valsi word="badri" type="gismu"><rafsi>dri</rafsi><definition>$x_1$因为$x_2$（某件事或某种抽象的东西）感到不开心、郁闷、闷闷不乐、沮丧、消沉、灰心丧气、哀愁、悲哀、伤心、悲伤或者悲痛</definition><notes>参见{klaku}、{gleki}、{betri}、{cinmo}、{junri}、{uinai}</notes></valsi>
+
+<valsi word="bajra" type="gismu"><rafsi>baj</rafsi><definition>$x_1$在$x_2$路面上用身体上的$x_3$以$x_4$的步态走路或跑步</definition><notes>参见{cadzu}、{klama}、{litru}、{stapa}、{plipe}、{cpare}</notes></valsi>
+
+<valsi word="bakfu" type="gismu"><rafsi>baf</rafsi><definition>$x_1$是把$x_2$用$x_3$包装/系起来的一束、一捆、一簇、一串、一丛、一包、一组、一块或者一群东西</definition><notes>参见{daski}（口袋）、{dakli}（包）、{tanxe}（盒子）</notes></valsi>
+
+<valsi word="bangrnaidjiria" type="fu'ivla"><definition>$x_1$是$x_2$用来表示/交流$x_3$（不是说的话本身）的尼日利亚英语说法</definition><notes>由{bangu}（语言）、{naidjiria}（尼日利亚）组成。参见：{gliban}（英语，专名）、{glibau}（英语）、{gliglibau}（英国英语）、{merbau}（美国英语）、{xinglibau}（印度英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{kisyglibau}（巴基斯坦英语）、{nanfi'oglibau}（南非英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="bangrxangu" type="fu'ivla"><definition>$x_1$ 是朝鲜语</definition></valsi>
+
+<valsi word="barda" type="gismu"><rafsi>bra</rafsi><definition>$x_{1}$ 是大的，从 $x_{2}$ 的角度来说，与 $x_{3}$ 相比。</definition><notes>参见： {banli}, {clani}, {ganra}, {condi}, {plana}, {cmalu}, {rotsu}, {banro}, {xanto}.</notes></valsi>
+
+<valsi word="barselonas" type="cmene"><definition>巴塞罗那</definition></valsi>
+
+<valsi word="beiDJIN" type="cmene"><definition>北京</definition></valsi>
+
+<valsi unofficial="true" word="benzo" type="experimental gismu"><definition>$x_1$ 是 $x_2$ 类型的芳香烃</definition></valsi>
+
+<valsi word="bidgug" type="cmene"><definition>印度尼西亚</definition><notes>简称“印尼”</notes></valsi>
+
+<valsi word="birti" type="gismu"><rafsi>bit</rafsi><definition>$x_{1}$ 肯定 $x_{2}$ 成立。</definition><notes>参见： {jetnu}, {jinvi}, {krici}, {djuno}, {senpi}, {sruma}。</notes></valsi>
+
+<valsi word="blabruk" type="cmene"><definition>白俄罗斯</definition></valsi>
+
+<valsi word="blanu" type="gismu"><rafsi>bla</rafsi><definition>$x_1$是蓝色的</definition><notes>参见：{skari}, {blabi}, {xekri}, {zirpu}, {kandi}, {carmi}, {cicna}。</notes></valsi>
+
+<valsi word="bosnan" type="cmene"><definition>波斯尼亚</definition><notes>前南斯拉夫成员</notes></valsi>
+
+<valsi word="brazilias" type="cmene"><definition>巴西</definition></valsi>
+
+<valsi word="bruNAIS" type="cmene"><definition>文莱</definition></valsi>
+
+<valsi word="byLIN" type="cmene"><definition>柏林</definition></valsi>
+
+<valsi word="cangan" type="cmene"><definition>香港</definition><notes>普通话Xianggang的Lojban化</notes></valsi>
+
+<valsi word="canxais" type="cmene"><definition>上海</definition></valsi>
+
+<valsi word="carpacib" type="cmene"><definition>ROT-13</definition><notes>回转13位，指一种对26个英文字母进行简单变换加密的办法，不妨译为13位转字法。</notes></valsi>
+
+<valsi word="cev" type="cmene"><definition>神</definition><notes>专名，另参见{jegvon}。两者均不同于泛指神仙的{cevni}。</notes></valsi>
+
+<valsi word="cinJIAN" type="cmene"><definition>新疆</definition></valsi>
+
+<valsi word="cipyple" type="lujvo"><definition>$p_1$ 是试卷，其纸张来自 $p_2$，为了证明属性或状态 $c_3$，关于主题 $c_4$</definition><notes>参见 {cipra}, {pelji}</notes></valsi>
+
+<valsi word="ckiipyris" type="cmene"><definition>阿尔巴尼亚</definition></valsi>
+
+<valsi word="cmeclax" type="cmene"><definition>Nameless</definition><notes>意思是无名，一款匿名邮件软件的名字</notes></valsi>
+
+<valsi word="danmark" type="cmene"><definition>丹麦</definition></valsi>
+
+<valsi word="denpesxu" type="lujvo"><definition>$x_1$ 是含成分 $x_2$ 的牙膏</definition></valsi>
+
+<valsi word="djaZAIR" type="cmene"><definition>阿尔及利亚</definition><notes>来自国名的阿拉伯语读法“贾扎伊尔”，意为岛屿。参见：{jerxo}（关于阿尔及利亚的gismu）。</notes></valsi>
+
+<valsi word="djiotis" type="cmene"><definition>吉奥提</definition><notes>一个意为光线的印度常见名字</notes></valsi>
+
+<valsi word="djunguos" type="cmene"><definition>中国</definition></valsi>
+
+<valsi word="dunav" type="cmene"><definition>多瑙河</definition></valsi>
+
+<valsi word="dzip" type="cmene"><definition>南冰洋</definition><notes>注意不是“北”冰洋。</notes></valsi>
+
+<valsi word="flalu" type="gismu"><rafsi>fla</rafsi><definition>$x_1$是针对$x_2$问题、为保障或限制$x_3$的权益、在$x_4$条件下、由$x_5$制定的法律</definition><notes>参见：{javni}、{ritli}、{zekri}、{pulji}、{tinbe}</notes></valsi>
+
+<valsi word="flari'a" type="lujvo"><definition>$r_1$=$f_5$制定$r_2$=$f_1$法律以保障或限制$f_3$在$r_3$=$f_4$条件下的权益</definition><notes>$x_1$通常是国会等立法机关</notes></valsi>
+
+<valsi word="gliban" type="cmene"><definition>英语</definition><notes>专名。参见：{glico}（英格兰）、{bangu}（语言）、{glibau}（英语，属gismu）。</notes></valsi>
+
+<valsi word="glibau" type="lujvo"><definition>$g_1$=$b_1$是$b_2$用来表示/交流$b_3$（不是说的话本身）的英语说法</definition><notes>由{glico}（英格兰）、{bangu}（语言）组成。参见：{gliglibau}（英国英语）、{merbau}（美国英语）、{xinglibau}（印度英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{kisyglibau}（巴基斯坦英语）、{nanfi'oglibau}（南非英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="gliglibau" type="lujvo"><definition>$g_1$=$b_1$是$b_2$用来表示/交流$b_3$（不是说的话本身）的英国英语说法</definition><notes>参见：{gliban}（英语，专名）、{glibau}（英语）、{merbau}（美国英语）、{xinglibau}（印度英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{kisyglibau}（巴基斯坦英语）、{nanfi'oglibau}（南非英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="guanJOUS" type="cmene"><definition>广州</definition></valsi>
+
+<valsi word="gugl" type="cmene"><definition>Google（谷歌）</definition></valsi>
+
+<valsi word="guonJAUS" type="cmene"><definition>广州</definition><notes>粤语发音</notes></valsi>
+
+<valsi word="iaves" type="cmene"><definition>雅威（即耶和华，又有译永为）</definition><notes>犹太教-基督教-伊斯兰教的神名，本是自有永有、成事者的意思。参见：{jegvon}（耶和华，专名）、{cev}（神，专名）、{cevni}（神袛）、{jegvo}（三教共尊的圣经）、{xebro}（希伯来）、{xriso}（基督教）、{muslo}（伊斯兰）。</notes></valsi>
+
+<valsi word="ieRUcaly'im" type="cmene"><definition>耶路撒冷</definition></valsi>
+
+<valsi word="island" type="cmene"><definition>冰岛</definition></valsi>
+
+<valsi word="italian" type="cmene"><definition>意大利</definition><notes>又译“义大利”等。</notes></valsi>
+
+<valsi word="jan" type="cmene"><definition>Jean（名）、张（姓氏）</definition><notes>Jean常译为“让”。</notes></valsi>
+
+<valsi word="jbovlaste" type="lujvo"><definition>$lo_1=li_1$ 是逻辑语词典系统 (jbovlaste)</definition><notes>一个基于 Web 界面的逻辑语词典编辑系统和它的内容。参见 {lojbo}, {valsi}, {liste}, {vlaste}, {vlacku}</notes></valsi>
+
+<valsi word="jegvon" type="cmene"><definition>耶和华（又译雅威、永为）</definition><notes>称呼犹太教、基督教、伊斯兰教等亚伯拉罕诸教共尊的那个神的说法，常译为专名“耶和华”，又译为“耶威”、“雅威”、“耶胡”、“爷火华”，但其实是自有永有、成事者的意思，所以又有意译为“永恒主”或者直接换称“神”、“主”的，新近有意音兼译为“永为”。参见：{iaves}（雅威，专名）、{cev}（神，专名）、{cevni}（神袛）、{jegvo}（三教共尊的圣经）、{xebro}（希伯来）、{xriso}（基督教）、{muslo}（伊斯兰）。</notes></valsi>
+
+<valsi word="jerxo" type="gismu"><rafsi>jex</rafsi><definition>$x_1$在$x_2$方面很阿尔及利亚（体现了阿尔及利亚文化或国民性）</definition><notes>参见：{friko}（非洲）、{xrabo}（阿拉伯）、{muslo}（伊斯兰）、{fraso}（法兰西）。</notes></valsi>
+
+<valsi word="jinga" type="gismu"><rafsi>jig</rafsi><rafsi>ji'a</rafsi><definition>$x_{1}$ (人/团队) 赢得/获胜/获(奖) $x_{2}$ 从(对手) $x_{3}$  手中 在竞争 $x_{4}$.</definition><notes>$x_1$ 是胜利者/获胜者; $_x2$ 奖品/战利品（物质或精神上或象征）; $_x3$ 是对手，可以是任何与$_x1$争夺$_x2$的; $_x2$ 可以是特别的物品，一件事，一场比赛，又或者是女朋友，等等。
+参见： {cirko}, {jivna}, {talsa}, {cnemu},{prali}, {pleji},{sfasa}, {jdima}, {jerna}, {bradi}, {kargu},{kelci}.
+</notes></valsi>
+
+<valsi word="jugle'u" type="lujvo"><definition>$x_1$是属于$x_2$系统（繁体字、简化字、注音符号等等）里表示$x_3$意思的中国字符</definition><notes>不仅指汉字</notes></valsi>
+
+<valsi word="jungo" type="gismu"><rafsi>jug</rafsi><definition>$x_{1}$ 是汉语，或属于中华文化，在 $x_{2}$方面</definition><notes>参见 {xazdo}.</notes></valsi>
+
+<valsi word="jycybyb" type="cmene"><definition>JCB（人名缩写）</definition><notes>即James Cooke Brown</notes></valsi>
+
+<valsi word="kanla" type="gismu"><rafsi>kal</rafsi><definition>$x_{1}$ 是 $x_{2}$的眼睛</definition><notes>参见：{jvinu}, {kerlo}, {viska}, {kumte}.</notes></valsi>
+
+<valsi word="kartuli" type="fu'ivla"><definition>$x_1$在$x_2$方面很格鲁吉亚（体现了格鲁吉亚文化或国民性）</definition><notes>参见：{sakartulos}（格鲁吉亚，专名）</notes></valsi>
+
+<valsi word="kenton" type="cmene"><definition>广州</definition><notes>旧译Canton的英语读法</notes></valsi>
+
+<valsi word="kisyglibau" type="lujvo"><definition>$g_1$=$b_1$是$b_2$用来表示/交流$b_3$（不是说的话本身）的巴基斯坦英语说法</definition><notes>由{kisto}（巴基斯坦）、{glico}（英格兰）、{bangu}（语言）组成。参见：{gliban}（英语，专名）、{glibau}（英语）、{gliglibau}（英国英语）、{merbau}（美国英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{xinglibau}（印度英语）、{nanfi'oglibau}（南非英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="kokaKOlys" type="cmene"><definition>可口可乐</definition></valsi>
+
+<valsi word="lauDZIS" type="cmene"><definition>老子</definition><notes>不同于表示自称的“老子”</notes></valsi>
+
+<valsi word="laus" type="cmene"><definition>老挝</definition><notes>又译“寮国”</notes></valsi>
+
+<valsi word="lazyzukykei" type="lujvo"><definition>$k_1$过家家</definition><notes>一种模仿父母的儿童游戏</notes></valsi>
+
+<valsi word="lietuvos" type="cmene"><definition>立陶宛</definition></valsi>
+
+<valsi word="loglytuan" type="cmene"><definition>逻辑语工作者</definition><notes>这里的“逻辑语”指Loglan，非Lojban。一份早期刊物的名字。又试译为“逻各斯志工”，试以“逻各斯语”对译Loglan，以区分于Lojban惯译的“逻辑语”。</notes></valsi>
+
+<valsi word="lojbab" type="cmene"><definition>逻辑鲍勃</definition><notes>专指Bob LeChevalier君</notes></valsi>
+
+<valsi word="lojban" type="cmene"><definition>逻辑语（又译理语）</definition><notes>不完全同于其前身Loglan（同样是逻辑语的意思）</notes></valsi>
+
+<valsi word="lorxu" type="gismu"><rafsi>lor</rafsi><rafsi>lo'u</rafsi><definition>$x_1$ 是狐 [蓬尾野生犬科动物]，属于种类 $x_2$</definition><notes>参见 {gerku}。 (不是“狐狸”)</notes></valsi>
+
+<valsi word="losanjylys" type="cmene"><definition>洛杉矶</definition></valsi>
+
+<valsi word="lujvo" type="gismu"><rafsi>luv</rafsi><rafsi>jvo</rafsi><definition>$x_1$（文本）是有着意义 $x_2$，参数 $x_3$ 的复合谓词，由比喻 $x_4$ 构造</definition><notes>参见 {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}。</notes></valsi>
+
+<valsi word="lyndyn" type="cmene"><definition>伦敦</definition></valsi>
+
+<valsi word="madRID" type="cmene"><definition>马德里</definition></valsi>
+
+<valsi unofficial="true" word="mango" type="experimental gismu"><definition>$x_1$ 是 $x_2$ 种类的芒果</definition></valsi>
+
+<valsi word="melbi" type="gismu"><rafsi>mel</rafsi><rafsi>mle</rafsi><definition>$x_1$对$x_2$来说、从$x_3$方面来看、按$x_4$标准来评价是美的</definition><notes>不分男女、人物，所以也是英俊、漂亮、可爱、优雅、优美的意思。参照: {pluka}, {xamgu}</notes></valsi>
+
+<valsi word="merko" type="gismu"><rafsi>mer</rafsi><definition>x1 在方面 x2 从属于美国文化/语言</definition><notes>参见 {brito}, {bemro}, {ketco}, {xispo}, {glico}</notes></valsi>
+
+<valsi word="misryle'u" type="lujvo"><definition>$x_1$是属于$x_2$系统（象形体、圣书体、通俗体等等）里表示$x_3$意思的埃及字符</definition></valsi>
+
+<valsi word="mlatu" type="gismu"><rafsi>lat</rafsi><definition>$x_{1}$ 是种类为 $x_{2}$ 的猫; $x_{1}$ 是猫</definition><notes>参见： {cinfo}, {tirxu}, {gerku}.</notes></valsi>
+
+<valsi word="mors" type="cmene"><definition>莫尔斯、莫尔斯代码、电报、电码</definition><notes>“莫尔斯”又译“摩斯”，因此又有“摩斯密码”等说法。</notes></valsi>
+
+<valsi word="mumbais" type="cmene"><definition>孟买</definition></valsi>
+
+<valsi word="nanfi'oglibau" type="lujvo"><definition>$x_1$是$x_2$用来表示/交流$x_3$（不是说的话本身）的南非英语说法</definition><notes>由{snanu}（南）、{friko}（非洲）、{glico}（英格兰）、{bangu}（语言）组成。参见：{gliban}（英语，专名）、{glibau}（英语）、{gliglibau}（英国英语）、{merbau}（美国英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{xinglibau}（印度英语）、{kisyglibau}（巴基斯坦英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="nederland" type="cmene"><definition>尼德兰</definition><notes>意为“低地”，即常说的“荷兰”。</notes></valsi>
+
+<valsi word="nipon" type="cmene"><definition>日本</definition><notes>参加：{ponjo}、{pongu'e}
+</notes></valsi>
+
+<valsi word="noreg" type="cmene"><definition>挪威</definition></valsi>
+
+<valsi word="nu,IORK" type="cmene"><definition>纽约</definition></valsi>
+
+<valsi word="osteraix" type="cmene"><definition>奥地利</definition></valsi>
+
+<valsi word="otan" type="cmene"><definition>北约</definition><notes>即北大西洋公约组织</notes></valsi>
+
+<valsi word="paludizm" type="cmene"><definition>疟疾</definition></valsi>
+
+<valsi word="pasifik" type="cmene"><definition>太平洋</definition></valsi>
+
+<valsi word="peRUV" type="cmene"><definition>秘鲁</definition><notes>注意“秘”不读mì而读bì</notes></valsi>
+
+<valsi word="pekin" type="cmene"><definition>北京</definition><notes>威妥玛拼音Peking的Lojban化</notes></valsi>
+
+<valsi word="pelglar" type="cmene"><definition>黄热病</definition></valsi>
+
+<valsi word="piton" type="cmene"><definition>Python语言</definition><notes>一门编程语言，得名自英国喜剧《巨蟒与圣杯》。</notes></valsi>
+
+<valsi word="plank" type="cmene"><definition>普朗克</definition></valsi>
+
+<valsi word="plixau" type="lujvo"><definition>$x_1$=$p_2$对$x_2$=$p_1$在$x_3$=$p_3$方面有用</definition><notes>区分：$x_1$是有用，$x_3$是可用。参见：{selplika'e}。由{pilno}（用）+{xamgu}（好）组合而成。</notes></valsi>
+
+<valsi word="pluka" type="gismu"><rafsi>puk</rafsi><rafsi>pu'a</rafsi><definition>$x_{1}$ （事件）让 $x_{2}$（观察者） 在条件 $x_{3}$下满意</definition><notes>参见{rigni}, cmavo list {pu'a}, {melbi}, {nelci}, {prami}.</notes></valsi>
+
+<valsi word="polno" type="gismu"><rafsi>pol</rafsi><definition>$x_{1}$ 在$x_{2}$方面反映了大洋洲的民族、国家、语言、地域</definition><notes>参见 {sralo}, {daplu}, {xamsi}.</notes></valsi>
+
+<valsi word="polskas" type="cmene"><definition>波兰</definition><notes>参见：{gugdrpolska}（波兰）</notes></valsi>
+
+<valsi word="potybau" type="lujvo"><definition>$p_1$=$b_1$是$b_2$用来表达或传达$b_3$（意义，不是指说话用的语句本身）的葡萄牙语说法</definition><notes>由{bangu}（语言）和Portugal（葡萄牙）结合而成。参见{razbau}（巴西葡语）。</notes></valsi>
+
+<valsi word="pyd" type="cmene"><definition>西藏</definition><notes>旧称“吐蕃”（有读tùfān，有读tùbó）</notes></valsi>
+
+<valsi word="rigni" type="gismu"><rafsi>rig</rafsi><definition>$x_{1}$让 $x_{2}$ 反感，在 $x_{3}$条件下</definition><notes>参见{djica}, {nelci}, {trina}, {vamtu}, {xebni}, {pluka}.</notes></valsi>
+
+<valsi word="robin" type="cmene"><definition>罗宾</definition></valsi>
+
+<valsi word="romas" type="cmene"><definition>罗马</definition></valsi>
+
+<valsi word="sakartulos" type="cmene"><definition>格鲁吉亚</definition><notes>美国乔治亚州的英文跟格鲁吉亚的英文相同，但是在Lojban里词源词形都完全不同。参见：{kartuli}（格鲁吉亚，属gismu）</notes></valsi>
+
+<valsi word="saupaulos" type="cmene"><definition>圣保罗</definition></valsi>
+
+<valsi word="selsa'a" type="lujvo"><definition>$x_1$ 是一首由 $x_2$ 演唱的歌曲，其听众为 $x_3$</definition></valsi>
+
+<valsi word="sferies" type="cmene"><definition>瑞典</definition></valsi>
+
+<valsi word="snile'u" type="lujvo"><definition>$x_1$是$x_2$书写系统里表示$x_3$意思的符号</definition><notes>参见：{jugle'u}、{misryle'u}</notes></valsi>
+
+<valsi word="sol" type="cmene"><definition>首尔</definition></valsi>
+
+<valsi word="sralybau" type="lujvo"><definition>$g_1$=$b_1$是$b_2$用来表示/交流$b_3$（不是说的话本身）的澳大利亚英语说法</definition><notes>由{sralo}（澳大利亚）、{bangu}（语言）组成。参见：{gliban}（英语，专名）、{glibau}（英语）、{gliglibau}（英国英语）、{merbau}（美国英语）、{xinglibau}（印度英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{kisyglibau}（巴基斯坦英语）、{nanfi'oglibau}（南非英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="suomen" type="cmene"><definition>芬兰</definition></valsi>
+
+<valsi word="suomis" type="cmene"><definition>芬兰</definition></valsi>
+
+<valsi word="suzyn" type="cmene"><definition>苏珊</definition><notes>音译人名，又译“苏姗”</notes></valsi>
+
+<valsi word="tai,UAN" type="cmene"><definition>台湾</definition></valsi>
+
+<valsi word="taibeis" type="cmene"><definition>台北</definition></valsi>
+
+<valsi word="tavla" type="gismu"><rafsi>tav</rafsi><rafsi>ta'a</rafsi><definition>$x_{1}$ 用 $x_{4}$（语言）来说 $x_{3}$这件事给 $x_{2}$ 听</definition><notes>并不限于口头演讲
+
+参见：{bacru}, cusku for actual expression, {casnu}, {darlu}, {skicu}, {ciksi}, {bangu}.</notes></valsi>
+
+<valsi word="tcunCIN" type="cmene"><definition>重庆</definition></valsi>
+
+<valsi word="tienjin" type="cmene"><definition>天津</definition></valsi>
+
+<valsi word="tipyboi" type="lujvo"><definition>$x_1$ 是用 $x_2$ 材料制成的足球</definition></valsi>
+
+<valsi word="togygu'i" type="lujvo"><definition>$g_1$ 是来自 $g_3$ 而照射于 $g_2$ 的, 有着 $t_4$ 的激光</definition></valsi>
+
+<valsi word="tolvut" type="cmene"><definition>狂犬病</definition><notes>参见：{tolvutu}（狂犬病，属gismu）</notes></valsi>
+
+<valsi word="tolvutu" type="fu'ivla"><definition>$x_1$患了狂犬病，看起来$x_2$（症状）</definition><notes>参见：{tolvut}（狂犬病，专名）</notes></valsi>
+
+<valsi word="troneim" type="cmene"><definition>特隆赫姆（又译特伦汗）</definition><notes>挪威第三大城市，教育、科技、医药研究中心。</notes></valsi>
+
+<valsi word="tyrontos" type="cmene"><definition>多伦多</definition></valsi>
+
+<valsi word="uacintyn" type="cmene"><definition>华盛顿</definition></valsi>
+
+<valsi word="ueb" type="cmene"><definition>网络（台湾惯译作网路）</definition><notes>不同于“网页”</notes></valsi>
+
+<valsi word="uikipedias" type="cmene"><definition>维基百科</definition><notes>“维基”是一种技术，单用并不专指“维基百科”</notes></valsi>
+
+<valsi word="uikis" type="cmene"><definition>维基（又意译为“共笔”等）</definition><notes>一种网页技术</notes></valsi>
+
+<valsi word="valsi" type="gismu"><rafsi>val</rafsi><rafsi>vla</rafsi><definition>$x_1$ 是有着意义 $x_2$的词，从属于语言 $x_3$ (形容性：$x_1$ 是词)</definition><notes>参见 {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}</notes></valsi>
+
+<valsi word="varcavas" type="cmene"><definition>华沙</definition><notes>波兰首都</notes></valsi>
+
+<valsi word="vensa" type="gismu"><rafsi>ves</rafsi><definition>$x_{1}$ 是 $x_{2}$ 年在地点 $x_{3}$ 的春天; (adjective:) $x_{1}$ 如春</definition><notes>参见 {citsi}, {crisa}, {critu}, {dunra}.</notes></valsi>
+
+<valsi word="xazdo" type="gismu"><rafsi>xaz</rafsi><rafsi>zdo</rafsi><definition>$x_{1}$ 在 $x_{2}$方面反映了亚洲语言/文化/地域</definition><notes>参见 {polno}, {friko}, {jungo}, {rusko}, {ropno}.</notes></valsi>
+
+<valsi word="xelvet" type="cmene"><definition>瑞士</definition><notes>参见：{gugdrxelvo}（瑞士，属gismu）</notes></valsi>
+
+<valsi word="xin" type="cmene"><definition>印度洋</definition><notes>参见：{xingu'e}（印度）</notes></valsi>
+
+<valsi word="xinglibau" type="lujvo"><definition>$x_1$是$x_2$用来表示/交流$x_3$（不是说的话本身）的印度英语说法</definition><notes>由{xindu}（印度）、{glico}（英格兰）、{bangu}（语言）组成。参见：{gliban}（英语，专名）、{glibau}（英语）、{gliglibau}（英国英语）、{merbau}（美国英语）、{kadnyglibau}（加拿大英语）、{sralybau}（澳大利亚英语）、{kisyglibau}（巴基斯坦英语）、{nanfi'oglibau}（南非英语）、{bangrnaidjiria}（尼日利亚英语）等。</notes></valsi>
+
+<valsi word="xonkon" type="cmene"><definition>香港</definition><notes>港英拼法Hong Kong的Lojban化。参见：同样是表示香港但是语源不同的专名{cangan}。</notes></valsi>
+
+<valsi word="xrison" type="cmene"><definition>基督</definition></valsi>
+
+<valsi word="xrvatsk" type="cmene"><definition>克罗地亚</definition></valsi>
+
+<valsi word="xyngon" type="cmene"><definition>香港</definition><notes>按照“香港”的粤语发音造的词。Lojban的专名命名非常语音主义，选择不同的发音可能意味着对概念理解的不同。参见：{cangan}、{xonkon}。</notes></valsi>
+
+<valsi word="zimbabues" type="cmene"><definition>津巴布韦</definition></valsi></direction><direction from="中文" to="lojban">
+
+<nlword word="渥太华" valsi="OTa,uas" />
+
+<nlword word="新加坡" valsi="SINgapur" />
+
+<nlword word="华盛顿" valsi="UAcintyn" />
+
+<nlword word="弗兰德斯" valsi="VLANDeren" />
+
+<nlword word="枫树品种" valsi="a'orne" place="2" />
+
+<nlword word="槭树" valsi="a'orne" />
+
+<nlword word="枫木" valsi="a'orne" />
+
+<nlword word="枫树" valsi="a'orne" place="1" />
+
+<nlword word="鳄梨品种" valsi="agbakate" place="2" />
+
+<nlword word="鳄梨" valsi="agbakate" place="1" />
+
+<nlword word="字母" valsi="alfabeta" />
+
+<nlword word="用字母来拼写的语言" valsi="alfabeta" place="2" />
+
+<nlword word="字母表" valsi="alfabeta" place="1" />
+
+<nlword word="橄榄树" valsi="alzaitu" />
+
+<nlword word="橄榄品种" valsi="alzaitu" place="2" />
+
+<nlword word="橄榄" valsi="alzaitu" place="1" />
+
+<nlword word="天使" valsi="angeli" />
+
+<nlword word="鳝鱼" valsi="angila" />
+
+<nlword word="鳗鱼" valsi="angila" place="1" />
+
+<nlword word="鳗鱼品种" valsi="angila" place="2" />
+
+<nlword word="北冰洋" valsi="arktik" />
+
+<nlword word="ASCII" valsi="asycy'i'is" />
+
+<nlword word="巴斯克" valsi="auskalerik" />
+
+<nlword word="巴比伦" valsi="babilon" />
+
+<nlword word="说话者" valsi="bacru" place="1" />
+
+<nlword word="说" valsi="bacru" />
+
+<nlword word="说出" valsi="bacru" />
+
+<nlword word="说话内容" valsi="bacru" place="2" />
+
+<nlword word="灰心丧气" valsi="badri" />
+
+<nlword word="不开心的人" valsi="badri" place="1" />
+
+<nlword word="悲痛" valsi="badri" />
+
+<nlword word="不开心的事" valsi="badri" place="2" />
+
+<nlword word="郁闷" valsi="badri" />
+
+<nlword word="悲哀" valsi="badri" />
+
+<nlword word="沮丧" valsi="badri" />
+
+<nlword word="悲伤" valsi="badri" />
+
+<nlword word="闷闷不乐" valsi="badri" />
+
+<nlword word="消沉" valsi="badri" />
+
+<nlword word="哀愁" valsi="badri" />
+
+<nlword word="伤心" valsi="badri" />
+
+<nlword word="跑步" valsi="bajra" />
+
+<nlword word="行走" valsi="bajra" />
+
+<nlword word="走路时用的肢节" valsi="bajra" place="3" />
+
+<nlword word="步态" valsi="bajra" place="4" />
+
+<nlword word="路面" valsi="bajra" place="2" />
+
+<nlword word="走路" valsi="bajra" />
+
+<nlword word="行人" valsi="bajra" place="1" />
+
+<nlword word="包装用品" valsi="bakfu" place="3" />
+
+<nlword word="所包装的物品" valsi="bakfu" place="2" />
+
+<nlword word="包裹" valsi="bakfu" place="1" />
+
+<nlword word="包装" valsi="bakfu" />
+
+<nlword word="尼日利亚话" valsi="bangrnaidjiria" />
+
+<nlword word="尼日利亚英语" valsi="bangrnaidjiria" />
+
+<nlword word="说尼日利亚英语的人" valsi="bangrnaidjiria" place="2" />
+
+<nlword word="用尼日利亚英语来表达的东西" valsi="bangrnaidjiria" place="3" />
+
+<nlword word="尼日利亚英语说法" valsi="bangrnaidjiria" place="1" />
+
+<nlword word="朝鲜语" valsi="bangrxangu" />
+
+<nlword word="大" sense="与“小”相对" valsi="barda" />
+
+<nlword word="巴塞罗那" valsi="barselonas" />
+
+<nlword word="芳香烃" valsi="benzo" />
+
+<nlword word="类型" valsi="benzo" place="2" />
+
+<nlword word="印度尼西亚" valsi="bidgug" />
+
+<nlword word="印尼" valsi="bidgug" />
+
+<nlword word="肯定" valsi="birti" />
+
+<nlword word="白俄罗斯" valsi="blabruk" />
+
+<nlword word="蓝色" valsi="blanu" />
+
+<nlword word="蓝色的东西" valsi="blanu" place="1" />
+
+<nlword word="波斯尼亚" valsi="bosnan" />
+
+<nlword word="巴西" valsi="brazilias" />
+
+<nlword word="文莱" valsi="bruNAIS" />
+
+<nlword word="柏林" valsi="byLIN" />
+
+<nlword word="上海" valsi="canxais" />
+
+<nlword word="回转13位" valsi="carpacib" />
+
+<nlword word="ROT-13" valsi="carpacib" />
+
+<nlword word="13位转字法" valsi="carpacib" />
+
+<nlword word="神" valsi="cev" />
+
+<nlword word="新疆" valsi="cinJIAN" />
+
+<nlword word="纸张来源" valsi="cipyple" place="2" />
+
+<nlword word="被证明状态" valsi="cipyple" place="3" />
+
+<nlword word="测试卷" valsi="cipyple" />
+
+<nlword word="主题" valsi="cipyple" place="4" />
+
+<nlword word="试卷" valsi="cipyple" />
+
+<nlword word="阿尔巴尼亚" valsi="ckiipyris" />
+
+<nlword word="Nameless" valsi="cmeclax" />
+
+<nlword word="丹麦" valsi="danmark" />
+
+<nlword word="牙膏成分" valsi="denpesxu" />
+
+<nlword word="牙膏" valsi="denpesxu" />
+
+<nlword word="成分" valsi="denpesxu" />
+
+<nlword word="阿尔及利亚" valsi="djaZAIR" />
+
+<nlword word="吉奥提" valsi="djiotis" />
+
+<nlword word="多瑙河" valsi="dunav" />
+
+<nlword word="南冰洋" valsi="dzip" />
+
+<nlword word="法律" valsi="flalu" />
+
+<nlword word="立法" valsi="flari'a" />
+
+<nlword word="英文" sense="语言" valsi="gliban" />
+
+<nlword word="用英语来表达的东西" valsi="glibau" place="3" />
+
+<nlword word="英语" valsi="glibau" />
+
+<nlword word="说英语的人" valsi="glibau" place="2" />
+
+<nlword word="英语说法" valsi="glibau" place="1" />
+
+<nlword word="英国英语说法" valsi="gliglibau" place="1" />
+
+<nlword word="用英国英语来表达的东西" valsi="gliglibau" place="3" />
+
+<nlword word="说英国英语的人" valsi="gliglibau" place="2" />
+
+<nlword word="英国英语" valsi="gliglibau" />
+
+<nlword word="谷歌" valsi="gugl" />
+
+<nlword word="广州" valsi="guonJAUS" />
+
+<nlword word="雅威" valsi="iaves" />
+
+<nlword word="永恒主" valsi="iaves" />
+
+<nlword word="永为" valsi="iaves" />
+
+<nlword word="•耶路撒冷" valsi="ieRUcaly'im" />
+
+<nlword word="耶路撒冷" valsi="ieRUcaly'im" />
+
+<nlword word="冰岛" valsi="island" />
+
+<nlword word="意大利" valsi="italian" />
+
+<nlword word="让" sense="音译人名" valsi="jan" />
+
+<nlword word="张" sense="姓氏" valsi="jan" />
+
+<nlword word="爷火华" valsi="jegvon" />
+
+<nlword word="耶和华" valsi="jegvon" />
+
+<nlword word="体现阿尔及利亚特色的方面" valsi="jerxo" place="2" />
+
+<nlword word="阿尔及利亚特色" valsi="jerxo" place="1" />
+
+<nlword word="赢" valsi="jinga" />
+
+<nlword word="中国字种类" valsi="jugle'u" place="2" />
+
+<nlword word="中国字" valsi="jugle'u" place="1" />
+
+<nlword word="汉字" valsi="jugle'u" />
+
+<nlword word="字义" valsi="jugle'u" place="3" />
+
+<nlword word="中国" valsi="jungo" />
+
+<nlword word="汉族" valsi="jungo" />
+
+<nlword word="中文" valsi="jungo" />
+
+<nlword word="JCB" sense="人名缩写" valsi="jycybyb" />
+
+<nlword word="眼睛" valsi="kanla" />
+
+<nlword word="格鲁吉亚" valsi="kartuli" />
+
+<nlword word="巴基斯坦英语" valsi="kisyglibau" />
+
+<nlword word="巴式英语" valsi="kisyglibau" />
+
+<nlword word="可口可乐" valsi="kokaKOlys" />
+
+<nlword word="老子" valsi="lauDZIS" />
+
+<nlword word="寮国" valsi="laus" />
+
+<nlword word="老挝" valsi="laus" />
+
+<nlword word="过家家" valsi="lazyzukykei" />
+
+<nlword word="立陶宛" valsi="lietuvos" />
+
+<nlword word="逻辑语工作者" valsi="loglytuan" />
+
+<nlword word="逻各斯志工" valsi="loglytuan" />
+
+<nlword word="逻辑语工" valsi="loglytuan" />
+
+<nlword word="逻辑鲍勃" sense="绰号" valsi="lojbab" />
+
+<nlword word="理语" valsi="lojban" />
+
+<nlword word="逻辑语" valsi="lojban" />
+
+<nlword word="种类" valsi="lorxu" place="2" />
+
+<nlword word="犬科" valsi="lorxu" />
+
+<nlword word="狐" valsi="lorxu" place="1" />
+
+<nlword word="洛杉矶" valsi="losanjylys" />
+
+<nlword word="复合" valsi="lujvo" />
+
+<nlword word="比喻" valsi="lujvo" place="4" />
+
+<nlword word="词缀" valsi="lujvo" />
+
+<nlword word="伦敦" valsi="lyndyn" />
+
+<nlword word="马德里" valsi="madRID" />
+
+<nlword word="芒果种类" valsi="mango" place="2" />
+
+<nlword word="芒果" valsi="mango" />
+
+<nlword word="美人" valsi="melbi" place="1" />
+
+<nlword word="美丽" valsi="melbi" />
+
+<nlword word="可爱" valsi="melbi" />
+
+<nlword word="审美标准" valsi="melbi" place="4" />
+
+<nlword word="审美角度" valsi="melbi" place="3" />
+
+<nlword word="漂亮" valsi="melbi" />
+
+<nlword word="英俊" valsi="melbi" />
+
+<nlword word="优美" valsi="melbi" />
+
+<nlword word="欣赏者" valsi="melbi" place="2" />
+
+<nlword word="事物" valsi="merko" place="1" />
+
+<nlword word="埃及文字义" valsi="misryle'u" place="3" />
+
+<nlword word="埃及文" valsi="misryle'u" place="1" />
+
+<nlword word="埃及文种类" valsi="misryle'u" place="2" />
+
+<nlword word="猫" valsi="mlatu" />
+
+<nlword word="摩斯" valsi="mors" />
+
+<nlword word="莫尔斯代码" valsi="mors" />
+
+<nlword word="电报" valsi="mors" />
+
+<nlword word="莫尔斯" valsi="mors" />
+
+<nlword word="电码" valsi="mors" />
+
+<nlword word="摩斯密码" valsi="mors" />
+
+<nlword word="孟买" valsi="mumbais" />
+
+<nlword word="用南非英语来表达的东西" valsi="nanfi'oglibau" place="3" />
+
+<nlword word="南非英语说法" valsi="nanfi'oglibau" place="1" />
+
+<nlword word="南非英语" valsi="nanfi'oglibau" />
+
+<nlword word="说南非英语的人" valsi="nanfi'oglibau" place="2" />
+
+<nlword word="荷兰" valsi="nederland" />
+
+<nlword word="尼德兰" valsi="nederland" />
+
+<nlword word="日本" valsi="nipon" />
+
+<nlword word="挪威" valsi="noreg" />
+
+<nlword word="纽约" valsi="nu,IORK" />
+
+<nlword word="奥地利" valsi="osteraix" />
+
+<nlword word="NATO" valsi="otan" />
+
+<nlword word="北约" valsi="otan" />
+
+<nlword word="北大西洋公约组织" valsi="otan" />
+
+<nlword word="疟疾" valsi="paludizm" />
+
+<nlword word="太平洋" valsi="pasifik" />
+
+<nlword word="秘鲁" valsi="peRUV" />
+
+<nlword word="北京" valsi="pekin" />
+
+<nlword word="黄热病" valsi="pelglar" />
+
+<nlword word="Python" sense="编程语言" valsi="piton" />
+
+<nlword word="Python语言" sense="编程语言" valsi="piton" />
+
+<nlword word="普朗克" valsi="plank" />
+
+<nlword word="好使" valsi="plixau" />
+
+<nlword word="好用" valsi="plixau" />
+
+<nlword word="用途" valsi="plixau" place="3" />
+
+<nlword word="用户" valsi="plixau" place="2" />
+
+<nlword word="有用" valsi="plixau" />
+
+<nlword word="用品" valsi="plixau" place="1" />
+
+<nlword word="大洋洲" sense="大陆" valsi="polno" />
+
+<nlword word="波兰" valsi="polskas" />
+
+<nlword word="意思" sense="语义" valsi="potybau" place="3" />
+
+<nlword word="说葡萄牙语的人" valsi="potybau" place="2" />
+
+<nlword word="葡语" valsi="potybau" />
+
+<nlword word="葡萄牙语说法" valsi="potybau" place="1" />
+
+<nlword word="葡萄牙语" valsi="potybau" />
+
+<nlword word="西藏" valsi="pyd" />
+
+<nlword word="吐蕃" valsi="pyd" />
+
+<nlword word="反感" valsi="rigni" />
+
+<nlword word="作呕" sense="不愉快" valsi="rigni" />
+
+<nlword word="罗宾" sense="音译人名" valsi="robin" />
+
+<nlword word="罗马" valsi="romas" />
+
+<nlword word="圣保罗" valsi="saupaulos" />
+
+<nlword word="歌曲" valsi="selsa'a" />
+
+<nlword word="听众" valsi="selsa'a" place="3" />
+
+<nlword word="歌手" valsi="selsa'a" place="2" />
+
+<nlword word="瑞典" valsi="sferies" />
+
+<nlword word="表意文字" valsi="snile'u" place="2" />
+
+<nlword word="符号" valsi="snile'u" place="1" />
+
+<nlword word="符号意义" valsi="snile'u" place="3" />
+
+<nlword word="首尔" valsi="sol" />
+
+<nlword word="汉城" valsi="sol" />
+
+<nlword word="澳式英语" valsi="sralybau" />
+
+<nlword word="澳洲话" valsi="sralybau" />
+
+<nlword word="澳大利亚英语" valsi="sralybau" />
+
+<nlword word="芬兰" valsi="suomis" />
+
+<nlword word="苏珊" sense="音译人名" valsi="suzyn" />
+
+<nlword word="苏姗" sense="音译人名" valsi="suzyn" />
+
+<nlword word="台湾" valsi="tai,UAN" />
+
+<nlword word="台北" valsi="taibeis" />
+
+<nlword word="说" sense="告诉" valsi="tavla" />
+
+<nlword word="重庆" valsi="tcunCIN" />
+
+<nlword word="天津" valsi="tienjin" />
+
+<nlword word="足球" valsi="tipyboi" />
+
+<nlword word="狂犬病症状" valsi="tolvutu" place="2" />
+
+<nlword word="狂犬病" valsi="tolvutu" />
+
+<nlword word="狂犬病人" valsi="tolvutu" place="1" />
+
+<nlword word="特隆赫姆" sense="音译地名" valsi="troneim" />
+
+<nlword word="特伦汗" sense="音译地名" valsi="troneim" />
+
+<nlword word="多伦多" valsi="tyrontos" />
+
+<nlword word="网" sense="信息技术" valsi="ueb" />
+
+<nlword word="万维网" valsi="ueb" />
+
+<nlword word="网络" sense="信息技术" valsi="ueb" />
+
+<nlword word="网路" valsi="ueb" />
+
+<nlword word="Wikipedia" valsi="uikipedias" />
+
+<nlword word="维基百科" valsi="uikipedias" />
+
+<nlword word="维基" valsi="uikis" />
+
+<nlword word="共笔" valsi="uikis" />
+
+<nlword word="华沙" valsi="varcavas" />
+
+<nlword word="春" sense="季节" valsi="vensa" />
+
+<nlword word="亚洲" valsi="xazdo" />
+
+<nlword word="亚洲的" valsi="xazdo" />
+
+<nlword word="亚细亚" valsi="xazdo" />
+
+<nlword word="瑞士" valsi="xelvet" />
+
+<nlword word="印度洋" valsi="xin" />
+
+<nlword word="印度英语" valsi="xinglibau" />
+
+<nlword word="印式英语" valsi="xinglibau" />
+
+<nlword word="说印度英语的人" valsi="xinglibau" place="2" />
+
+<nlword word="用印度英语来表达的东西" valsi="xinglibau" place="3" />
+
+<nlword word="印度英语说法" valsi="xinglibau" place="1" />
+
+<nlword word="基督" valsi="xrison" />
+
+<nlword word="克罗地亚" valsi="xrvatsk" />
+
+<nlword word="香港" valsi="xyngon" />
+
+<nlword word="津巴布韦" valsi="zimbabues" /></direction></dictionary>
+
+
+
+
+
