@@ -11,7 +11,6 @@ gem 'rack-fiber_pool',  :require => 'rack/fiber_pool'
 gem 'em-synchrony', :require => [ 'em-synchrony', 'em-synchrony/em-http' ],
 #  :git => 'git://github.com/igrigorik/em-synchrony.git'
   :git => 'git://github.com/CodeMonkeySteve/em-synchrony.git'
-#  :path => '/home/steve/src/forks/em-synchrony'
 gem 'em-http-request' #, :git => 'git://github.com/igrigorik/em-http-request.git' #, :require => 'em-http'
 gem 'thin'
 
@@ -34,6 +33,7 @@ unless ENV['USER'] =~ /^repo\d+$/   # kludge to exclude on Heroku
   group :development do
     gem 'autotest-rails'
     gem 'launchy'        # for Cucumber's "Show Me The Page"
+    gem 'rake'
     gem 'ruby-debug19',  :require => 'ruby-debug'
   end
 

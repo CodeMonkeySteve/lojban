@@ -186,6 +186,7 @@ DEPENDENCIES
   rack-openid
   rails (~> 3.0.0.rc)
   rails3-generators
+  rake
   rspec-rails (~> 2.0.0.beta.19)
   ruby-debug19
   spork

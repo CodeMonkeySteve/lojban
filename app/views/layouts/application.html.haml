@@ -1,16 +1,16 @@
 !!! XML
-!!! Strict
+!!! 5
 
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en', :lang => 'en' }
   %head
-    %meta{ 'http-equiv' => 'Content-Type',     :content => 'text/html; charset=utf-8' }/
-    %meta{ 'http-equiv' => 'Content-Language', :content => 'en-us' }/
     %link{ :rel => 'SHORTCUT ICON', :href => '/favicon.ico' }/
-
     = stylesheet_link_tag :all, :media => 'all'
-
-    %title
-      Lojban Language Reference
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
+                             'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/jquery-ui.min.js',
+                             'rails-jquery', 'autocomplete-rails', 'application', :cache => true
+    = csrf_meta_tag
+    = yield :head
+    %title= t('site.title')
 
   %body
     #header

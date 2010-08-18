@@ -75,7 +75,6 @@ protected
 
       lang = word.denotations.find_or_initialize_by( :lang => @lang )
       return unless lang.new_record?
-
       lang.definition = valsi.elements['definition'].text
 
       tags = []
