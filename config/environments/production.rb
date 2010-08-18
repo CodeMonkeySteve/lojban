@@ -40,7 +40,7 @@ Lojban::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable threaded mode
-  # config.threadsafe!
+  config.threadsafe!
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }  # FIX ME!
 end

@@ -17,4 +17,11 @@ Lojban::Application.configure do
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  # Enable threaded mode
+  config.threadsafe!
+  config.cache_classes = false
+#  config.dependency_loading = true
+
+  config.logger = ActiveSupport::BufferedLogger.new($stdout)
 end

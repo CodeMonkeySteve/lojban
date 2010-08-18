@@ -11,6 +11,7 @@ defaults: &defaults
   raise_not_found_error: true
   reconnect_time: 3
   use_object_ids: true
+  autocreate_indexes: true
 
 development:
   <<: *defaults
@@ -23,6 +24,7 @@ test:
 # set these environment variables on your prod server
 production:
   <<: *defaults
+  autocreate_indexes: false
   host: <%= ENV['MONGOID_HOST'] %>
   port: <%= ENV['MONGOID_PORT'] %>
   database: <%= ENV['MONGOID_DATABASE'] %>

@@ -111,6 +111,7 @@ protected
       end
 
       lang.tags = tags
+      word.denotations << lang
       word.save!
     end
 
