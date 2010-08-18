@@ -1,0 +1,11 @@
+%li.word{:id => "word_#{word.id}"}
+  %strong= link_to( word.name, word_path(:id => word.name) )
+  - if word.parts.present?
+    (#{word.parts.join(',')})
+
+  - nl = word.local
+  - if nl.present? && nl.definition.present?
+    %br/
+    %p= nl.definition
+    - if nl.notes.present?
+      %p= nl.notes

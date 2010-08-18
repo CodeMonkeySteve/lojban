@@ -1,0 +1,17 @@
+%h1= t('words.search.prompt')
+= form_tag :action => 'search'  do
+  = text_field_tag :search, nil, :autocomplete => search_words_path
+  -#
+    content_for :head  do
+    :javascript
+      jQuery(function($) {
+        $('#search').change(function() {
+          $.post( "#{url_for(:action => 'search')}", $('#search').val(), function(data) {
+            $('#results').html(data);
+          });
+        });
+      })
+
+#results
+
+
