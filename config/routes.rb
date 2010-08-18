@@ -1,8 +1,14 @@
 Lojban::Application.routes.draw  do
-  devise_for :users
-  match 'dashboard' => 'users#dashboard'
+  scope '/:locale'  do
+    devise_for :users
 
-  root :to => redirect('/dashboard')
+    resources :words  do
+      match :search, :on => :collection
+    end
+  end
+
+  match '/:locale' => 'words#search'
+  root :to => redirect('/en')
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

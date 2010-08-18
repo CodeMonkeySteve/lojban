@@ -14,13 +14,19 @@
 
   %body
     #header
-      #left
-        Lojban Language Reference
+      #left= t('site.title')
       #right
         - if user_signed_in?
-          Welcome, #{current_user.full_name}
-          [#{link_to 'Logout', destroy_user_session_url}]
-      .spacer
+          = t('site.welcome')
+          = current_user.full_name
+          [#{link_to t('action.logout'), destroy_user_session_url}]
+        - else
+          = form_for :user, :url => session_path(:user)  do |f|
+            %label{:for => 'openid_identifier'}= t('label.openid')
+            %input{:type => 'text', :id => 'openid_identifier', :name => 'openid_identifier', :size => 30}/
+            = f.submit t('action.login')
+
+      .clear
     #content
       = display_notices
       = yield

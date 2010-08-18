@@ -1,0 +1,11 @@
+fr:
+  site:
+    title: 'Référence de la Langue Lojban'
+    welcome: 'Bonjour, '
+
+  action:
+    login: 'Connecter'
+    logout: 'Déconnecter'
+
+  label:
+    openid: 'OpenID URL:'
