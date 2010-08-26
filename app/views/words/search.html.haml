@@ -1,17 +1,9 @@
-%h1= t('words.search.prompt')
-= form_tag :action => 'search'  do
-  = text_field_tag :search, nil, :autocomplete => search_words_path
-  -#
-    content_for :head  do
-    :javascript
-      jQuery(function($) {
-        $('#search').change(function() {
-          $.post( "#{url_for(:action => 'search')}", $('#search').val(), function(data) {
-            $('#results').html(data);
-          });
-        });
-      })
+- content_for :title, t('words.search.title')
 
-#results
-
-
+%h1= t('words.search.title')
+= form_tag search_words_path, :id => :search  do
+  = label_tag :search, t('words.search.prompt')
+  = text_field_tag :terms, @terms.join(' '), :size => 30, :autocomplete => autocomplete_words_path, :class => 'ui-widget'
+  = submit_tag t('words.search.submit')
+#words.words
+  = render @words  if @words.present?

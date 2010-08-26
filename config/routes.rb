@@ -4,11 +4,13 @@ Lojban::Application.routes.draw  do
 
     resources :words  do
       match :search, :on => :collection
+      match 'search/*terms' => :search, :on => :collection
+      match :autocomplete, :on => :collection
     end
   end
 
-  match '/:locale' => 'words#search'
-  root :to => redirect('/en')
+  match '/:locale' => redirect('/%{locale}/words')
+  root :to => redirect('/en/words')
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

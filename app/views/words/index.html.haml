@@ -1,6 +1,11 @@
-%h1 Index
+%h1= t('words.index.title')
 
-= link_to_if @words.previous_page, '< prev', :p => @words.previous_page
-= link_to_if @words.next_page,     'next >', :p => @words.next_page
+-#
+  = link_to_if @words.previous_page, '< prev', :p => @words.previous_page
+  = link_to_if @words.next_page,     'next >', :p => @words.next_page
 
-%ul.words= render @words
+#letters
+  - for letter, size in first_letter_font_sizes( 100 .. 175 )
+    = link_to_unless_current( letter, url_for(:l => letter), :style => "font-size: #{size.to_i}%;" )
+
+.words= render @words, :collapsed => true

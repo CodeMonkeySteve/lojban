@@ -11,5 +11,15 @@ en:
     openid: 'OpenID URL:'
 
   words:
+    index:
+      title: 'Index'
     search:
-      prompt: 'Search:'
+      title: 'Search'
+      prompt: 'Word(s):'
+      submit: 'Search'
+    word:
+      parts: 'Parts:'
+      synonyms: 'Synonyms:'
+      related: 'See also:'
+      definition: 'Definition:'
+      notes: 'Notes:'

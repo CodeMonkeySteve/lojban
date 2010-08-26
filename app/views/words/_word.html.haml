@@ -1,11 +1,35 @@
-%li.word{:id => "word_#{word.id}"}
-  %strong= link_to( word.name, word_path(:id => word.name) )
-  - if word.parts.present?
-    (#{word.parts.join(',')})
+.word.ui-expandable{:id => "word_#{word.id}"}
+  %h3.header
+    - classes = (defined?(collapsed) && !!collapsed) ? %w{collapsed} : []
+    - Rails.logger.info classes.inspect
+    %button.expander{:class => classes}
+      %span.ui-icon
+    %span.name= word.name
+    - if nl = word.local
+      - if nl.translations.present?
+        %span &ndash;
+        %span.translation= nl.translations.join(', ')
+      - if nl.tags.present?
+        %span.tags= nl.tags.map { |tag| content_tag :span, tag, :class => 'tag'  }.join(' ').html_safe
 
-  - nl = word.local
-  - if nl.present? && nl.definition.present?
-    %br/
-    %p= nl.definition
-    - if nl.notes.present?
-      %p= nl.notes
+  .content
+    - if word.parts.present?
+      .parts
+        %span.field= t('words.word.parts')
+        = word.parts.join(' ')
+    -  if word.synonyms.present?
+      .synonyms
+        %span.field= t('words.word.synonyms')
+        = word_list word.synonyms
+    - if nl.present? && nl.definition.present?
+      .definition
+        %span.field= t('words.word.definition')
+        = refs_to_html(nl.definition)
+      - if nl.notes.present?
+        .notes
+          %span.field= t('words.word.notes')
+          = refs_to_html(nl.notes)
+    -  if word.related.present?
+      .related
+        %span.field= t('words.word.related')
+        = word_list word.related

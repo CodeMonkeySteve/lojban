@@ -9,3 +9,7 @@ fr:
 
   label:
     openid: 'OpenID URL:'
+
+  words:
+    index:
+      title: 'Catalogue'

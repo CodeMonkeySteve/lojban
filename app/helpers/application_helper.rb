@@ -1,4 +1,14 @@
 module ApplicationHelper
+  def nav_tab( text, options = {} )
+    html_class = ['tab']
+    if current_page?(options)
+      html_class << 'current'
+    else
+      text = link_to text, options
+    end
+    content_tag :li, text, :class => html_class
+  end
+
   def display_notices
     str = ''
     error  = flash[:alert]   #|| flash[:failure]
@@ -18,5 +28,9 @@ module ApplicationHelper
   def error_message_options( model )
     model = model.name.titleize  unless model.kind_of?(String)
     { :header_tag => 'h3', :message => nil, :header_message => "#{model} could not be saved, please fix these errors:", :class => 'error'  }
+  end
+
+  def link_to_unless_current( text, options = {}, html_options = {} )
+    super( text, options, html_options ) {  content_tag( :span, text, html_options )  }
   end
 end
