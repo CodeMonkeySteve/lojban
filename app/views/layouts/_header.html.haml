@@ -1,0 +1,18 @@
+#header
+  #left= t('site.title')
+  #right
+    - if user_signed_in?
+      = t('site.welcome')
+      = current_user.full_name
+      [#{link_to t('action.logout'), destroy_user_session_url}]
+    - else
+      = form_for :user, :url => session_path(:user)  do |f|
+        = label_tag :openid_identifier, t('label.openid')
+        %input{:type => 'text', :id => 'openid_identifier', :name => 'openid_identifier', :size => 30}/
+        = f.submit t('action.login')
+  .clear
+
+#tabs
+  %ul
+    = nav_tab 'Index', words_path
+    = nav_tab 'Search', search_words_path

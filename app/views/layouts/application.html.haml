@@ -3,30 +3,24 @@
 
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en', :lang => 'en' }
   %head
+    %meta{ 'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }/
     %link{ :rel => 'SHORTCUT ICON', :href => '/favicon.ico' }/
-    = stylesheet_link_tag :all, :media => 'all'
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js',
-                             'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.3/jquery-ui.min.js',
-                             'rails-jquery', 'autocomplete-rails', 'application', :cache => true
+    = stylesheet_link_tag :all, :media => 'all', :recursive => true, :cache => true
+
+    - google = 'http://ajax.googleapis.com/ajax/libs'
+    = javascript_include_tag "#{google}/jquery/1.4.2/jquery.min.js", "#{google}/jqueryui/1.8.4/jquery-ui.min.js", 'rails-jquery',
+                             'jquery.ui.autocomplete.html', 'jquery.ui.autocomplete.selectFirst', 'jquery.ui.autocomplete.autoSelect',
+                             'expandable', 'application', :cache => true
     = csrf_meta_tag
     = yield :head
-    %title= t('site.title')
+    %title
+      - title, page = t('site.title'), yield(:title)
+      - title += ': ' + page  if page.present?
+      = title
 
   %body
-    #header
-      #left= t('site.title')
-      #right
-        - if user_signed_in?
-          = t('site.welcome')
-          = current_user.full_name
-          [#{link_to t('action.logout'), destroy_user_session_url}]
-        - else
-          = form_for :user, :url => session_path(:user)  do |f|
-            %label{:for => 'openid_identifier'}= t('label.openid')
-            %input{:type => 'text', :id => 'openid_identifier', :name => 'openid_identifier', :size => 30}/
-            = f.submit t('action.login')
-
-      .clear
+    = render 'layouts/header'
     #content
       = display_notices
       = yield
+    = render 'layouts/footer'

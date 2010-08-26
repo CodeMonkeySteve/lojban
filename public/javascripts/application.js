@@ -1,2 +1,13 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+jQuery(document).ready( function(){
+//   jQuery('.tab').corner('bottom 5px');
+//   jQuery('.tab.current').corner('5px');
+
+  $('button, input:submit').button();
+
+  $('input[autocomplete]').each(function(i){
+    $(this).autocomplete({
+      source: $(this).attr('autocomplete'),
+      html: true
+    });
+  });
+});

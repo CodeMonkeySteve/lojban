@@ -1,0 +1,31 @@
+#tabs
+  margin: 0
+  padding: 0
+
+  ul
+    padding: 0
+    margin: 0 0 1em 0.25em
+    background: white
+    text-align: left
+    font: bold
+    list-style-type: none
+    border-top: 1px solid #aaa
+
+    li.tab
+      display: inline
+      margin: 0 0.05em
+      padding: 0.25em 0.5em
+      border: 1px solid #aaa
+      border-top: none
+      background: #efefef
+      a
+        text-decoration: none
+        color: #888
+      &:hover
+        background: #ff8
+
+      &.current
+        border-top: 1px solid #aaa
+        background: #ddf
+        color: black
+
