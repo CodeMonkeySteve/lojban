@@ -69,7 +69,7 @@ protected
     end
 
     def valsi( valsi )
-      word = Word.find_or_initialize_by( :name => valsi.attributes['word'] )
+      word = Word.find_or_initialize_by( :name => valsi.attributes['word'].downcase )
       parts = valsi.elements.to_a('rafsi').map(&:text)
       word.parts = parts
 
@@ -92,19 +92,19 @@ protected
         if @lang == 'en'
           related = []
           while notes.match( /(^|(;|\.)\s*)((see( also)?)|(cf\.?))[^.]*?(,?\s*\{(\S+)\},?)/i )
-            related << $8
+            related << $8.downcase
             notes.slice! Range.new( *$~.offset(7), true )
           end
           notes.sub!(/(^|(;|\.)\s*)((see( also)?)|(cf\.?))\s*:?\s*([.;]|$)/i, '\2')
-          word.related = related.map { |word|  Word.find_or_create_by( :name => word ) }
+          word.related = related.map { |w|  Word.find_or_create_by( :name => w ) }
 
           synonyms = []
           while notes.match( /(^|(;|\.)\s*)(syn\.)[^.]*?(,?\s*\{(\S+)\},?)/i )
-            synonyms << $5
+            synonyms << $5.downcase
             notes.slice! Range.new( *$~.offset(4), true )
           end
           notes.sub!(/(^|(;|\.)\s*)(syn\.)\s*([.;]|$)/i, '\2')
-          word.synonyms = synonyms.map { |word|  Word.find_or_create_by( :name => word ) }
+          word.synonyms = synonyms.map { |w|  Word.find_or_create_by( :name => w ) }
         end
 
         lang.notes = el.text
@@ -116,7 +116,7 @@ protected
     end
 
     def nlword( nlword )
-      word = Word.find_or_initialize_by( :name => nlword.attributes['valsi'] )
+      word = Word.find_or_initialize_by( :name => nlword.attributes['valsi'].downcase )
       lang = word.denotations.find_or_initialize_by( :lang => @lang )
 
       translation = nlword.attributes['word']
