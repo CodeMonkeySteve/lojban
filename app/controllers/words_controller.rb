@@ -61,7 +61,7 @@ class WordsController < ApplicationController
 
 protected
   def find_word
-    id = BSON::ObjectID(params[:id].to_s) rescue nil
+    id = BSON::ObjectId(params[:id].to_s) rescue nil
     if @word = (id ? Word.criteria.id(params[:id]) : Word.where(:name => params[:id].downcase)).first
       true
     else

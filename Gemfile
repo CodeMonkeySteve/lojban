@@ -1,8 +1,8 @@
 source :gemcutter
 
 # Core
-gem 'bundler', '~> 1.0.0.rc.2'
-gem 'rails', '~> 3.0.0.rc' #:git => 'http://github.com/rails/rails.git'  #'~> 3.0.0.beta4'
+gem 'bundler', '~> 1.0.0.rc'
+gem 'rails', '~> 3.0.0.rc'
 gem 'rails3-generators'
 
 # I/O
@@ -15,10 +15,10 @@ gem 'em-http-request' #, :git => 'git://github.com/igrigorik/em-http-request.git
 gem 'thin'
 
 # Database
-gem 'em-mongo'
-gem 'mongoid',  '~> 2.0.0.beta.15'
-gem 'bson',     '1.0.4'  # must be same as bson_ext
-gem 'bson_ext', '1.0.4'  # must be same as bson
+gem 'mongo',    :git => 'git://github.com/mongodb/mongo-ruby-driver.git', :require => 'mongo'
+gem 'mongoid',  :git => 'git://github.com/CodeMonkeySteve/mongoid.git'  #'~> 2.0.0.beta'
+gem 'bson',     '1.0.5'  # must be same as bson_ext
+gem 'bson_ext', '1.0.5'  # must be same as bson
 
 # Authentication
 gem 'devise', :git => 'http://github.com/plataformatec/devise.git'  #'~> 1.1.rc2'
@@ -33,7 +33,6 @@ unless ENV['USER'] =~ /^repo\d+$/   # kludge to exclude on Heroku
   group :development do
     gem 'autotest-rails'
     gem 'launchy'        # for Cucumber's "Show Me The Page"
-    gem 'rake'
     gem 'ruby-debug19',  :require => 'ruby-debug'
   end
 

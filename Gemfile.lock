@@ -6,6 +6,26 @@ GIT
       eventmachine (>= 0.12.9)
 
 GIT
+  remote: git://github.com/CodeMonkeySteve/mongoid.git
+  revision: 2b8660e
+  specs:
+    mongoid (2.0.0.beta.16)
+      activemodel (~> 3.0.0)
+      bson (~> 1.0.4)
+      mongo (~> 1.0.7)
+      tzinfo (~> 0.3.22)
+      will_paginate (~> 3.0.pre)
+
+GIT
+  remote: git://github.com/mongodb/mongo-ruby-driver.git
+  revision: 9eee412
+  specs:
+    bson (1.0.5)
+    bson_ext (1.0.5)
+    mongo (1.0.7)
+      bson (>= 1.0.5)
+
+GIT
   remote: http://github.com/plataformatec/devise.git
   revision: 01c272c
   specs:
@@ -51,8 +71,6 @@ GEM
     autotest-rails (4.1.0)
       ZenTest
     bcrypt-ruby (2.1.2)
-    bson (1.0.4)
-    bson_ext (1.0.4)
     builder (2.1.2)
     columnize (0.3.1)
     configuration (1.1.0)
@@ -62,9 +80,6 @@ GEM
     em-http-request (0.2.10)
       addressable (>= 2.0.0)
       eventmachine (>= 0.12.9)
-    em-mongo (0.2.12)
-      bson (>= 0.20.1)
-      eventmachine (>= 0.12.10)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     eventmachine (0.12.10)
@@ -87,14 +102,6 @@ GEM
       mime-types
       treetop (>= 1.4.5)
     mime-types (1.16)
-    mongo (1.0.6)
-      bson (>= 1.0.4)
-    mongoid (2.0.0.beta.15)
-      activemodel (= 3.0.0.rc)
-      bson (= 1.0.4)
-      mongo (= 1.0.6)
-      tzinfo (= 0.3.22)
-      will_paginate (~> 3.0.pre)
     nokogiri (1.4.3.1)
     polyglot (0.3.1)
     rack (1.2.1)
@@ -168,25 +175,24 @@ PLATFORMS
 
 DEPENDENCIES
   autotest-rails
-  bson (= 1.0.4)
-  bson_ext (= 1.0.4)
-  bundler (~> 1.0.0.rc.2)
+  bson (= 1.0.5)
+  bson_ext (= 1.0.5)
+  bundler (~> 1.0.0.rc)
   database_cleaner
   devise!
   em-http-request
-  em-mongo
   em-synchrony!
   eventmachine (= 0.12.10)
   factory_girl_rails
   haml (~> 3.0.3)
   hassle
   launchy
-  mongoid (~> 2.0.0.beta.15)
+  mongo!
+  mongoid!
   rack-fiber_pool
   rack-openid
   rails (~> 3.0.0.rc)
   rails3-generators
-  rake
   rspec-rails (~> 2.0.0.beta.19)
   ruby-debug19
   spork
