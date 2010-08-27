@@ -102,6 +102,8 @@
 
 <valsi word="mi" type="cmavo"><rafsi>mib</rafsi><definition>pro-sumti: ja/mówca/autor; identyfikuje mówcę.</definition></valsi>
 
+<valsi word="milxe" type="gismu"><rafsi>mli</rafsi><definition>$x_1$ jest umiarkowane w cechach/wymiarach $x_2$ (ka).</definition><notes>Cf. {rai}, {jimte}, {traji}, {mutce}, {zmadu}, {mleca}. </notes></valsi>
+
 <valsi word="mlatu" type="gismu"><rafsi>lat</rafsi><definition>$x_{1}$ to kot/ kotowate z gatunku/rasy $x_{2}$.</definition><notes>Cf. {cinfo}, {tirxu}, {tirxrpardu}, {tirxronka}.</notes></valsi>
 
 <valsi word="mu" type="cmavo"><rafsi>mum</rafsi><definition>cyfra / numer: 5 (cyfry) [pięć].</definition></valsi>
@@ -111,6 +113,8 @@
 <valsi word="mumdei" type="lujvo"><definition>$x_1$ to piątek w tygodniu $x_2$ według kalendarza $x_3$.</definition></valsi>
 
 <valsi word="mumymast" type="cmene"><definition>maj.</definition><notes>Cf. {bakma'i}, {mumymasti}.</notes></valsi>
+
+<valsi word="mutce" type="gismu"><rafsi>tce</rafsi><definition>$x_1$ jest wybitne w cechach/wymiarach $x_2$ (ka) ku skrajności $x_3$.</definition><notes>Cf. {rai}, {jimte}, {milxe}, {traji}, {zmadu}, {mleca}. </notes></valsi>
 
 <valsi word="nanla" type="gismu"><definition>$x_1$ to chłopiec [młody człowiek płci męskiej] wieku $x_2$ niedojrzały według standardu $x_3$. </definition><notes>Cf. {nixli}, {verba}, {nanmu}, {bersa}, {lanzu}.</notes></valsi>
 
@@ -172,7 +176,7 @@
 
 <valsi word="tokios" type="cmene"><definition>Tokio.</definition></valsi>
 
-<valsi word="traji" type="gismu"><rafsi>rai</rafsi><definition>$x_1$ jest ekstremalne w cechach/wymiarach $x_2$ (ka; domyślnie ka zmadu) w skrajności $x_3$ (ka) w zbiorze $x_4$.</definition><notes>Cf. {rai}, {jimte}, {milxe}, {mutce}, {zmadu}, {mleca}. </notes></valsi>
+<valsi word="traji" type="gismu"><rafsi>rai</rafsi><definition>$x_1$ jest najbardziej ekstremalne w cechach/wymiarach $x_2$ (ka; domyślnie ka zmadu) w skrajności $x_3$ (ka) w zbiorze $x_4$.</definition><notes>Cf. {rai}, {jimte}, {milxe}, {mutce}, {zmadu}, {mleca}. </notes></valsi>
 
 <valsi word="uacintyn" type="cmene"><definition>Waszyngton.</definition></valsi>
 
@@ -334,6 +338,10 @@
 
 <nlword word="Stany Zjednoczone Ameryki" valsi="mergu'e" place="1" />
 
+<nlword word="umiarkowane" valsi="milxe" />
+
+<nlword word="łagodne" valsi="milxe" />
+
 <nlword word="kot domowy" sense="Felis silvestris catus" valsi="mlatu" />
 
 <nlword word="kot" sense="małe zwierzę domowe" valsi="mlatu" place="1" />
@@ -347,6 +355,10 @@
 <nlword word="piątek" valsi="mumdei" place="1" />
 
 <nlword word="maj" valsi="mumymast" />
+
+<nlword word="bardzo" valsi="mutce" />
+
+<nlword word="wybitne" valsi="mutce" />
 
 <nlword word="chłopiec" valsi="nanla" place="1" />
 
@@ -364,7 +376,7 @@
 
 <nlword word="Nowy Jork" valsi="nu,IORK" />
 
-<nlword word="1" valsi="pa" />
+<nlword word="1" sense="jeden" valsi="pa" />
 
 <nlword word="ojciec" valsi="patfu" />
 

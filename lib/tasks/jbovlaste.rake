@@ -2,8 +2,11 @@ require 'jbovlaste'
 
 desc 'Download lojban wordlists from jbovlaste (lojban.org)'
 task 'lojban:mirror'  do
-  Jbovlaste.mirror
-  puts "Mirrored languages: ", Jbovlaste::Langs.map { |code, name|  "  * #{name} (#{code})" }
+  EM.synchrony do
+    Jbovlaste.mirror
+    puts "Mirrored languages: ", Jbovlaste::Langs.map { |code, name|  "  * #{name} (#{code})" }
+    EM.stop
+  end
 end
 
 =begin

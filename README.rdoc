@@ -1,0 +1,31 @@
+= Lojban Language Reference
+
+== Introduction
+
+The Lojban Language Reference if a Ruby on Rails web site which provides a crowd-source lexicon to the
+"Lojban langugage":http://www.lojban.org, as well as tools for exploring it.  It currently contains all of the lexicon hosted on
+"Jbovlaste":http://jbovlaste.lojban.org/ (public domain).
+
+== Technical Details
+
+* "Rails":http://www.rubyonrails.org/ v3
+* "MongoDB":http://www.mongodb.org/
+* "jQuery":http://jquery.com/ (and "jQuery UI":http://jqueryui.com/home)
+
+== Data Import
+
+The source tree includes the Lojban lexicon data exported from Jbovlaste (using the +lojban:mirror+ rake task).  It's loaded into
+the database using the standard Rails +seed+ task.  For first-time installation:
+
+  rake db:setup
+
+== Web Server
+
+This application is designed to execute under the "Thin":http://code.macournoyer.com/thin/ web/application server.  To run the
+application in development, use:
+  $ bundle exec script/rails thin
+
+
+Website::   https://github.com/CodeMonkeySteve/lojban
+Copyright:: Copyright (c) 2010 Steve Sloan
+License:: MIT

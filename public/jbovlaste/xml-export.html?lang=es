@@ -7156,7 +7156,7 @@
 
 <nlword word="acompañar" valsi="kansa" />
 
-<nlword word="cuanto" valsi="kantu" />
+<nlword word="cuanto" sense="física cuántica" valsi="kantu" />
 
 <nlword word="conjunción" valsi="kanxe" />
 
@@ -7986,8 +7986,6 @@
 
 <nlword word="hombre" valsi="nanmu" />
 
-<nlword word="nano" valsi="nanvi" />
-
 <nlword word="nuez" valsi="narge" />
 
 <nlword word="narguile" valsi="nargile" />
@@ -8259,8 +8257,6 @@
 <nlword word="es una decena" valsi="panomei" />
 
 <nlword word="es décimo entre" valsi="panomoi" />
-
-<nlword word="100" valsi="panono" />
 
 <nlword word="es un centenar" valsi="panonomei" />
 

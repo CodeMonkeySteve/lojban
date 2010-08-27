@@ -14,25 +14,14 @@ module Jbovlaste
         fetch :path => '/export/xml-export.html', :query => "lang=#{lang}"
       end
     end
-
-    begin
-      require 'langs'
-    rescue LoadError
-      lang_path = File.join( File.dirname(__FILE__), 'langs.rb' )
-      File.open( lang_path, 'w' )  do |io|
-        io.puts \
-          '#encoding: UTF-8', 'module Jbovlaste', '  Langs = {',
-            *langs.map { |code, name| "    '#{code}' => '#{name}',"  },
-          '  }.freeze', 'end'
-      end
-      retry
-    end
+    build_lang_list langs
   end
 
   def self.import( lang )
     puts "Importing #{Langs[lang]} (#{lang}) ..."
     import = Importer.new lang
-    doc = REXML::Document.new File.open( File.join( Rails.root, CacheDir, "xml-export.html?lang=#{lang}" ) )
+    path = File.join( Rails.root, CacheDir, "xml-export.html?lang=#{lang}" )
+    doc = REXML::Document.new File.open( path )
 
     print '  definitions ... '
     count = 0
@@ -61,6 +50,21 @@ protected
     end
 
     File.open dest
+  end
+
+  def self.build_lang_list( langs )
+    begin
+      require 'langs'
+    rescue LoadError
+      lang_path = File.join( File.dirname(__FILE__), 'langs.rb' )
+      File.open( lang_path, 'w' )  do |io|
+        io.puts \
+          '#encoding: UTF-8', 'module Jbovlaste', '  Langs = {',
+            *langs.map { |code, name| "    '#{code}' => '#{name}',"  },
+          '  }.freeze', 'end'
+      end
+      retry
+    end
   end
 
   class Importer

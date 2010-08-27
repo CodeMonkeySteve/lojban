@@ -282,6 +282,8 @@ Cf. {tavla}.</notes></valsi>
 
 <valsi word="balzgibe'e" type="lujvo"><definition>$ba_1=be_1$ is an orchestra, consisting of performers $be_2$, and conducted by $be_3$, performing music $z_1=be_4$.</definition><notes>Cf. {cibjgataidamri}, {bikydamri}, {jgita}.</notes></valsi>
 
+<valsi unofficial="true" word="bambu" type="experimental gismu"><definition>$x_1$ is a bamboo (Bambuseae) of genus/species $x_2$.</definition><notes>Cf. {spati}, {tricu}.</notes></valsi>
+
 <valsi word="bamvinji" type="lujvo"><definition>$v_1$ is a bomber carrying bomb $v_2=j_1$ with explosive material/principle $j_2$, aircraft propelled by $v_3$.</definition></valsi>
 
 <valsi word="banbu'enu" type="fu'ivla"><definition>$x_1$ is the language with ISO 639-3 code ''ben'' (Bengali).</definition><notes>Cf. {begbau}.</notes></valsi>
@@ -2342,7 +2344,7 @@ Cf. {tavla}.</notes></valsi>
 
 <valsi word="dekpu" type="gismu"><definition>$x_{1}$ is $x_{2}$ (default 1) local volume unit(s) [non-metric; e.g. bushel], standard $x_{3}$, $x_{4}$ subunits.</definition><notes>Gallon (= {likydekpu}), quart (= {likseldekpu}), barrel (wet = likybradekpu, dry = sudbradekpu), bushel (= {sudydekpu}), peck (= {sudyseldekpu}), cupful (= {kabrydekpu}), tablespoon (= {mucydekpu}); teaspoon (= {mucyseldekpu}); (all of these lujvo may need gic- to distinguish the English measurement system in contrasting with some local system; the English system is otherwise presumed to be the default non-metric system).  (additional subunit places may be added as $x_5$, $x_6$, ...); See also {canlu}, {litce}, {rupnu}, {fepni}, {gutci}, {minli}, {merli}, {bunda}, {kramu}.</notes></valsi>
 
-<valsi word="dekto" type="gismu"><rafsi>dek</rafsi><definition>$x_{1}$ is ten [10; $1*10^1$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="dekto" type="gismu"><rafsi>dek</rafsi><definition>$x_{1}$ is ten [10; $1*10^1$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="delfinu" type="fu'ivla"><definition>$x_1$ is a dolphin of species/breed $x_2$.</definition><notes>Cf. {mabru}, {xamsi}, {flecu}.</notes></valsi>
 
@@ -2963,7 +2965,7 @@ Cf. {tavla}.</notes></valsi>
 
 <valsi word="felma'i" type="lujvo"><definition>$x_1$ is November/eleventh month of year $x_2$ in calendar $x_3$.</definition><notes>Note: Based on experimental rafsi for {fei} (fel). Use with caution. Alternative: {pavypavma'i}</notes></valsi>
 
-<valsi word="femti" type="gismu"><rafsi>fem</rafsi><definition>$x_{1}$ is $10^{-15}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="femti" type="gismu"><rafsi>fem</rafsi><definition>$x_{1}$ is $10^{-15}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="fendi" type="gismu"><rafsi>fed</rafsi><definition>$x_{1}$ (agent) divides/partitions/separates $x_{2}$ into sections/parts/ind. $x_{3}$ by method/partition $x_{4}$.</definition><notes>Also segments.  See also {sepli}, {bitmu}, {fatri}, {dilcu}, {katna}, {frinu}.</notes></valsi>
 
@@ -3417,7 +3419,7 @@ If you are actually translating something with a copyright notice, you should le
 
 <valsi word="gidva" type="gismu"><rafsi>gid</rafsi><rafsi>gi'a</rafsi><definition>$x_{1}$ (person/object/event) guides/conducts/pilots/leads $x_{2}$ (active participants) in/at $x_{3}$ (event).</definition><notes>A guiding person advises/suggests/sets an example to be followed, but does not necessarily control/direct/manage actual execution of an event; an event may serve as a guide by setting a pattern/example to be emulated.  See also {jitro}, {ralju}, {sazri}, te {bende}, {jatna}, {fukpi}, {morna}.</notes></valsi>
 
-<valsi word="gigdo" type="gismu"><rafsi>gig</rafsi><rafsi>gi'o</rafsi><definition>$x_{1}$ is a billion [British milliard] [$10^9$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro})</notes></valsi>
+<valsi word="gigdo" type="gismu"><rafsi>gig</rafsi><rafsi>gi'o</rafsi><definition>$x_{1}$ is a billion [British milliard] [$10^9$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="ginka" type="gismu"><rafsi>gik</rafsi><definition>$x_{1}$ is a camp/encampment/temporary residence of $x_{2}$ at location $x_{3}$.</definition><notes>See also {dinju}, {xabju}, {zdani}.</notes></valsi>
 
@@ -3491,7 +3493,7 @@ If you are actually translating something with a copyright notice, you should le
 
 <valsi word="go'u" type="cmavo"><selmaho>GOhA</selmaho><definition>pro-bridi: repeats a remote past bridi.</definition></valsi>
 
-<valsi word="gocti" type="gismu"><rafsi>goc</rafsi><definition>$x_{1}$ is $10^{-24}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro})</notes></valsi>
+<valsi word="gocti" type="gismu"><rafsi>goc</rafsi><definition>$x_{1}$ is $10^{-24}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="goi" type="cmavo"><selmaho>GOI</selmaho><definition>sumti assignment; used to define/assign ko'a/fo'a series pro-sumti; Latin 'sive'.</definition></valsi>
 
@@ -3499,7 +3501,7 @@ If you are actually translating something with a copyright notice, you should le
 
 <valsi word="gonai" type="cmavo cluster"><selmaho>GA*</selmaho><definition>logical connective: forethought all but tanru-internal exclusive or (with gi); Latin 'aut'.</definition></valsi>
 
-<valsi word="gotro" type="gismu"><rafsi>got</rafsi><definition>$x_{1}$ is $10^{24}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro})</notes></valsi>
+<valsi word="gotro" type="gismu"><rafsi>got</rafsi><definition>$x_{1}$ is $10^{24}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="gradu" type="gismu"><rafsi>rau</rafsi><definition>$x_{1}$ [magnitude] is a unit/degree of/on scale/reference standard $x_{2}$ (si'o) measuring property $x_{3}$.</definition><notes>Also grade, level, point; $x_3$ dimension.  See also {ckilu}, {kantu}, {kelvo}, {merli}, {ranti}, {selci}.</notes></valsi>
 
@@ -3990,6 +3992,8 @@ If you are actually translating something with a copyright notice, you should le
 <valsi word="jboge'a" type="lujvo"><definition>$g_1$ is Lojban grammar for structure/text $g_2$.</definition><notes>Cf. {glige'a}.</notes></valsi>
 
 <valsi word="jbogri" type="lujvo"><definition>$x_{1}$ is a Lojbanic group/organization with role/purpose/function $x_{2}$.</definition></valsi>
+
+<valsi word="jbogu'e" type="lujvo"><definition>$x_1$ is Lojbanistan / Lojbanic country of people $x_2$</definition></valsi>
 
 <valsi word="jboia" type="fu'ivla"><definition>$x_1$ is a boa of species $x_2$.</definition><notes>see also {since}, {sincrxenakanda}</notes></valsi>
 
@@ -4784,7 +4788,7 @@ If you are actually translating something with a copyright notice, you should le
 
 <valsi word="kilga'axa'i" type="lujvo"><definition>$x_1=xa_1=g_1=k_1$ is a lance/spear/javelin/pointed-rod weapon for use against $x_2=xa_2$ by $x_3=xa_3$ of material $x_4=g_2$.</definition><notes>{kinli} {grana} {xarci}; this lujvo structure is from {noralujv}. The author of this definition is uncertain that {jesxa'i} would not be a better lujvo for the purpose.</notes></valsi>
 
-<valsi word="kilto" type="gismu"><rafsi>ki'o</rafsi><definition>$x_{1}$ is a thousand [1000; $10^3$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, megdo, mikri, milti, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro, minli)</notes></valsi>
+<valsi word="kilto" type="gismu"><rafsi>ki'o</rafsi><definition>$x_{1}$ is a thousand [1000; $10^3$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}, {minli}</notes></valsi>
 
 <valsi word="kinli" type="gismu"><rafsi>kil</rafsi><definition>$x_{1}$ is sharp/keen at locus $x_{2}$.</definition><notes>See also {balre}, {dakfu}, {jesni}.</notes></valsi>
 
@@ -4903,8 +4907,6 @@ If you are actually translating something with a copyright notice, you should le
 <valsi word="konjaku" type="fu'ivla"><definition>$x_1$ is konjac of species/variety $x_2$.</definition><notes>see also {samcrtaro}, {samcu}</notes></valsi>
 
 <valsi word="konju" type="gismu"><rafsi>kon</rafsi><rafsi>ko'u</rafsi><definition>$x_{1}$ is a cone [shape/form] of material $x_{2}$ with vertex $x_{3}$.</definition><notes>Also ellipse, ellipsoid (= {konclupa}).  See also {jesni}, {djine}, {sovda}, {kojna}, {jganu}.</notes></valsi>
-
-<valsi word="konvala" type="fu'ivla"><definition>$x_1$ is a lily-of-the-valley (Convallaria) of species/strain $x_2$</definition></valsi>
 
 <valsi word="korbi" type="gismu"><rafsi>kor</rafsi><rafsi>koi</rafsi><definition>$x_{1}$ is an edge/margin/border/curb/boundary of $x_{2}$ next-to/bordering-on $x_{3}$.</definition><notes>See also cmavo list {koi}, {greku}, {mlana}, {jimte}, {ctebi}, {bartu}.</notes></valsi>
 
@@ -5292,7 +5294,7 @@ It is also possible to attach SAI to a le'ai construct: le'ai {dai} (or le'ai {d
 
 <valsi word="lektoni" type="fu'ivla"><definition>$x_1$ is an electron in quantum state $x_2$</definition><notes>Cf. {protoni}, {nurtoni}, {xumsle}, {dicka'u}, {guska'u}, {kuarka}. </notes></valsi>
 
-<valsi unofficial="true" word="lelxe" type="experimental gismu"><definition>$x_1$ is a lily [Lilium] of species/strain $x_2$</definition><notes>cf. {rozgu}. "lel" is rafsi</notes></valsi>
+<valsi unofficial="true" word="lelxe" type="experimental gismu"><definition>$x_1$ is a lily [Lilium] of species/strain $x_2$</definition><notes>cf. {rozgu}. lel- is short rafsi</notes></valsi>
 
 <valsi word="lemi" type="cmavo cluster"><selmaho>LE*</selmaho><definition>possessive/associative descriptor: the one(s) described as, of mine.</definition></valsi>
 
@@ -5379,6 +5381,8 @@ It is also possible to attach SAI to a le'ai construct: le'ai {dai} (or le'ai {d
 <valsi word="linga'axa'i" type="lujvo"><definition>$x_1$ is a nunchaku.</definition><notes>A Japanese weapon consisting of two wooden sticks connected by a chain; also spelled ``nunchuku''</notes></valsi>
 
 <valsi word="linji" type="gismu"><rafsi>lij</rafsi><rafsi>li'i</rafsi><definition>$x_{1}$ is a line/among lines [1-dimensional shape/form] defined by set of points $x_{2}$.</definition><notes>Ray/vector (farli'i or porli'i).  See also {kruvi}, {sirji}, {jganu}, {kantu}, {mokca}.</notes></valsi>
+
+<valsi word="linlani" type="fu'ivla"><definition>$x_1$ is a lily-of-the-valley / may-lily (Convallaria) of species/strain $x_2$</definition></valsi>
 
 <valsi word="linsi" type="gismu"><rafsi>lin</rafsi><definition>$x_{1}$ is a length of chain/links of material $x_{2}$ with link properties $x_{3}$.</definition><notes>See also {skori}.</notes></valsi>
 
@@ -5761,7 +5765,12 @@ See also {me'ai}, {dau'i}, {sai}</notes></valsi>
 
 <valsi word="medomoi" type="cmavo cluster"><definition>$x_1$ is yours among $x_2$ by rule/relationship $x_3$; $x_1$ is your $x_2$ by rule/relationship $x_3$.</definition></valsi>
 
-<valsi word="megdo" type="gismu"><rafsi>meg</rafsi><definition>$x_{1}$ is a million [$10^6$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, mikri, milti, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="megdo" type="gismu"><rafsi>meg</rafsi><definition>$x_{1}$ is a million [$10^6$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>#
+megdo
+#
+ 
+#
+See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="megygra" type="lujvo"><definition>$x_{1}$ is $x_{2}$ tonne(s) [metric unit] in mass (default is 1) by standard $x_{3}$.</definition><notes>Cf. {megdo}, {grake}.</notes></valsi>
 
@@ -5898,7 +5907,7 @@ members of $x_2$]; See also {cmima}, {gunma}, cmavo list {moi}.</notes></valsi>
 
 <valsi word="mikce" type="gismu"><rafsi>mic</rafsi><definition>$x_{1}$ doctors/treats/nurses/[cures]/is physician/midwife to $x_{2}$ for ailment $x_{3}$ by treatment/cure $x_{4}$.</definition><notes>Also medic; (adjective:) $x_1$, $x_4$ is medical; $x_2$ is a patient of $x_1$ (= selmikce for reordered places) ; $x_2$ is treated by $x_1$ person/$x_4$ treatment/method; successfully cure transitive (= {sadmikce}, {sadvelmikce}), intransitive (= sadyselmikce, ka'orbi'o to not imply an external agent/process, though the $x_1$ and $x_4$ of mikce may be self/internal); treatment (= {velmikce}).  See also {bilma}, {kanro}, {spita}.</notes></valsi>
 
-<valsi word="mikri" type="gismu"><rafsi>mik</rafsi><definition>$x_{1}$ is a millionth [$10^{-6}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, milti, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="mikri" type="gismu"><rafsi>mik</rafsi><definition>$x_{1}$ is a millionth [$10^{-6}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="miksini" type="fu'ivla"><definition>$m_1$ is a hagfish of species $m_2$.</definition></valsi>
 
@@ -5910,7 +5919,7 @@ members of $x_2$]; See also {cmima}, {gunma}, cmavo list {moi}.</notes></valsi>
 
 <valsi word="milsnidu" type="lujvo"><definition>$x_1$ is $x_2$ milliseconds in duration.</definition><notes>{milti} {snidu}; the default $x_2$ is 1</notes></valsi>
 
-<valsi word="milti" type="gismu"><rafsi>mil</rafsi><definition>$x_{1}$ is a thousandth [1/1000; $10^{-3}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="milti" type="gismu"><rafsi>mil</rafsi><definition>$x_{1}$ is a thousandth [1/1000; $10^{-3}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="miltre" type="lujvo"><definition>$mit_1=mil_1$ is $mit_2=mil_1$ (one by default) millimeter(s) in length measured in direction $mit_3$ by standard $mit_4$.</definition></valsi>
 
@@ -6517,7 +6526,7 @@ g2 is lo nu me1 melbi zi'o me3
 
 <valsi word="nansunsunsnanu" type="lujvo"><definition>$x_1$ is southeast by east of $x_2$ in frame of reference $x_3$.</definition></valsi>
 
-<valsi word="nanvi" type="gismu"><rafsi>nav</rafsi><definition>$x_{1}$ is a billionth/thousand-millionth [$10^{-9}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, petso, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="nanvi" type="gismu"><rafsi>nav</rafsi><definition>$x_{1}$ is a billionth/thousand-millionth [$10^{-9}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="narge" type="gismu"><rafsi>nag</rafsi><definition>$x_{1}$ is a nut [body-part: hard-shelled fruit] from plant/species $x_{2}$ with shell $x_{3}$ and kernel $x_{4}$.</definition><notes>Also $x_4$ nucleus, center (= {velnarge} for place reordering).  See also {grute}, {stagi}, {jbari}, {midju}.</notes></valsi>
 
@@ -7221,7 +7230,7 @@ g2 is lo nu me1 melbi zi'o me3
 
 <valsi word="pesxu" type="gismu"><rafsi>pex</rafsi><definition>$x_{1}$ is paste/pulp/dough/mash/mud/slurry [soft, smooth-textured, moist solid] of composition $x_{2}$.</definition><notes>$x_2$: composition including $x_2$, which need not be complete specification.  See also {marxa}, {kliti}, {tarla}.</notes></valsi>
 
-<valsi word="petso" type="gismu"><rafsi>pet</rafsi><definition>$x_{1}$ is $10^{15}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, picti, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="petso" type="gismu"><rafsi>pet</rafsi><definition>$x_{1}$ is $10^{15}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}</notes></valsi>
 
 <valsi word="pezli" type="gismu"><rafsi>pez</rafsi><definition>$x_{1}$ is a leaf of plant $x_{2}$; $x_{1}$ is foliage of $x_{2}$.</definition><notes>See also {tricu}, {papri}, {spati}.</notes></valsi>
 
@@ -7241,7 +7250,7 @@ g2 is lo nu me1 melbi zi'o me3
 
 <valsi word="piblitki" type="lujvo"><definition>$l_1$ is vaginal/penile fluid/secretion of $p_2$.</definition><notes>Cf. {glevi'i}, {pinjyjdu}.</notes></valsi>
 
-<valsi word="picti" type="gismu"><rafsi>pic</rafsi><definition>$x_{1}$ is a trillionth [$10^{-12}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, terto, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="picti" type="gismu"><rafsi>pic</rafsi><definition>$x_{1}$ is a trillionth [$10^{-12}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>Cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}.</notes></valsi>
 
 <valsi word="pidu'e" type="cmavo cluster"><selmaho>PA*</selmaho><definition>number: too much of.</definition></valsi>
 
@@ -7892,6 +7901,8 @@ See {plopijnytci} for stapler.</notes></valsi>
 <valsi word="ri'u" type="cmavo"><selmaho>FAhA2</selmaho><definition>location tense relation/direction; rightwards/to the right of ...</definition></valsi>
 
 <valsi word="ri'urgau" type="lujvo"><definition>$g_1$ restrains/constrains/holds back $r_1$ using restraint $r_2$, against $r_3$ (event).</definition></valsi>
+
+<valsi word="ri'usri" type="lujvo"><definition>$d_1=r_2$ is a seat belt/strap/leash made of $d_2$ for restraining $r_1$</definition></valsi>
 
 <valsi word="ricfoi" type="lujvo"><definition>$f_{1}$ is a forest with predominant tree species/cultivar $t_{2}$.</definition><notes>Cf. {rictu'a}, {cicfoi}, {ricyci'e}, {mudri}.</notes></valsi>
 
@@ -10151,7 +10162,7 @@ This word was invented by xorxes and is intended as an alternative to quantified
 
 <valsi word="tertcidu" type="lujvo"><definition>$t_3$ is a reading material / literature consisting of texts $t_2$ with audience $t_1$; $t_3$ is literary.</definition><notes>Use {lo'i} for "literature". Cf. {cukta}.</notes></valsi>
 
-<valsi word="terto" type="gismu"><rafsi>tet</rafsi><definition>$x_{1}$ is a trillion [$10^{12}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, picti, xatsi, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="terto" type="gismu"><rafsi>tet</rafsi><definition>$x_{1}$ is a trillion [$10^{12}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>Cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}.</notes></valsi>
 
 <valsi word="terva'i" type="lujvo"><definition>$v_3$ evaluates $v_2$ (object) as $v_1$ (quality).</definition><notes>Cf. {vamji}, {lanli}, {vajni}, {ckaji}.</notes></valsi>
 
@@ -11115,7 +11126,7 @@ See also {daskymabru}.</notes></valsi>
 
 <valsi word="xagzenri'a" type="lujvo"><definition>$r_1$ (event/state/process) improves $z_1=x_1$ for $x_2$ by amount $z_3$ under conditions $r_3$.</definition><notes>Cf. {xamgu}, {zenba}, {rinka}, {xagzengau}.</notes></valsi>
 
-<valsi unofficial="true" word="xai" type="experimental cmavo"><selmaho>KOhA</selmaho><definition>they.</definition><notes>repeats two or more preceding sumti, not one plural sumti</notes></valsi>
+<valsi unofficial="true" word="xai" type="experimental cmavo"><selmaho>KOhA</selmaho><definition>they.(repeat &gt;1 preceding sumti)</definition><notes>repeats two or more preceding sumti, not one plural sumti</notes></valsi>
 
 <valsi word="xairgau" type="lujvo"><definition>$g_1$ causes event $x_1$ which injures/harms/damages victim $x_2$ in property $x_3$ (ka) resulting in injury $x_4$ (state).</definition><notes>Made from {xrani} + {gasnu}.</notes></valsi>
 
@@ -11215,7 +11226,8 @@ See also {daskymabru}.</notes></valsi>
 
 <valsi word="xatra" type="gismu"><rafsi>xa'a</rafsi><definition>$x_{1}$ is a letter/missive/[note] to intended audience $x_{2}$ from author/originator $x_{3}$ with content $x_{4}$.</definition><notes>(cf. notci, which has places in a different order; the emphasis in xatra is on the communication between author and recipient, and not the content, which in a letter may not easily be categorized to a 'subject'; ciska, mrilu, papri)</notes></valsi>
 
-<valsi word="xatsi" type="gismu"><rafsi>xat</rafsi><definition>$x_{1}$ is $10^{-18}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, picti, terto, xecto, xexso, zepti, zetro)</notes></valsi>
+<valsi word="xatsi" type="gismu"><rafsi>xat</rafsi><definition>$x_{1}$ is $10^{-18}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>Cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xecto}, {xexso}, {zepti}, {zetro}.
+ </notes></valsi>
 
 <valsi word="xauzma" type="lujvo"><definition>$xa_1=z_1$ is better than $z_2$ for $xa_2$ by standard $xa_3$, by amount $z_4$.</definition><notes>The {xagmau} form is far more frequently used.</notes></valsi>
 
@@ -11241,7 +11253,7 @@ See also {daskymabru}.</notes></valsi>
 
 <valsi word="xebro" type="gismu"><rafsi>xeb</rafsi><rafsi>bro</rafsi><definition>$x_{1}$ reflects Hebrew/Jewish/Israeli culture/nationality/language in aspect $x_{2}$.</definition><notes>See also {filso}.</notes></valsi>
 
-<valsi word="xecto" type="gismu"><rafsi>xet</rafsi><rafsi>cto</rafsi><definition>$x_{1}$ is a hundred [100; $10^2$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, picti, terto, xatsi, xexso, zepti, zetro)</notes></valsi>
+<valsi word="xecto" type="gismu"><rafsi>xet</rafsi><rafsi>cto</rafsi><definition>$x_{1}$ is a hundred [100; $10^2$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>Cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xexso}, {zepti}, {zetro}.</notes></valsi>
 
 <valsi word="xedja" type="gismu"><rafsi>xej</rafsi><rafsi>xe'a</rafsi><definition>$x_{1}$ is a/the jaw [body-part] of $x_{2}$.</definition><notes>See also {stedu}.</notes></valsi>
 
@@ -11281,7 +11293,7 @@ See also {daskymabru}.</notes></valsi>
 
 <valsi word="xesygu'e" type="lujvo"><definition>$x_{1}$ is Greece.</definition><notes>Cf. {gugdeguru}.</notes></valsi>
 
-<valsi word="xexso" type="gismu"><rafsi>xex</rafsi><definition>$x_{1}$ is $10^{18}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>See also {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {zepti}, {zetro}</notes></valsi>
+<valsi word="xexso" type="gismu"><rafsi>xex</rafsi><definition>$x_{1}$ is $10^{18}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>Cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}. {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {zepti}, {zetro}.</notes></valsi>
 
 <valsi word="xi" type="cmavo"><selmaho>XI</selmaho><definition>subscript; attaches a numer of letteral string following as a subscript onto grammar structures.</definition></valsi>
 
@@ -11637,7 +11649,7 @@ See also {daskymabru}.</notes></valsi>
 
 <valsi word="zerxaigau" type="lujvo"><definition>$g_1$ commits a violent crime $g_2=z_1=xr_1$, injuring/harming/damaging victim $x_3=xr_2$ in property $x_4=xr_3$ (ka), resulting in injury $x_5=xr_4$.</definition><notes>Cf. {zergau}, {zerxai}.</notes></valsi>
 
-<valsi word="zetro" type="gismu"><rafsi>zet</rafsi><definition>$x_{1}$ is $10^{21}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>(cf. grake, mitre, snidu, stero, delno, molro, kelvo, xampo, gradu. litce, merli, centi, decti, dekto, femti, gigdo, gocti, gotro, kilto, megdo, mikri, milti, nanvi, petso, picti, terto, xatsi, xecto, xexso, zepti)</notes></valsi>
+<valsi word="zetro" type="gismu"><rafsi>zet</rafsi><definition>$x_{1}$ is $10^{21}$ of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).</definition><notes>Cf. {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}.</notes></valsi>
 
 <valsi word="zevykla" type="lujvo"><definition>$k_{1}$ comes/goes out/forth towards destination $k_{2}$ from origin $k_{3}$ via route $k_{4}$ using means/vehicle $k_{5}$.</definition><notes>Cf. {ze'o}, {klama}, {barkla}.</notes></valsi>
 
@@ -12136,6 +12148,8 @@ See also {daskymabru}.</notes></valsi>
 <nlword word="conductor" sense="orchestral music" valsi="balzgibe'e" place="3" />
 
 <nlword word="orchestral music" valsi="balzgibe'e" place="4" />
+
+<nlword word="bamboo" valsi="bambu" />
 
 <nlword word="bomber" sense="aircraft" valsi="bamvinji" />
 
@@ -13997,7 +14011,7 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="trait" valsi="ckaji" />
 
-<nlword word="quality" valsi="ckaji" />
+<nlword word="quality" sense="trait" valsi="ckaji" />
 
 <nlword word="property" sense="attribute or abstract quality" valsi="ckaji" />
 
@@ -14937,8 +14951,6 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="straight" sense="heterosexual" valsi="datpavycinglepre" />
 
-<nlword word="heterosexual" valsi="datpavycinglepre" />
-
 <nlword word="foreign visitor" valsi="datygugvi'e" />
 
 <nlword word="tourist" valsi="datygugvi'e" />
@@ -15125,7 +15137,7 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="lay to rest" valsi="derse'a" />
 
-<nlword word="sink" valsi="derse'a" />
+<nlword word="sink" sense="submerge" valsi="derse'a" />
 
 <nlword word="burial ground" valsi="derse'a" place="3" />
 
@@ -15510,6 +15522,8 @@ See also {daskymabru}.</notes></valsi>
 <nlword word="heterosexual male" valsi="dutcinse" />
 
 <nlword word="heterosexual female" valsi="dutcinse" />
+
+<nlword word="heterosexual" valsi="dutcinse" place="1" />
 
 <nlword word="d" valsi="dy" />
 
@@ -17171,6 +17185,10 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="Lojban group [LLG, any lojban grouping]" valsi="jbogri" />
 
+<nlword word="Lojbanistan" valsi="jbogu'e" />
+
+<nlword word="Lojbanic country" valsi="jbogu'e" />
+
 <nlword word="boa" valsi="jboia" />
 
 <nlword word="bonobo" valsi="jbonobo" />
@@ -18367,8 +18385,6 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="cone" valsi="konju" />
 
-<nlword word="lily-of-the-valley" sense="Convallaria" valsi="konvala" />
-
 <nlword word="edge" valsi="korbi" />
 
 <nlword word="crooked" sense="bent" valsi="korcu" />
@@ -18992,6 +19008,10 @@ See also {daskymabru}.</notes></valsi>
 <nlword word="nunchaku" valsi="linga'axa'i" />
 
 <nlword word="line" sense="mathematical" valsi="linji" />
+
+<nlword word="may-lily" sense="Convallaria" valsi="linlani" />
+
+<nlword word="lily-of-the-valley" sense="Convallaria" valsi="linlani" />
 
 <nlword word="chain" valsi="linsi" />
 
@@ -22347,6 +22367,12 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="constrain" valsi="ri'urgau" />
 
+<nlword word="leash" valsi="ri'usri" />
+
+<nlword word="strap" valsi="ri'usri" />
+
+<nlword word="seat belt" valsi="ri'usri" />
+
 <nlword word="forest" valsi="ricfoi" />
 
 <nlword word="rich" valsi="ricfu" />
@@ -23343,7 +23369,7 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="flight means" valsi="selvoi" />
 
-<nlword word="reed" sense="for an instrument" valsi="selxagri" />
+<nlword word="reed" sense="musical" valsi="selxagri" />
 
 <nlword word="harmed" sense="having been harmed" valsi="selxai" />
 
@@ -26341,6 +26367,8 @@ See also {daskymabru}.</notes></valsi>
 
 <nlword word="improve" sense="caused by event/state/process" valsi="xagzenri'a" />
 
+<nlword word="they" valsi="xai" />
+
 <nlword word="to injure" valsi="xairgau" />
 
 <nlword word="injurer" valsi="xairgau" place="1" />
@@ -26506,6 +26534,8 @@ See also {daskymabru}.</notes></valsi>
 <nlword word="hate" valsi="xebni" />
 
 <nlword word="Hebrew" valsi="xebro" />
+
+<nlword word="100" valsi="xecto" />
 
 <nlword word="jaw" valsi="xedja" />
 
