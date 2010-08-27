@@ -8,7 +8,7 @@ en:
     logout: 'Logout'
 
   label:
-    openid: 'OpenID URL:'
+    openid: 'OpenID:'
 
   words:
     index:

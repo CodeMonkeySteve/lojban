@@ -1,12 +1,18 @@
 module ApplicationHelper
-  def nav_tab( text, options = {} )
-    html_class = ['tab']
-    if current_page?(options)
-      html_class << 'current'
+  def nav_button( text, url_or_options, html_options = {} )
+    if html_classes = html_options[:class]
+      html_classes = html_classes.split(' ')  if html_classes.kind_of?(String)
     else
-      text = link_to text, options
+      html_classes = []
     end
-    content_tag :li, text, :class => html_class
+    html_classes << 'nav_button'
+    if current_page?(url_or_options)
+      html_classes << 'ui-state-active'
+    else
+      #html_classes << 'ui-state-default'
+      text = link_to text, url_or_options
+    end
+    content_tag :span, text, html_options.merge(:class => html_classes)
   end
 
   def display_notices
