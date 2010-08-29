@@ -1,21 +1,10 @@
 class WordsController < ApplicationController
   skip_before_filter :authenticate_user!, :except => [:new, :create, :edit, :update, :destroy]
-  before_filter :find_word, :only => [:show, :update, :destroy]
+  before_filter :find_word, :only => [:show, :content, :update, :destroy]
 
   def search
     @terms = (params[:terms] || '').split(%r{[ ,/]}, -1).map { |w|  w.strip.downcase }
     @words = Word.any_in( :name => @terms ).sort_by { |w|  @terms.index(w.name) }
-
-    respond_to  do |format|
-      format.html
-      format.js do
-        if @words.present?
-          render @words
-        else
-          render :nothing => true
-        end
-      end
-    end
   end
 
   def autocomplete
@@ -36,12 +25,16 @@ class WordsController < ApplicationController
   end
 
   def index
-    @letter = params[:l]
+    @letter = params[:letter]
     @words = @letter.present? ? Word.where( :name => %r{^#{@letter}} ).asc(:name) : []
   end
 
   def show
     render :inline => '<%= render @word -%>', :layout => true
+  end
+
+  def content
+    render :partial => 'word_content', :locals => { :word => @word }
   end
 
 #   def new

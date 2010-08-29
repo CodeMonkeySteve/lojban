@@ -3,9 +3,13 @@ Lojban::Application.routes.draw  do
     devise_for :users
 
     resources :words  do
+      match 'l/:letter' => :index :on => :collection
       match :search, :on => :collection
       match 'search/*terms' => :search, :on => :collection
       match :autocomplete, :on => :collection
+      match :content, :on => :member
+    end
+    resources :tags  do
     end
   end
 

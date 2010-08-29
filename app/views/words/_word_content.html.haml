@@ -1,0 +1,21 @@
+- nl = word.local  unless nl
+- if word.parts.present?
+  .parts
+    %span.field= t('words.word.parts')
+    = word.parts.join(' ')
+-  if word.synonym_ids.present?
+  .synonyms
+    %span.field= t('words.word.synonyms')
+    = word_list word.synonyms
+- if nl.present? && nl.definition.present?
+  .definition
+    %span.field= t('words.word.definition')
+    = refs_to_html(nl.definition)
+  - if nl.notes.present?
+    .notes
+      %span.field= t('words.word.notes')
+      = refs_to_html(nl.notes)
+-  if word.related_ids.present?
+  .related
+    %span.field= t('words.word.related')
+    = word_list word.related

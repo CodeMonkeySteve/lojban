@@ -1,7 +1,36 @@
 ;(function($) {
 
+$.fn.ajaxExpand = function() {
+  var content = this.find('.content').first(), url = content.attr('data-url'), icon = this.find('.expander .ui-icon').first();
+  jQuery.ajax({
+      url: url,
+      dataType: 'html',
+      context: this,
+      beforeSend: function (xhr) {
+        icon.removeClass('ui-icon-triangle-1-e');
+        icon.addClass('spinner');
+      },
+      success: function (data, status, xhr) {
+        icon.removeClass('spinner');
+        icon.addClass('ui-icon');
+
+        content.html(data);
+        content[0].loaded = true
+        this.toggleExpand();
+      },
+      error: function (xhr, status, error) {
+alert(status + ':' + error);
+      }
+  });
+}
+
 $.fn.toggleExpand = function() {
-  var content = $(this).find('.content').first(), wasVisible = content.is(':visible');
+  var content = this.find('.content').first(), wasVisible = content.is(':visible');
+  if ( !wasVisible && !content[0].loaded && content.attr('data-url') ) {
+    this.ajaxExpand();
+    return;
+  }
+
   content.slideToggle('slow');
   if ( wasVisible ) {
     this.collapse();
@@ -11,7 +40,7 @@ $.fn.toggleExpand = function() {
 };
 
 $.fn.expand = function() {
-  var header = this.find('.header').first(), icon = this.find('.ui-icon').first()
+  var header = this.find('.header').first(), icon = this.find('.expander .ui-icon').first()
   this.addClass('expanded');
   this.removeClass('collapsed');
   header.removeClass('ui-corner-bottom');
@@ -20,12 +49,12 @@ $.fn.expand = function() {
 }
 
 $.fn.collapse = function() {
-  var header = this.find('.header').first(), icon = this.find('.ui-icon').first()
+  var header = this.find('.header').first(), icon = this.find('.expander .ui-icon').first()
   this.removeClass('expanded');
   this.addClass('collapsed');
   header.addClass('ui-corner-bottom');
-  icon.removeClass('ui-icon-triangle-1-s');
-  icon.addClass('ui-icon-triangle-1-e');
+ icon.removeClass('ui-icon-triangle-1-s');
+ icon.addClass('ui-icon-triangle-1-e');
 }
 
 $.fn.expandable = function() {
@@ -37,8 +66,10 @@ $.fn.expandable = function() {
     content.addClass('ui-widget-content ui-corner-bottom');
 
     header.click( function() {  $this.toggleExpand();  } )
+
     if ( content.is(':visible') && !expander.is('.collapsed') ) {
       $this.expand();
+      content[0].loaded = true
     } else {
       $this.collapse();
       content.hide();
