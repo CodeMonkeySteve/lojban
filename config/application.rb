@@ -5,6 +5,9 @@ require 'mongoid/railtie'
 
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
+# only use async Mongoid in production
+require 'em-synchrony/mongoid'  if Rails.env == 'production'
+
 module Lojban
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -44,10 +47,6 @@ module Lojban
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
-
-    # FIXME! filesystem store is not compatible with production deployment on Heroku
-    require 'openid/store/filesystem'
-    config.middleware.insert_after ActionDispatch::Session::CookieStore, Rack::OpenID, OpenID::Store::Filesystem.new(Rails.root + 'tmp/openid')
 
     config.active_support.deprecation = :stderr
   end

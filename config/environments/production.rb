@@ -43,7 +43,4 @@ Lojban::Application.configure do
   config.threadsafe!
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }  # FIX ME!
-
-  # only use async Mongoid in production
-  require 'em-synchrony/mongoid'
 end

@@ -70,6 +70,7 @@ GEM
     mime-types (1.16)
     mongo (1.0.8)
       bson (>= 1.0.5)
+    openid_mongodb_store (0.2.0)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-fiber_pool (0.9.0)
@@ -119,6 +120,7 @@ DEPENDENCIES
   hassle
   mongo (~> 1.0.8)
   mongoid!
+  openid_mongodb_store
   rack-fiber_pool
   rack-openid
   rails3-generators

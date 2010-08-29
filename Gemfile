@@ -27,7 +27,7 @@ gem 'bson_ext', '~> 1.0.7'  # must be same as bson
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'  #'~> 1.1.rc2'
 gem 'warden-openid'
 gem 'rack-openid', :require => 'rack/openid'
-#gem 'openid_mongodb_store'
+gem 'openid_mongodb_store'
 
 # Misc
 gem 'haml', '~> 3.0.3'

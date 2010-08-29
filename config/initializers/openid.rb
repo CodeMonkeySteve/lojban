@@ -13,3 +13,11 @@ Warden::OpenID.configure do |config|
     user
   end
 end
+
+module OpenidMongodbStore
+  # load connection lazily
+  def self.database
+    @@database ||= Mongoid.database
+  end
+end
+Lojban::Application.config.middleware.insert_after( ActionDispatch::Session::MongoidStore, Rack::OpenID, OpenidMongodbStore::Store.new )
