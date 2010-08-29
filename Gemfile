@@ -2,7 +2,8 @@ source :gemcutter
 
 # Core
 gem 'bundler', '~> 1.0.0.rc'
-gem 'rails', '~> 3.0.0.rc'
+gem 'railties', '~> 3.0.0.rc'
+gem 'actionmailer', '~> 3.0.0.rc'
 gem 'rails3-generators'
 
 # I/O
@@ -15,13 +16,15 @@ gem 'em-http-request' #, :git => 'git://github.com/igrigorik/em-http-request.git
 gem 'thin'
 
 # Database
-gem 'mongo',    :git => 'git://github.com/mongodb/mongo-ruby-driver.git', :require => 'mongo'
+gem 'mongo',
+  #:git => 'git://github.com/mongodb/mongo-ruby-driver.git', :require => 'mongo'
+  '~> 1.0.8'
 gem 'mongoid',  :git => 'git://github.com/CodeMonkeySteve/mongoid.git'  #'~> 2.0.0.beta'
-gem 'bson',     '1.0.5'  # must be same as bson_ext
-gem 'bson_ext', '1.0.5'  # must be same as bson
+gem 'bson',     '~> 1.0.7'  # must be same as bson_ext
+gem 'bson_ext', '~> 1.0.7'  # must be same as bson
 
 # Authentication
-gem 'devise', :git => 'http://github.com/plataformatec/devise.git'  #'~> 1.1.rc2'
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git'  #'~> 1.1.rc2'
 gem 'warden-openid'
 gem 'rack-openid', :require => 'rack/openid'
 #gem 'openid_mongodb_store'
@@ -38,8 +41,9 @@ unless ENV['USER'] =~ /^repo\d+$/   # kludge to exclude on Heroku
 
   group :test do
     gem 'database_cleaner'
-    gem 'factory_girl_rails'
-    gem 'rspec-rails', '~> 2.0.0.beta.19'
+    gem 'factory_girl_rails', :git => 'git://github.com/CodeMonkeySteve/factory_girl_rails.git'
+    gem 'factory_girl', :git => 'git://github.com/thoughtbot/factory_girl.git'
+    gem 'rspec-rails', '~> 2.0.0.beta'
     gem 'spork'
     gem 'webrat'
   end
