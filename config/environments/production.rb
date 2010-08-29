@@ -42,5 +42,8 @@ Lojban::Application.configure do
   # Enable threaded mode
   config.threadsafe!
 
+  # cache sass stylesheets and serve them from public/.
+  ActionController::Dispatcher.middleware.use Hassle
+
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }  # FIX ME!
 end
