@@ -6,13 +6,24 @@ module ApplicationHelper
       html_classes = []
     end
     html_classes << 'nav_button'
-    if current_page?(url_or_options)
+    if scoped_current_page?( url_or_options, :controller, :action )
       html_classes << 'ui-state-active'
     else
       #html_classes << 'ui-state-default'
       text = link_to text, url_or_options
     end
     content_tag :span, text, html_options.merge(:class => html_classes)
+  end
+
+  def scoped_current_page?( url_or_options, *params )
+    url = url_or_options.kind_of?(String) ? url_or_options : url_for(url_or_options)
+    url = CGI.unescapeHTML(url)
+    params = [:controller, :action]  if params.empty?
+    begin
+      Rails.application.routes.recognize_path(url_or_options).values_at(*params) == controller.request.symbolized_path_parameters.values_at(*params)
+    rescue ActionController::RoutingError
+      false
+    end
   end
 
   def display_notices
