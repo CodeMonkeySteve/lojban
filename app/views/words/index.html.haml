@@ -1,11 +1,16 @@
 %h1= t('words.index.title')
 
--#
-  = link_to_if @words.previous_page, '< prev', :p => @words.previous_page
-  = link_to_if @words.next_page,     'next >', :p => @words.next_page
-
 #letters
   - for letter, size in first_letter_font_sizes( 100 .. 175 )
-    = link_to_unless_current( letter, url_for(:l => letter), :style => "font-size: #{size.to_i}%;" )
+    = link_to_unless_current( letter, url_for(:letter => letter), :style => "font-size: #{size.to_i}%;" )
 
+- content_for :pages  do
+  - if @words.total_pages > 1
+    = link_to_if @words.previous_page, '<', :page => @words.previous_page
+    - for page in (1..@words.total_pages)
+      = link_to_unless_current page, url_for(:page => page)
+    = link_to_if @words.next_page, '>', :page => @words.next_page
+
+= yield :pages
 .words= render @words, :collapsed => true
+= yield :pages

@@ -3,7 +3,7 @@ Lojban::Application.routes.draw  do
     devise_for :users
 
     resources :words  do
-      match 'l/:letter' => :index :on => :collection
+      match 'l/:letter(/:page)' => :index, :page => 1, :on => :collection
       match :search, :on => :collection
       match 'search/*terms' => :search, :on => :collection
       match :autocomplete, :on => :collection

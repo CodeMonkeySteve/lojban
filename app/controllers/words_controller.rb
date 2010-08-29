@@ -26,7 +26,7 @@ class WordsController < ApplicationController
 
   def index
     @letter = params[:letter]
-    @words = @letter.present? ? Word.where( :name => %r{^#{@letter}} ).asc(:name) : []
+    @words = @letter.present? ? Word.where( :name => %r{^#{@letter}} ).asc(:name).paginate( :page => params[:page], :per_page => 30 ) : []
   end
 
   def show
