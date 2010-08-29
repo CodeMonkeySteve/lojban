@@ -7,14 +7,9 @@ module WordsHelper
     text.html_safe
   end
 
-  def first_letter_counts
-    # TODO: move to map/reduce
-    @first_letter_counts ||= Hash[ Word.only(:name).map(&:name).group_by { |n|  n[0] }.map { |l, n|  [ l, n.size ] }.sort ]
-  end
-
   def first_letter_font_sizes( range )
-    max = first_letter_counts.values.max
-    Hash[ first_letter_counts.map { |l, c|  [l, range.begin + (c.to_f * (range.end - range.begin) / max)] } ]
+    max = Word.letter_counts.values.max
+    Hash[ Word.letter_counts.map { |l, c|  [l, range.begin + (c.to_f * (range.end - range.begin) / max)] } ]
   end
 
   def word_list( words )

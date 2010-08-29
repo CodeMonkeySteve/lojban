@@ -16,4 +16,26 @@ class Word
     denotations.where( :lang => I18n.locale.to_s ).first
   end
   memoize :local
+
+  def self.letter_counts
+    # TODO: intelligent memoization
+    @@letter_counts ||= begin
+      res = self.collection.map_reduce( *LetterCountsJS ).find
+      Hash[ *res.map { |d|  [ d['_id'], Integer(d['value']['count']) ] }.flatten ]
+    end
+  end
+
+#protected
+  LetterCountsJS = [
+    "function() {
+      emit( this.name.charAt(0), {count: 1} );
+    }",
+    "function( key, values ) {
+      var total = {count: 0};
+      values.forEach( function(val){
+        total.count += val.count
+      });
+      return total;
+    }"
+  ].freeze
 end
