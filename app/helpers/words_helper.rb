@@ -8,8 +8,9 @@ module WordsHelper
   end
 
   def first_letter_font_sizes( range )
-    max = Word.letter_counts.values.max
-    Hash[ Word.letter_counts.map { |l, c|  [l, range.begin + (c.to_f * (range.end - range.begin) / max)] } ]
+    counts = Word.letter_counts
+    max = counts.values.max
+    Hash[ counts.map { |l, c|  [l, range.begin + (c.to_f * (range.end - range.begin) / max)] } ]
   end
 
   def word_list( words )

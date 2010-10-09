@@ -1,6 +1,12 @@
 #header
   #top.ui-state-focus.ui-corner-top
     #left= t('site.title')
+    #right
+      = label_tag :language, t('label.language')
+      = select_tag :language, options_for_language_select, {        |
+        :id => 'language', :class => 'ui-state-default',            |
+        :onchange => "redirect_to_lang( $('#language')[0].value )"  |
+      }                                                             |
     .clear
 
   %table#bottom.ui-state-default.ui-corner-bottom

@@ -8,6 +8,7 @@ en:
     logout: 'Logout'
 
   label:
+    language: 'Language:'
     openid: 'OpenID:'
 
   words:

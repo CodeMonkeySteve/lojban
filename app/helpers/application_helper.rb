@@ -50,4 +50,9 @@ module ApplicationHelper
   def link_to_unless_current( text, options = {}, html_options = {} )
     super( text, options, html_options ) {  content_tag( :span, text, html_options )  }
   end
+
+  def options_for_language_select
+    require 'langs'
+    options_for_select Jbovlaste::Langs.map { |code, lang|  [ lang, code ] }, I18n.locale.to_s
+  end
 end

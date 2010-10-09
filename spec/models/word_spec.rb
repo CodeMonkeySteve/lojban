@@ -5,7 +5,7 @@ describe Word do
     @words = [Factory.create(:word)]
   end
   it 'computes statistics' do
-    counts = Word.letter_counts
+    counts = Word.letter_counts @words.first.denotations.first.lang
     counts.should == { @words[0].name[0,1] => 1 }
   end
 end

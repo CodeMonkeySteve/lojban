@@ -5,5 +5,6 @@
   = label_tag :search, t('words.search.prompt')
   = text_field_tag :terms, @terms.join(' '), :size => 30, :autocomplete => autocomplete_words_path, :class => 'ui-widget'
   = submit_tag t('words.search.submit')
+
 #words.words
   = render @words  if @words.present?

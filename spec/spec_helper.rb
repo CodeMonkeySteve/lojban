@@ -1,10 +1,13 @@
 ENV['RAILS_ENV'] ||= 'test'
+require 'action_dispatch'
+require 'rails/engine'
 Bundler.require(:default, :test) if defined?(Bundler)
 require 'spork'
 
 Spork.prefork do
   require File.expand_path('../config/environment', File.dirname(__FILE__) )
   require 'rspec/rails'
+
   Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
   # rspec configuration
