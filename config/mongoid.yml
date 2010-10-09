@@ -1,5 +1,4 @@
 defaults: &defaults
-  host: localhost
 #   slaves:
 #     - host: slave1.local
 #       port: 27018
@@ -15,17 +14,15 @@ defaults: &defaults
 
 development:
   <<: *defaults
+  host: localhost
   database: lojban-dev
 
 test:
   <<: *defaults
+  host: localhost
   database: lojban-test
 
 production:
   <<: *defaults
-  host: <%= ENV['MONGOID_HOST'] %>
-  port: <%= ENV['MONGOID_PORT'] %>
-  username: <%= ENV['MONGOID_USERNAME'] %>
-  password: <%= ENV['MONGOID_PASSWORD'] %>
-  database: <%= ENV['MONGOID_DATABASE'] %>
+  uri: <%= ENV['MONGOHQ_URL'] %>
   pool_size: 10

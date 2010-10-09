@@ -20,4 +20,4 @@ module OpenidMongodbStore
     @@database ||= Mongoid.database
   end
 end
-Lojban::Application.config.middleware.insert_after( ActionDispatch::Session::MongoidStore, Rack::OpenID, OpenidMongodbStore::Store.new )
+Lojban::Application.config.middleware.insert_after( ActionDispatch::Session::CookieStore, Rack::OpenID, OpenidMongodbStore::Store.new )

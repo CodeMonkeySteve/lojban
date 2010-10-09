@@ -1,6 +1,9 @@
 Lojban::Application.configure do
   # Settings specified here will take precedence over those in config/environment.rb
 
+  # Enable threaded mode
+  config.threadsafe!
+
   # The production environment is meant for finished, "live" apps.
   # Code is not reloaded between requests
   config.cache_classes = true
@@ -31,19 +34,13 @@ Lojban::Application.configure do
 
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Enable serving of images, stylesheets, and javascripts from an asset server
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
-
-  # Enable threaded mode
-  config.threadsafe!
-
-  # cache sass stylesheets and serve them from public/.
-  ActionController::Dispatcher.middleware.use Hassle
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }  # FIX ME!
 end

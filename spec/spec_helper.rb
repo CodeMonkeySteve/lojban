@@ -9,7 +9,6 @@ Spork.prefork do
 
   # rspec configuration
   Rspec.configure do |config|
-#    config.mock_with RR::Adapters::Rspec  #:rr   # note: RR is b0rken under Ruby 1.9
     config.mock_with :rspec
 #    config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
@@ -24,10 +23,7 @@ Spork.prefork do
     end
   end
 
-  # test helpers
-  class RSpec::Core::ExampleGroup
-    include Devise::TestHelpers
-  end
+#  Capybara.default_selector = :css
 end
 
 Spork.each_run do

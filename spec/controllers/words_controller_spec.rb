@@ -36,12 +36,4 @@ pending 'have_selector'
       'label' => "#{@word.name} &ndash; <em>#{@word.local.translations.first}</em>"
     }]
   end
-
-  it 'searches for words (w/ AJAX)' do
-pending
-    xhr :get, :search, :terms => @word, :locale => 'en'
-p response.body
-    response.should be_success
-    response.should have_selector( 'li.word', :text => 'klama' )
-  end
 end

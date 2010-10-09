@@ -1,1 +1,1 @@
-Lojban::Application.config.session_store :cookie_store, :key => '_core_session'
+Lojban::Application.config.session_store :cookie_store, :key => 'lojban_session'
