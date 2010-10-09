@@ -8,7 +8,7 @@ gem 'rails3-generators'
 
 # I/O
 gem 'rack-fiber_pool',  :require => 'rack/fiber_pool'
-gem 'em-synchrony', :require => [ 'em-synchrony', 'em-synchrony/em-http' ], :git => 'git://github.com/CodeMonkeySteve/em-synchrony.git'
+gem 'em-synchrony', :require => [ 'em-synchrony', 'em-synchrony/em-http' ], :git => 'git://github.com/igrigorik/em-synchrony.git'
 gem 'em-http-request' #, :git => 'git://github.com/igrigorik/em-http-request.git' #, :require => 'em-http'
 
 # Database
@@ -28,8 +28,6 @@ gem 'haml-rails', :git => 'git://github.com/bgentry/haml-rails.git'
 
 if (ENV['RACK_ENV'] == 'production') || (ENV['USER'] =~ /^repo\d+$/)  # kludge for Heroku
   group :production do
-    # gem 'exceptional'
-    # gem 'newrelic_rpm', :require => false
     gem 'hassle', :git => 'git://github.com/Papipo/hassle.git'
   end
 else

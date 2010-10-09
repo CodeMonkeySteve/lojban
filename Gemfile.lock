@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/CodeMonkeySteve/em-synchrony.git
-  revision: a4765fc16d33f2cb8f91f55081da5d540cbac17b
-  specs:
-    em-synchrony (0.1.5)
-      eventmachine (>= 0.12.9)
-
-GIT
   remote: git://github.com/Papipo/hassle.git
   revision: 3a12feb7ae8c94acde7bdf1cc8a34bb89ab39f44
   specs:
@@ -22,6 +15,13 @@ GIT
       activesupport (~> 3.0.0)
       haml (~> 3.0.18)
       railties (~> 3.0.0)
+
+GIT
+  remote: git://github.com/igrigorik/em-synchrony.git
+  revision: e585afeeb262d2aeb2885f706c3afb4c2f0e4b6f
+  specs:
+    em-synchrony (0.1.5)
+      eventmachine (>= 0.12.9)
 
 GIT
   remote: git://github.com/mongoid/mongoid.git
