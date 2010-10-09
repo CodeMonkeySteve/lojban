@@ -1,23 +1,5 @@
 GIT
-  remote: git://github.com/CodeMonkeySteve/em-synchrony.git
-  revision: 2da15fd330f67ad0a6112002b1b19619efdb8ac3
-  specs:
-    em-synchrony (0.1.5)
-      eventmachine (>= 0.12.9)
-
-GIT
-  remote: git://github.com/CodeMonkeySteve/mongoid.git
-  revision: a5efd11781ac6ab4840848ff21b7f1a2ea0fac64
-  specs:
-    mongoid (2.0.0.beta.17)
-      activemodel (~> 3.0.0)
-      bson (~> 1.0.4)
-      mongo (~> 1.0.7)
-      tzinfo (~> 0.3.22)
-      will_paginate (~> 3.0.pre)
-
-GIT
-  remote: git://github.com/Papipo/hassle
+  remote: git://github.com/Papipo/hassle.git
   revision: 3a12feb7ae8c94acde7bdf1cc8a34bb89ab39f44
   specs:
     hassle (0.0.1)
@@ -25,12 +7,39 @@ GIT
       rack
 
 GIT
-  remote: git://github.com/plataformatec/devise.git
-  revision: 0f0eb4e8cee4c1f042ffdbc4f77e755c757920a8
+  remote: git://github.com/bgentry/haml-rails.git
+  revision: ce36cb5cb20e94defb8e54cb6e487d4f6aeac73f
   specs:
-    devise (1.2.0)
+    haml-rails (0.2)
+      actionpack (~> 3.0.0)
+      activesupport (~> 3.0.0)
+      haml (~> 3.0.18)
+      railties (~> 3.0.0)
+
+GIT
+  remote: git://github.com/igrigorik/em-synchrony.git
+  revision: 4e48d5cda23e63057414854a40a1d3c314f99caf
+  specs:
+    em-synchrony (0.1.5)
+      eventmachine (>= 0.12.9)
+
+GIT
+  remote: git://github.com/mongoid/mongoid.git
+  revision: 17f9a110590fd37383e799c437725a76f05648ff
+  specs:
+    mongoid (2.0.0.beta.19)
+      activemodel (~> 3.0)
+      mongo (~> 1.1)
+      tzinfo (~> 0.3.22)
+      will_paginate (~> 3.0.pre)
+
+GIT
+  remote: git://github.com/plataformatec/devise.git
+  revision: 721843c841f0dc5391dac3b62c5e9cc966dba8d3
+  specs:
+    devise (1.2.rc)
       bcrypt-ruby (~> 2.1.2)
-      warden (~> 0.10.7)
+      warden (~> 1.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -54,38 +63,38 @@ GEM
       builder (~> 2.1.2)
       i18n (~> 0.4.1)
     activesupport (3.0.0)
-    addressable (2.2.0)
+    addressable (2.2.1)
     bcrypt-ruby (2.1.2)
-    bson (1.0.7)
-    bson_ext (1.0.7)
+    bson (1.0.9)
+    bson_ext (1.0.9)
     builder (2.1.2)
-    daemons (1.1.0)
-    em-http-request (0.2.11)
+    em-http-request (0.2.14)
       addressable (>= 2.0.0)
       eventmachine (>= 0.12.9)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     eventmachine (0.12.10)
-    haml (3.0.18)
+    haml (3.0.21)
     i18n (0.4.1)
-    mail (2.2.5)
+    mail (2.2.7)
       activesupport (>= 2.3.6)
       mime-types
       treetop (>= 1.4.5)
     mime-types (1.16)
-    mongo (1.0.8)
+    mongo (1.1)
       bson (>= 1.0.5)
-    openid_mongodb_store (0.2.0)
+    openid_mongodb_store (0.2.3)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-fiber_pool (0.9.0)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
-    rack-openid (1.1.2)
-      rack (>= 0.4)
-      ruby-openid (>= 2.0.3)
-    rack-test (0.5.4)
+    rack-openid (1.2.0)
+      rack (>= 1.1.0)
+      ruby-openid (>= 2.1.8)
+    rack-test (0.5.6)
       rack (>= 1.0)
+    rails3-generators (0.14.0)
     railties (3.0.0)
       actionpack (= 3.0.0)
       activesupport (= 3.0.0)
@@ -93,15 +102,11 @@ GEM
       thor (~> 0.14.0)
     rake (0.8.7)
     ruby-openid (2.1.8)
-    thin (1.2.7)
-      daemons (>= 1.0.9)
-      eventmachine (>= 0.12.6)
-      rack (>= 1.0.0)
-    thor (0.14.0)
+    thor (0.14.3)
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
-    warden (0.10.7)
+    warden (1.0.0)
       rack (>= 1.0.0)
     warden-openid (0.1.0)
       rack-openid
@@ -113,20 +118,19 @@ PLATFORMS
 
 DEPENDENCIES
   actionmailer (~> 3.0.0)
-  bson (~> 1.0.7)
-  bson_ext (~> 1.0.7)
+  bson (~> 1.0.9)
+  bson_ext (~> 1.0.9)
   bundler (~> 1.0.0)
   devise!
   em-http-request
   em-synchrony!
-  eventmachine (= 0.12.10)
-  haml (~> 3.0.18)
+  haml-rails!
   hassle!
-  mongo (~> 1.0.8)
+  mongo (~> 1.1.0)
   mongoid!
   openid_mongodb_store
   rack-fiber_pool
   rack-openid
+  rails3-generators
   railties (~> 3.0.0)
-  thin
   warden-openid

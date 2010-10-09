@@ -1,9 +1,8 @@
 class ApplicationController < ActionController::Base
 #  include ::RedirectBack
-  before_filter :authenticate_user!
-
-  #protect_from_forgery
   layout 'application'
+  protect_from_forgery
+  before_filter :authenticate_user!
 
   before_filter :set_locale
   def set_locale

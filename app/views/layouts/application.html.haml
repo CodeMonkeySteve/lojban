@@ -1,16 +1,16 @@
 !!! XML
 !!! 5
-
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en', :lang => 'en' }
   %head
     %meta{ 'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }/
     %link{ :rel => 'SHORTCUT ICON', :href => '/favicon.ico' }/
-    = stylesheet_link_tag :all, :media => 'all', :recursive => true, :cache => true
+    =# stylesheet_link_tag 'start/jquery-ui-1.8.4.custom', :media => 'all'
+    = stylesheet_link_tag 'all', :media => 'all', :cache => false
 
     - google = 'http://ajax.googleapis.com/ajax/libs'
-    = javascript_include_tag "#{google}/jquery/1.4.2/jquery.min.js", "#{google}/jqueryui/1.8.4/jquery-ui.min.js", 'rails-jquery',
-                             'jquery.ui.autocomplete.html', 'jquery.ui.autocomplete.selectFirst', 'jquery.ui.autocomplete.autoSelect',
-                             'expandable', 'application', :cache => true
+    = javascript_include_tag "#{google}/jquery/1.4.2/jquery.min.js", "#{google}/jqueryui/1.8.4/jquery-ui.min.js"
+    = javascript_include_tag 'rails-jquery', 'jquery.ui.autocomplete.html', 'jquery.ui.autocomplete.selectFirst', 'jquery.ui.autocomplete.autoSelect', 'jquery.ui.selectmenu',
+                             'expandable', 'application', :cache => false
     = csrf_meta_tag
     = yield :head
     %title
