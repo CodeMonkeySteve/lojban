@@ -17,6 +17,8 @@
       - title, page = t('site.title'), yield(:title)
       - title += ': ' + page  if page.present?
       = title
+    = render :partial => 'layouts/analytics'
+
 
   %body
     = render 'layouts/header'
