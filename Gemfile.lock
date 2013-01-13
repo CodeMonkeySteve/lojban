@@ -1,29 +1,4 @@
 GIT
-  remote: git://github.com/Papipo/hassle.git
-  revision: 3a12feb7ae8c94acde7bdf1cc8a34bb89ab39f44
-  specs:
-    hassle (0.0.1)
-      haml
-      rack
-
-GIT
-  remote: git://github.com/RailsPlay/em-synchrony.git
-  revision: b6e3e3b7f5427a1322a6b2db075fb13d0e7fc7e3
-  specs:
-    em-synchrony (0.1.5)
-      eventmachine (>= 0.12.9)
-
-GIT
-  remote: git://github.com/bgentry/haml-rails.git
-  revision: ce36cb5cb20e94defb8e54cb6e487d4f6aeac73f
-  specs:
-    haml-rails (0.2)
-      actionpack (~> 3.0.0)
-      activesupport (~> 3.0.0)
-      haml (~> 3.0.18)
-      railties (~> 3.0.0)
-
-GIT
   remote: git://github.com/igrigorik/em-http-request.git
   revision: c63d39ec40c8a38a8a5ec839e55569b4ebfe42dc
   specs:
@@ -32,112 +7,184 @@ GIT
       eventmachine (>= 0.12.9)
 
 GIT
-  remote: git://github.com/mongoid/mongoid.git
-  revision: 8e8c4ec26e5382d1e0c19f9dfe389099220a7b17
+  remote: https://github.com/indirect/rails3-generators.git
+  revision: 8fe27c4eaf5b1617c7e17d8d36d5dd0bd61630f5
   specs:
-    mongoid (2.0.0.beta.19)
-      activemodel (~> 3.0)
-      mongo (~> 1.1)
-      tzinfo (~> 0.3.22)
-      will_paginate (~> 3.0.pre)
-
-GIT
-  remote: git://github.com/plataformatec/devise.git
-  revision: 976d77defed17adaca81381222b5b80cdd34f8ac
-  specs:
-    devise (1.2.rc)
-      bcrypt-ruby (~> 2.1.2)
-      orm_adapter (~> 0.0.2)
-      warden (~> 1.0.0)
+    rails3-generators (1.0.0)
+      railties (>= 3.0.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    abstract (1.0.0)
-    actionmailer (3.0.1)
-      actionpack (= 3.0.1)
-      mail (~> 2.2.5)
-    actionpack (3.0.1)
-      activemodel (= 3.0.1)
-      activesupport (= 3.0.1)
-      builder (~> 2.1.2)
-      erubis (~> 2.6.6)
-      i18n (~> 0.4.1)
-      rack (~> 1.2.1)
-      rack-mount (~> 0.6.12)
-      rack-test (~> 0.5.4)
-      tzinfo (~> 0.3.23)
-    activemodel (3.0.1)
-      activesupport (= 3.0.1)
-      builder (~> 2.1.2)
-      i18n (~> 0.4.1)
-    activesupport (3.0.1)
+    actionmailer (3.2.11)
+      actionpack (= 3.2.11)
+      mail (~> 2.4.4)
+    actionpack (3.2.11)
+      activemodel (= 3.2.11)
+      activesupport (= 3.2.11)
+      builder (~> 3.0.0)
+      erubis (~> 2.7.0)
+      journey (~> 1.0.4)
+      rack (~> 1.4.0)
+      rack-cache (~> 1.2)
+      rack-test (~> 0.6.1)
+      sprockets (~> 2.2.1)
+    activemodel (3.2.11)
+      activesupport (= 3.2.11)
+      builder (~> 3.0.0)
+    activesupport (3.2.11)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
     addressable (2.2.2)
-    bcrypt-ruby (2.1.2)
-    bson (1.1.1)
-    bson_ext (1.1.1)
-    builder (2.1.2)
-    erubis (2.6.6)
-      abstract (>= 1.0.0)
+    bcrypt-ruby (3.0.1)
+    bson (1.3.1)
+    bson_ext (1.3.1)
+    builder (3.0.4)
+    columnize (0.3.6)
+    daemons (1.1.9)
+    database_cleaner (0.9.1)
+    debugger (1.2.3)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.5)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.6)
+    devise (2.2.1)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (~> 3.1)
+      warden (~> 1.2.1)
+    diff-lcs (1.1.3)
+    em-synchrony (0.2.0)
+      eventmachine (>= 0.12.9)
+    erubis (2.7.0)
     eventmachine (0.12.10)
-    haml (3.0.22)
-    i18n (0.4.2)
-    mail (2.2.9)
-      activesupport (>= 2.3.6)
-      i18n (~> 0.4.1)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.1.0)
+      factory_girl (~> 4.1.0)
+      railties (>= 3.0.0)
+    haml (3.1.7)
+    haml-rails (0.3.5)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (~> 3.1)
+      railties (>= 3.1, < 4.1)
+    hike (1.2.1)
+    i18n (0.6.1)
+    journey (1.0.4)
+    json (1.7.6)
+    mail (2.4.4)
+      i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.16)
-    mongo (1.1.1)
-      bson (>= 1.1.1)
+    mime-types (1.19)
+    mongo (1.3.1)
+      bson (>= 1.3.1)
+    mongoid (2.4.12)
+      activemodel (~> 3.1)
+      mongo (<= 1.6.2)
+      tzinfo (~> 0.3.22)
+    multi_json (1.5.0)
+    nokogiri (1.5.6)
     openid_mongodb_store (0.2.3)
-    orm_adapter (0.0.3)
-    polyglot (0.3.1)
-    rack (1.2.1)
+    orm_adapter (0.4.0)
+    polyglot (0.3.3)
+    rack (1.4.3)
+    rack-cache (1.2)
+      rack (>= 0.4)
     rack-fiber_pool (0.9.0)
-    rack-mount (0.6.13)
-      rack (>= 1.0.0)
     rack-openid (1.2.0)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)
-    rack-test (0.5.6)
+    rack-ssl (1.3.2)
+      rack
+    rack-test (0.6.2)
       rack (>= 1.0)
-    rails3-generators (0.14.0)
-    railties (3.0.1)
-      actionpack (= 3.0.1)
-      activesupport (= 3.0.1)
-      rake (>= 0.8.4)
-      thor (~> 0.14.0)
-    rake (0.8.7)
+    railties (3.2.11)
+      actionpack (= 3.2.11)
+      activesupport (= 3.2.11)
+      rack-ssl (~> 1.3.2)
+      rake (>= 0.8.7)
+      rdoc (~> 3.4)
+      thor (>= 0.14.6, < 2.0)
+    rake (10.0.3)
+    rdoc (3.12)
+      json (~> 1.4)
+    rspec (2.0.1)
+      rspec-core (~> 2.0.1)
+      rspec-expectations (~> 2.0.1)
+      rspec-mocks (~> 2.0.1)
+    rspec-core (2.0.1)
+    rspec-expectations (2.0.1)
+      diff-lcs (>= 1.1.2)
+    rspec-mocks (2.0.1)
+      rspec-core (~> 2.0.1)
+      rspec-expectations (~> 2.0.1)
+    rspec-rails (2.0.1)
+      rspec (~> 2.0.0)
     ruby-openid (2.1.8)
-    thor (0.14.3)
-    treetop (1.4.8)
-      polyglot (>= 0.3.1)
-    tzinfo (0.3.23)
-    warden (1.0.1)
+    sass (3.2.5)
+    sass-rails (3.2.5)
+      railties (~> 3.2.0)
+      sass (>= 3.1.10)
+      tilt (~> 1.3)
+    spork (0.9.2)
+    sprockets (2.2.2)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
+    thor (0.16.0)
+    tilt (1.3.3)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.35)
+    uglifier (1.3.0)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    warden (1.2.1)
+      rack (>= 1.0)
     warden-openid (0.1.0)
       rack-openid
       warden
-    will_paginate (3.0.pre2)
+    webrat (0.7.3)
+      nokogiri (>= 1.2.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionmailer (~> 3.0.1)
-  bson_ext (~> 1.1.1)
-  bundler (~> 1.0.0)
-  devise!
+  actionmailer
+  bson (< 1.4)
+  bson_ext (< 1.4)
+  database_cleaner
+  debugger
+  devise
   em-http-request!
-  em-synchrony!
-  eventmachine (= 0.12.10)
-  haml-rails!
-  hassle!
-  mongoid (~> 2.0.0.beta)!
+  em-synchrony
+  factory_girl_rails
+  haml-rails
+  mongoid (~> 2.0)
   openid_mongodb_store
   rack-fiber_pool
   rack-openid
-  rails3-generators
-  railties (~> 3.0.1)
+  rails3-generators!
+  railties
+  rspec-rails
+  sass-rails
+  spork
+  thin
+  uglifier
   warden-openid
+  webrat
